@@ -1,0 +1,28 @@
+
+(declare-rel fail ())
+(declare-rel inv2 (Int Int Int Int Int))
+(declare-rel inv (Int Int Int))
+(declare-var K100 Int)
+(declare-var K60 Int)
+(declare-var K50 Int)
+(declare-var K40_2 Int)
+(declare-var X Int)
+(declare-var Y Int)
+(declare-var G Int)
+(declare-var H Int)
+(declare-var K40 Int)
+(declare-var K10 Int)
+(rule (=> (and (= K40 40) (= K10 10) (= K100 100)) (inv K40 K10 K100)))
+(rule (=> (and (inv K40 K10 K100) (= H G) = G 0)
+              (> K40 K10) (= K40 K40_2) (= (+ K50 K10) K60)
+               (= (- K50 K10) K40))
+    (inv2 H G K40_2 K60 K50)))
+(rule (let ((a!1 (= Y
+              (ite (< H K50)
+                   (ite (>= H (- K50 K10)) (+ G 4) (+ G 1))
+                   (ite (>= H (+ K50 K10)) (- G 1) (- G 4))))))
+  (=> (and 
+   (inv2 H G K40_2 K60 K50) (= X (+ H 1)) a!1) (inv2 X Y K40_2 K60 K50))))
+(rule (=> (and (inv K40 K10 K100) (inv2 H G K40_2 K60 K50) (= H K100) (not (= G 0))) fail))
+(query fail)  
+
