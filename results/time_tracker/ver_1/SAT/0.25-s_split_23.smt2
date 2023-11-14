@@ -1,0 +1,13 @@
+(declare-rel fail ())
+(declare-rel inv2 (Int Int))
+(declare-var A Int)
+(declare-var B Int)
+(declare-var C Int)
+(declare-var D Int)
+(rule (=> (and (= C 1000) (= D 100)) (inv2 C D)))
+(rule (let ((a!1 (= A (ite (< (div C 10) D) (+ C 1) (- C 1))))
+      (a!2 (= B (ite (< (div C 10) D) (- D 1) (+ D 1)))))
+  (=> (and (inv2 C D) a!1 a!2) (inv2 A B))))
+(rule (=> (and (inv2 C D) (not (< D C))) fail))
+(query fail)
+

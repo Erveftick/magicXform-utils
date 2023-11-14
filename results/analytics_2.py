@@ -41,15 +41,22 @@ def calculate_average_for_groups(grouped_files):
     return averages
 
 # Example folder path
-folder_path = "/home/ekvashyn/Code/magicXform/results/SAT"
+folder_path_1 = "/home/ekvashyn/Code/magicXform/results/time_tracker/ver_1/SAT"
+folder_path = "/home/ekvashyn/Code/magicXform/results/time_tracker/ver_2/SAT"
 
 # Group filenames by second part and calculate averages
+grouped_files_1 = group_filenames_by_second_part(folder_path_1)
 grouped_files = group_filenames_by_second_part(folder_path)
 averages = calculate_average_for_groups(grouped_files)
 
+print(f'grouped_files_1 = {grouped_files_1}')
+print(f'grouped_files = {grouped_files}')
+
 # Print the calculated averages for each group
-sorted_averages = sorted(averages.items(), key=lambda x: x[0])  # Sort by problem name
-print("|     Problem     |   Time   |")
-print("|-----------------|----------|")
-for second_part, average in sorted_averages:
-    print(f"| {second_part} | {average}s |")
+# sorted_averages = sorted(averages.items(), key=lambda x: x[0])  # Sort by problem name
+# print("|     Problem     |   Time   |")
+# print("|-----------------|----------|")
+# for second_part, average in sorted_averages:
+#     print(f"| {second_part} | {average}s |")
+# print("")
+# print(f"Total: {len(averages.items())}")
