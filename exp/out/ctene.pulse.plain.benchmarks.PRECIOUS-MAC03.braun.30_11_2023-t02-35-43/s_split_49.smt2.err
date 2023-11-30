@@ -1,0 +1,3036 @@
+(transform N7datalog13mk_coi_filterE...no-op 0s)
+(transform N7datalog25mk_interp_tail_simplifierE...4 rules 0s)
+(transform N7datalog27mk_quantifier_instantiationE...no-op 0s)
+(transform N7datalog8mk_scaleE...no-op 0s)
+(transform N7datalog18mk_karr_invariantsE...no-op 0s)
+(transform N7datalog14mk_array_blastE...no-op 0s)
+(transform N7datalog16mk_elim_term_iteE...no-op 0s)
+(transform N7datalog22mk_subsumption_checkerE...no-op 0s)
+(transform N7datalog15mk_rule_inlinerE...3 rules 0s)
+(transform N7datalog12mk_bit_blastE...no-op 0s)
+(transform N7datalog13mk_coi_filterE...no-op 0s)
+(transform N7datalog25mk_interp_tail_simplifierE...3 rules 0s)
+(transform N7datalog22mk_subsumption_checkerE...no-op 0s)
+(transform N7datalog15mk_rule_inlinerE...no-op 0s)
+(transform N7datalog13mk_coi_filterE...no-op 0s)
+(transform N7datalog25mk_interp_tail_simplifierE...3 rules 0s)
+(transform N7datalog22mk_subsumption_checkerE...no-op 0s)
+(transform N7datalog15mk_rule_inlinerE...no-op 0s)
+(transform N7datalog22mk_subsumption_checkerE...no-op 0s)
+(transform N7datalog15mk_rule_inlinerE...no-op 0s)
+(transform N7datalog22mk_subsumption_checkerE...no-op 0s)
+(transform N7datalog15mk_rule_inlinerE...no-op 0s)
+(transform N7datalog22mk_subsumption_checkerE...no-op 0s)
+(transform N7datalog8mk_sliceE...no-op 0s)
+expand: query!0 (0, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 29.85 :after-memory 30.04)
+Entering level 1
+expand: query!0 (1, 0) FAR  w(0) 1.
+	create_child: inv (0, 1) FAR 302 U 0.00
+expand: inv (0, 0) FAR  w(0) 302. F 0.00
+expand: query!0 (1, 0) FAR  w(0) 1.
+	create_child: inv (0, 1) FAR 608 U 0.00
+expand: inv (0, 0) FAR  w(0) 608. F 0.00
+expand: query!0 (1, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 30.04 :after-memory 30.33)
+Propagating: 0 1  ! 2 
+(spacer::context::propagate :time 0.00 :before-memory 30.33 :after-memory 30.33)
+Entering level 2
+expand: query!0 (2, 0) FAR  w(0) 1.
+	create_child: inv (1, 2) FAR 608 U 0.00
+expand: inv (1, 0) FAR  w(0) 608.
+	create_child: inv (0, 2) FAR 858 U 0.00
+expand: inv (0, 0) FAR  w(0) 858. F 0.00
+expand: inv (1, 0) FAR  w(0) 608. F 0.00
+expand: query!0 (2, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 30.33 :after-memory 30.44)
+Propagating: 0 1 2  ! 3 
+(spacer::context::propagate :time 0.01 :before-memory 30.44 :after-memory 30.44)
+Entering level 3
+expand: query!0 (3, 0) FAR  w(0) 1.
+	create_child: inv (2, 3) FAR 608 U 0.00
+expand: inv (2, 0) FAR  w(0) 608.
+	create_child: inv (1, 3) FAR 858 U 0.00
+expand: inv (1, 0) FAR  w(0) 858. F 0.00
+expand: inv (0, 0) FAR  w(0) 1416. F 0.00
+expand: inv (1, 1) FAR  w(0) 1416. F 0.00
+expand: inv (2, 0) FAR  w(0) 608. F 0.00
+expand: inv (0, 0) FAR  w(0) 607. F 0.00
+expand: inv (1, 1) FAR  w(0) 607. T 0.00
+is-reachable: query!0 (3, 0) FAR 1 F 0.00
+expand: query!0 (3, 0) FAR  w(1) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 30.44 :after-memory 30.51)
+Propagating: 0 1 2 3  ! 4 
+(spacer::context::propagate :time 0.00 :before-memory 30.51 :after-memory 30.61)
+Entering level 4
+expand: query!0 (4, 0) FAR  w(0) 1.
+	create_child: inv (3, 4) FAR 608 U 0.00
+expand: inv (3, 0) FAR  w(0) 608. F 0.00
+expand: query!0 (4, 0) FAR  w(0) 1.
+	create_child: inv (3, 4) FAR 302 U 0.00
+expand: inv (3, 0) FAR  w(0) 302.
+	create_child: inv (2, 4) FAR 1830 U 0.00
+expand: inv (2, 0) FAR  w(0) 1830. F 0.00
+expand: inv (0, 0) FAR  w(0) 2235. F 0.00
+expand: inv (1, 1) FAR  w(0) 2235. F 0.00
+expand: inv (2, 2) FAR  w(0) 2235. F 0.00
+expand: inv (3, 0) FAR  w(0) 302. F 0.00
+expand: inv (0, 0) FAR  w(0) 300. F 0.00
+expand: inv (1, 1) FAR  w(0) 300. F 0.00
+expand: inv (2, 2) FAR  w(0) 300.
+	create_child: inv (1, 6) FAR 2383 U 0.00
+expand: inv (1, 2) FAR  w(0) 2383. F 0.08
+expand: inv (2, 2) FAR  w(0) 300. F 0.00
+expand: inv (3, 3) FAR  w(0) 300.
+	create_child: inv (2, 7) FAR 2383 U 0.00
+expand: inv (2, 3) FAR  w(0) 2383. F 0.00
+expand: inv (3, 3) FAR  w(0) 300.
+	create_child: inv (2, 7) FAR 2612 U 0.00
+expand: inv (2, 3) FAR  w(0) 2612. F 0.00
+expand: inv (3, 3) FAR  w(0) 300. F 0.00
+expand: query!0 (4, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.09 :before-memory 30.61 :after-memory 30.75)
+Propagating: 0 1 2 3 4  ! 5 6 7 
+(spacer::context::propagate :time 0.00 :before-memory 30.75 :after-memory 30.94)
+Entering level 5
+expand: query!0 (5, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 30.94 :after-memory 30.94)
+Propagating: 5  ! 6 7 
+(spacer::context::propagate :time 0.00 :before-memory 30.94 :after-memory 30.94)
+Entering level 6
+expand: query!0 (6, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 30.94 :after-memory 30.94)
+Propagating: 6  ! 7 
+(spacer::context::propagate :time 0.00 :before-memory 30.94 :after-memory 30.94)
+Entering level 7
+expand: query!0 (7, 0) FAR  w(0) 1.
+	create_child: inv (6, 7) FAR 302 U 0.00
+expand: inv (6, 0) FAR  w(0) 302. F 0.09
+expand: query!0 (7, 0) FAR  w(0) 1.
+	create_child: inv (6, 7) FAR 608 U 0.00
+expand: inv (6, 0) FAR  w(0) 608.
+	create_child: inv (5, 7) FAR 858 U 0.00
+expand: inv (5, 0) FAR  w(0) 858. F 0.00
+expand: inv (6, 0) FAR  w(0) 608. F 0.00
+expand: inv (5, 0) FAR  SUBS w(0) 4608. F 0.00
+expand: inv (0, 0) FAR  w(0) 4970. T 0.00
+is-reachable: query!0 (7, 0) FAR 1 F 0.00
+expand: inv (6, 1) FAR  SUBS w(0) 4608.
+	create_child: inv (5, 8) FAR 5006 U 0.00
+expand: inv (5, 1) FAR  w(0) 5006. F 0.00
+expand: inv (6, 1) FAR  SUBS w(0) 4608. F 0.00
+expand: query!0 (7, 0) FAR  w(1) 1. F 0.00
+(spacer::context::check_reachability :time 0.10 :before-memory 30.94 :after-memory 31.48)
+Propagating: 5 6 7  ! 8 9 
+(spacer::context::propagate :time 0.00 :before-memory 31.48 :after-memory 31.57)
+Entering level 8
+expand: query!0 (8, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 31.57 :after-memory 31.57)
+Propagating: 8  ! 9 
+(spacer::context::propagate :time 0.00 :before-memory 31.57 :after-memory 31.57)
+Entering level 9
+expand: query!0 (9, 0) FAR  w(0) 1.
+	create_child: inv (8, 9) FAR 608 U 0.00
+expand: inv (8, 0) FAR  w(0) 608.
+	create_child: inv (7, 9) FAR 858 U 0.00
+expand: inv (7, 0) FAR  w(0) 858.
+	create_child: inv (6, 9) FAR 5701 U 0.00
+expand: inv (6, 0) FAR  w(0) 5701. F 0.00
+expand: inv (0, 0) FAR  w(0) 5971. F 0.00
+expand: inv (1, 1) FAR  w(0) 5971. F 0.00
+expand: inv (2, 2) FAR  w(0) 5971. F 0.00
+expand: inv (1, 2) FAR  w(0) 5816. F 0.00
+expand: inv (2, 3) FAR  w(0) 5816. F 0.00
+expand: inv (3, 3) FAR  w(0) 5971. F 0.00
+expand: inv (2, 3) FAR  w(0) 5816. F 0.00
+expand: inv (3, 4) FAR  w(0) 5816. F 0.00
+expand: inv (4, 4) FAR  w(0) 5971. F 0.00
+expand: inv (3, 4) FAR  w(0) 5816. F 0.00
+expand: inv (4, 5) FAR  w(0) 5816. F 0.02
+expand: inv (5, 5) FAR  w(0) 5971.
+	create_child: inv (4, 14) FAR 6241 U 0.00
+expand: inv (4, 5) FAR  w(0) 6241. F 0.00
+expand: inv (5, 5) FAR  w(0) 5971. F 0.00
+expand: inv (4, 5) FAR  w(0) 5816. F 0.00
+expand: inv (5, 6) FAR  w(0) 5816. F 0.00
+expand: inv (6, 6) FAR  w(0) 5971.
+	create_child: inv (5, 15) FAR 6241 U 0.00
+expand: inv (5, 6) FAR  w(0) 6241. F 0.07
+expand: inv (6, 6) FAR  w(0) 5971. F 0.00
+expand: inv (5, 6) FAR  w(0) 5816. F 0.00
+expand: inv (6, 7) FAR  w(0) 5816.
+	create_child: inv (5, 16) FAR 6475 U 0.01
+expand: inv (5, 7) FAR  w(0) 6475. F 0.00
+expand: inv (6, 7) FAR  w(0) 5816. F 0.00
+expand: inv (7, 0) FAR  w(0) 858. F 0.04
+expand: inv (5, 0) FAR  SUBS w(0) 6836. T 0.00
+expand: inv (8, 0) FAR  w(0) 608. F 0.00
+expand: query!0 (9, 0) FAR  w(0) 1.
+	create_child: inv (8, 9) FAR 302 U 0.00
+expand: inv (8, 0) FAR  w(0) 302.
+	create_child: inv (7, 9) FAR 1830 U 0.00
+expand: inv (7, 0) FAR  w(0) 1830. F 0.00
+expand: inv (8, 0) FAR  w(0) 302. F 0.00
+expand: inv (7, 0) FAR  SUBS w(0) 7497. F 0.00
+expand: inv (0, 0) FAR  w(0) 7016. F 0.00
+expand: inv (1, 1) FAR  w(0) 7016. F 0.00
+expand: inv (2, 2) FAR  w(0) 7016. F 0.00
+expand: inv (3, 3) FAR  w(0) 7016. F 0.00
+expand: inv (4, 4) FAR  w(0) 7016. F 0.00
+expand: inv (5, 5) FAR  w(0) 7016. F 0.06
+expand: inv (6, 6) FAR  w(0) 7016.
+	create_child: inv (5, 15) FAR 7943 U 0.00
+expand: inv (5, 6) FAR  w(0) 7943. F 0.05
+expand: inv (6, 6) FAR  w(0) 7016. F 0.00
+expand: inv (5, 6) FAR  w(0) 7456. T 0.00
+is-reachable: query!0 (9, 0) FAR 1 F 0.00
+expand: inv (7, 7) FAR  w(0) 7016.
+	create_child: inv (6, 16) FAR 8339 U 0.00
+expand: inv (6, 7) FAR  w(0) 8339.
+	create_child: inv (5, 16) FAR 8370 U 0.00
+expand: inv (5, 7) FAR  w(0) 8370. F 0.00
+expand: inv (6, 7) FAR  w(0) 8339. F 0.00
+expand: inv (7, 7) FAR  w(0) 7016. F 0.00
+expand: inv (8, 1) FAR  SUBS w(0) 7497. F 0.00
+expand: query!0 (9, 0) FAR  w(1) 1. F 0.00
+(spacer::context::check_reachability :time 0.29 :before-memory 31.57 :after-memory 32.03)
+Propagating: 0 1 2 3 4 5 6 7 8 9  ! 10 11 12 
+(spacer::context::propagate :time 0.07 :before-memory 32.03 :after-memory 32.51)
+Entering level 10
+expand: query!0 (10, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 32.51 :after-memory 32.51)
+Propagating: 10  ! 11 12 
+(spacer::context::propagate :time 0.00 :before-memory 32.51 :after-memory 32.51)
+Entering level 11
+expand: query!0 (11, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 32.51 :after-memory 32.51)
+Propagating: 11  ! 12 
+(spacer::context::propagate :time 0.00 :before-memory 32.51 :after-memory 32.51)
+Entering level 12
+expand: query!0 (12, 0) FAR  w(0) 1.
+	create_child: inv (11, 12) FAR 608 U 0.00
+expand: inv (11, 0) FAR  w(0) 608.
+	create_child: inv (10, 12) FAR 858 U 0.00
+expand: inv (10, 0) FAR  w(0) 858.
+	create_child: inv (9, 12) FAR 5701 U 0.00
+expand: inv (9, 0) FAR  w(0) 5701.
+	create_child: inv (8, 12) FAR 11230 U 0.00
+expand: inv (8, 0) FAR  w(0) 11230. F 0.07
+expand: inv (4, 0) FAR  w(0) 11434. F 0.00
+expand: inv (5, 1) FAR  w(0) 11434. F 0.00
+expand: inv (5, 1) FAR  w(0) 5816. F 0.00
+expand: inv (6, 2) FAR  w(0) 5816. F 0.00
+expand: inv (6, 2) FAR  w(0) 11434. F 0.00
+expand: inv (5, 2) FAR  w(0) 5816. F 0.00
+expand: inv (6, 3) FAR  w(0) 5816. F 0.00
+expand: inv (7, 3) FAR  w(0) 11434.
+	create_child: inv (6, 15) FAR 11503 U 0.00
+expand: inv (6, 3) FAR  w(0) 11503. F 0.00
+expand: inv (7, 3) FAR  w(0) 11434. F 0.00
+expand: inv (6, 3) FAR  w(0) 5816. F 0.00
+expand: inv (7, 4) FAR  w(0) 5816. F 0.00
+expand: inv (8, 4) FAR  w(0) 11434.
+	create_child: inv (7, 16) FAR 11503 U 0.00
+expand: inv (7, 4) FAR  w(0) 11503.
+	create_child: inv (6, 16) FAR 11531 U 0.00
+expand: inv (6, 4) FAR  w(0) 11531. F 0.00
+expand: inv (7, 4) FAR  w(0) 11503. F 0.00
+expand: inv (7, 4) FAR  SUBS w(0) 11888. T 0.00
+expand: inv (8, 4) FAR  w(0) 11434. F 0.00
+expand: inv (7, 4) FAR  w(0) 5816. F 0.00
+expand: inv (8, 5) FAR  w(0) 5816.
+	create_child: inv (7, 17) FAR 6475 U 0.00
+expand: inv (7, 5) FAR  w(0) 6475. F 0.00
+expand: inv (8, 5) FAR  w(0) 5816. F 0.00
+expand: inv (9, 0) FAR  w(0) 5701. F 0.06
+expand: inv (7, 0) FAR  SUBS w(0) 12283. T 0.00
+expand: inv (10, 0) FAR  w(0) 858. F 0.00
+expand: inv (6, 0) FAR  SUBS w(0) 11724. F 0.00
+expand: inv (7, 1) FAR  SUBS w(0) 11724. F 0.00
+expand: inv (8, 2) FAR  SUBS w(0) 11724.
+	create_child: inv (7, 14) FAR 12544 U 0.00
+expand: inv (7, 2) FAR  w(0) 12544
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (8, 2) FAR  SUBS w(0) 11724
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (9, 3) FAR  SUBS w(0) 11724.
+	create_child: inv (8, 15) FAR 12544 U 0.00
+expand: inv (8, 3) FAR  w(0) 12544.
+	create_child: inv (7, 15) FAR 12336 U 0.00
+expand: inv (7, 3) FAR  w(0) 12336. F 0.00
+expand: inv (8, 3) FAR  w(0) 12544
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.05
+expand: inv (9, 3) FAR  SUBS w(0) 11724
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (8, 3) FAR  SUBS w(0) 12921. F 0.00
+expand: inv (6, 3) FAR  w(0) 12344. T 0.00
+is-reachable: query!0 (12, 0) FAR 1 F 0.00
+expand: inv (9, 4) FAR  SUBS w(0) 12921.
+	create_child: inv (8, 16) FAR 13344 U 0.00
+expand: inv (8, 4) FAR  w(0) 13344. F 0.00
+expand: inv (9, 4) FAR  SUBS w(0) 12921. F 0.06
+expand: inv (10, 4) FAR  SUBS w(0) 11724
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (8, 4) FAR  SUBS w(0) 12592. F 0.00
+expand: inv (9, 5) FAR  SUBS w(0) 12592. F 0.00
+expand: inv (10, 6) FAR  SUBS w(0) 12592.
+	create_child: inv (9, 18) FAR 12901 U 0.00
+expand: inv (9, 6) FAR  w(0) 12901. F 0.04
+expand: inv (10, 6) FAR  SUBS w(0) 12592. F 0.00
+expand: inv (11, 0) FAR  w(0) 608. F 0.00
+expand: inv (6, 0) FAR  SUBS w(0) 11724
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (7, 1) FAR  SUBS w(0) 11724
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (8, 2) FAR  SUBS w(0) 11724
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (8, 2) FAR  SUBS w(0) 12592. F 0.00
+expand: inv (9, 3) FAR  SUBS w(0) 12592. F 0.00
+expand: inv (9, 3) FAR  SUBS w(0) 11724
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.06
+expand: inv (10, 4) FAR  SUBS w(0) 11724
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (10, 4) FAR  SUBS w(0) 12592. F 0.00
+expand: inv (11, 5) FAR  SUBS w(0) 11724
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: query!0 (12, 0) FAR  w(1) 1. F 0.00
+(spacer::context::check_reachability :time 0.41 :before-memory 32.51 :after-memory 33.30)
+Propagating: 4 5 6 7 8 9 10 11 12  ! 13 14 15 16 17 18 19 
+(spacer::context::propagate :time 0.23 :before-memory 33.30 :after-memory 34.27)
+Entering level 13
+expand: query!0 (13, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 34.27 :after-memory 34.27)
+Propagating: 13  ! 14 15 16 17 18 19 
+(spacer::context::propagate :time 0.00 :before-memory 34.27 :after-memory 34.27)
+Entering level 14
+expand: query!0 (14, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 34.27 :after-memory 34.27)
+Propagating: 14  ! 15 16 17 18 19 
+(spacer::context::propagate :time 0.00 :before-memory 34.27 :after-memory 34.27)
+Entering level 15
+expand: query!0 (15, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 34.27 :after-memory 34.27)
+Propagating: 15  ! 16 17 18 19 
+(spacer::context::propagate :time 0.00 :before-memory 34.27 :after-memory 34.27)
+Entering level 16
+expand: query!0 (16, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 34.27 :after-memory 34.27)
+Propagating: 16  ! 17 18 19 
+(spacer::context::propagate :time 0.00 :before-memory 34.27 :after-memory 34.27)
+Entering level 17
+expand: query!0 (17, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 34.27 :after-memory 34.27)
+Propagating: 17  ! 18 19 
+(spacer::context::propagate :time 0.00 :before-memory 34.27 :after-memory 34.27)
+Entering level 18
+expand: query!0 (18, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 34.27 :after-memory 34.27)
+Propagating: 18  ! 19 
+(spacer::context::propagate :time 0.00 :before-memory 34.27 :after-memory 34.27)
+Entering level 19
+expand: query!0 (19, 0) FAR  w(0) 1.
+	create_child: inv (18, 19) FAR 608 U 0.00
+expand: inv (18, 0) FAR  w(0) 608.
+	create_child: inv (17, 19) FAR 858 U 0.00
+expand: inv (17, 0) FAR  w(0) 858.
+	create_child: inv (16, 19) FAR 5701 U 0.00
+expand: inv (16, 0) FAR  w(0) 5701.
+	create_child: inv (15, 19) FAR 11230 U 0.00
+expand: inv (15, 0) FAR  w(0) 11230.
+	create_child: inv (14, 19) FAR 23235 U 0.00
+expand: inv (14, 0) FAR  w(0) 23235. F 0.00
+expand: inv (6, 0) FAR  w(0) 23480. F 0.00
+expand: inv (7, 1) FAR  w(0) 23480. F 0.00
+expand: inv (7, 1) FAR  w(0) 5816. F 0.00
+expand: inv (8, 2) FAR  w(0) 5816. F 0.00
+expand: inv (8, 2) FAR  w(0) 23480. F 0.00
+expand: inv (7, 2) FAR  w(0) 5816. F 0.00
+expand: inv (8, 3) FAR  w(0) 5816. F 0.00
+expand: inv (9, 3) FAR  w(0) 23480. F 0.00
+expand: inv (8, 3) FAR  w(0) 5816. F 0.00
+expand: inv (9, 4) FAR  w(0) 5816. F 0.00
+expand: inv (10, 4) FAR  w(0) 23480. F 0.00
+expand: inv (9, 4) FAR  w(0) 5816. F 0.00
+expand: inv (10, 5) FAR  w(0) 5816. F 0.00
+expand: inv (11, 5) FAR  w(0) 23480. F 0.00
+expand: inv (10, 5) FAR  w(0) 5816. F 0.04
+expand: inv (11, 6) FAR  w(0) 5816. F 0.00
+expand: inv (12, 6) FAR  w(0) 23480. F 0.00
+expand: inv (11, 6) FAR  w(0) 5816. F 0.00
+expand: inv (12, 7) FAR  w(0) 5816. F 0.00
+expand: inv (13, 7) FAR  w(0) 23480.
+	create_child: inv (12, 26) FAR 23719 U 0.00
+expand: inv (12, 7) FAR  w(0) 23719.
+	create_child: inv (11, 26) FAR 23741 U 0.00
+expand: inv (11, 7) FAR  w(0) 23741.
+	create_child: inv (10, 26) FAR 23752 U 0.00
+expand: inv (10, 7) FAR  w(0) 23752. F 0.00
+expand: inv (11, 7) FAR  w(0) 23741. F 0.05
+expand: inv (12, 7) FAR  w(0) 23719. F 0.00
+expand: inv (13, 7) FAR  w(0) 23480. F 0.00
+expand: inv (12, 7) FAR  w(0) 5816. F 0.00
+expand: inv (13, 8) FAR  w(0) 5816. F 0.00
+expand: inv (14, 8) FAR  w(0) 23480.
+	create_child: inv (13, 27) FAR 23719 U 0.00
+expand: inv (13, 8) FAR  w(0) 23719.
+	create_child: inv (12, 27) FAR 23741 U 0.00
+expand: inv (12, 8) FAR  w(0) 23741
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.06
+expand: inv (11, 8) FAR  SUBS w(0) 13876. T 0.00
+expand: inv (13, 8) FAR  w(0) 23719. F 0.04
+expand: inv (12, 8) FAR  SUBS w(0) 24581.
+	create_child: inv (11, 27) FAR 23688 U 0.00
+expand: inv (11, 8) FAR  w(0) 23688. F 0.00
+expand: inv (12, 8) FAR  SUBS w(0) 24581
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (13, 9) FAR  SUBS w(0) 24581.
+	create_child: inv (12, 28) FAR 23688 U 0.00
+expand: inv (12, 9) FAR  w(0) 23688
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (10, 9) FAR  SUBS w(0) 24706. F 0.00
+expand: inv (11, 10) FAR  SUBS w(0) 24706. F 0.00
+expand: inv (12, 11) FAR  SUBS w(0) 24706. F 0.00
+expand: inv (13, 9) FAR  SUBS w(0) 24581
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.05
+expand: inv (10, 9) FAR  SUBS w(0) 24706. F 0.00
+expand: inv (11, 10) FAR  SUBS w(0) 24706. F 0.00
+expand: inv (12, 11) FAR  SUBS w(0) 24706. F 0.00
+expand: inv (13, 12) FAR  SUBS w(0) 24706.
+	create_child: inv (12, 31) FAR 24262 U 0.00
+expand: inv (12, 12) FAR  w(0) 24262. F 0.00
+expand: inv (13, 12) FAR  SUBS w(0) 24706. F 0.00
+expand: inv (14, 8) FAR  w(0) 23480. F 0.00
+expand: inv (13, 8) FAR  w(0) 5816. F 0.00
+expand: inv (14, 9) FAR  w(0) 5816. F 0.05
+expand: inv (15, 0) FAR  w(0) 11230. F 0.05
+expand: inv (16, 0) FAR  w(0) 5701. F 0.00
+expand: inv (11, 0) FAR  SUBS w(0) 25421. F 0.00
+expand: inv (12, 1) FAR  SUBS w(0) 25421. F 0.00
+expand: inv (13, 2) FAR  SUBS w(0) 25421. F 0.00
+expand: inv (12, 2) FAR  SUBS w(0) 25598. F 0.00
+expand: inv (10, 2) FAR  w(0) 25373. T 0.00
+is-reachable: query!0 (19, 0) FAR 1 F 0.00
+expand: inv (13, 3) FAR  SUBS w(0) 25598. F 0.00
+expand: inv (14, 3) FAR  SUBS w(0) 25421
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (13, 3) FAR  SUBS w(0) 24215. F 0.04
+expand: inv (14, 4) FAR  SUBS w(0) 24215. F 0.00
+expand: inv (15, 4) FAR  SUBS w(0) 25421
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (13, 4) FAR  SUBS w(0) 25477. T 0.00
+expand: inv (16, 5) FAR  SUBS w(0) 25421.
+	create_child: inv (15, 24) FAR 26571 U 0.00
+expand: inv (15, 5) FAR  w(0) 26571
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (16, 5) FAR  SUBS w(0) 25421
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.07
+expand: inv (13, 5) FAR  SUBS w(0) 24215. F 0.00
+expand: inv (14, 6) FAR  SUBS w(0) 24215. F 0.00
+expand: inv (15, 7) FAR  SUBS w(0) 24215.
+	create_child: inv (14, 26) FAR 26441 U 0.00
+expand: inv (14, 7) FAR  w(0) 26441.
+	create_child: inv (13, 26) FAR 26639 U 0.00
+expand: inv (13, 7) FAR  w(0) 26639. F 0.06
+expand: inv (14, 7) FAR  w(0) 26441. F 0.00
+expand: inv (15, 7) FAR  SUBS w(0) 24215. F 0.00
+expand: inv (16, 8) FAR  SUBS w(0) 24215.
+	create_child: inv (15, 27) FAR 26441 U 0.00
+expand: inv (15, 8) FAR  w(0) 26441. F 0.00
+expand: inv (16, 8) FAR  SUBS w(0) 24215. F 0.00
+expand: inv (17, 0) FAR  w(0) 858. F 0.00
+expand: inv (11, 0) FAR  SUBS w(0) 27187. F 0.00
+expand: inv (12, 1) FAR  SUBS w(0) 27187. F 0.00
+expand: inv (12, 1) FAR  SUBS w(0) 27291. F 0.00
+expand: inv (13, 2) FAR  SUBS w(0) 27187. F 0.04
+expand: inv (14, 3) FAR  SUBS w(0) 27187. F 0.00
+expand: inv (15, 4) FAR  SUBS w(0) 27187. F 0.08
+expand: inv (16, 5) FAR  SUBS w(0) 27187. F 0.00
+expand: inv (17, 6) FAR  SUBS w(0) 27187
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (18, 0) FAR  w(0) 608. F 0.00
+expand: query!0 (19, 0) FAR  w(1) 1.
+	create_child: inv (18, 19) FAR 302 U 0.00
+expand: inv (18, 0) FAR  w(0) 302. F 0.00
+expand: inv (16, 0) FAR  SUBS w(0) 7497. F 0.00
+expand: inv (17, 1) FAR  SUBS w(0) 7497. F 0.00
+expand: inv (18, 2) FAR  SUBS w(0) 7497. F 0.02
+expand: query!0 (19, 0) FAR  w(1) 1. F 0.00
+(spacer::context::check_reachability :time 0.74 :before-memory 34.27 :after-memory 35.49)
+Propagating: 6 7 8 9 10 11 12 13 14 15 16 17 18 19  ! 20 21 22 23 24 25 26 27 28 
+(spacer::context::propagate :time 0.32 :before-memory 35.49 :after-memory 37.19)
+Entering level 20
+expand: query!0 (20, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 37.19 :after-memory 37.19)
+Propagating: 20  ! 21 22 23 24 25 26 27 28 
+(spacer::context::propagate :time 0.00 :before-memory 37.19 :after-memory 37.19)
+Entering level 21
+expand: query!0 (21, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 37.19 :after-memory 37.29)
+Propagating: 21  ! 22 23 24 25 26 27 28 
+(spacer::context::propagate :time 0.00 :before-memory 37.29 :after-memory 37.29)
+Entering level 22
+expand: query!0 (22, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 37.29 :after-memory 37.29)
+Propagating: 22  ! 23 24 25 26 27 28 
+(spacer::context::propagate :time 0.03 :before-memory 37.29 :after-memory 37.29)
+Entering level 23
+expand: query!0 (23, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 37.29 :after-memory 37.29)
+Propagating: 23  ! 24 25 26 27 28 
+(spacer::context::propagate :time 0.00 :before-memory 37.29 :after-memory 37.29)
+Entering level 24
+expand: query!0 (24, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 37.29 :after-memory 37.29)
+Propagating: 24  ! 25 26 27 28 
+(spacer::context::propagate :time 0.00 :before-memory 37.29 :after-memory 37.29)
+Entering level 25
+expand: query!0 (25, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 37.29 :after-memory 37.29)
+Propagating: 25  ! 26 27 28 
+(spacer::context::propagate :time 0.00 :before-memory 37.29 :after-memory 37.29)
+Entering level 26
+expand: query!0 (26, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 37.29 :after-memory 37.29)
+Propagating: 26  ! 27 28 
+(spacer::context::propagate :time 0.00 :before-memory 37.29 :after-memory 37.29)
+Entering level 27
+expand: query!0 (27, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 37.29 :after-memory 37.29)
+Propagating: 27  ! 28 
+(spacer::context::propagate :time 0.00 :before-memory 37.29 :after-memory 37.29)
+Entering level 28
+expand: query!0 (28, 0) FAR  w(0) 1.
+	create_child: inv (27, 28) FAR 608 U 0.00
+expand: inv (27, 0) FAR  w(0) 608.
+	create_child: inv (26, 28) FAR 858 U 0.00
+expand: inv (26, 0) FAR  w(0) 858.
+	create_child: inv (25, 28) FAR 5701 U 0.00
+expand: inv (25, 0) FAR  w(0) 5701.
+	create_child: inv (24, 28) FAR 11230 U 0.00
+expand: inv (24, 0) FAR  w(0) 11230.
+	create_child: inv (23, 28) FAR 23235 U 0.00
+expand: inv (23, 0) FAR  w(0) 23235.
+	create_child: inv (22, 28) FAR 44714 U 0.00
+expand: inv (22, 0) FAR  w(0) 44714. F 0.00
+expand: inv (13, 0) FAR  w(0) 44882. F 0.00
+expand: inv (14, 1) FAR  w(0) 44882. F 0.00
+expand: inv (14, 1) FAR  w(0) 5816. F 0.00
+expand: inv (15, 2) FAR  w(0) 44882. F 0.00
+expand: inv (14, 2) FAR  w(0) 5816. F 0.00
+expand: inv (15, 3) FAR  w(0) 5816. F 0.00
+expand: inv (16, 3) FAR  w(0) 44882. F 0.00
+expand: inv (15, 3) FAR  w(0) 5816. F 0.00
+expand: inv (16, 4) FAR  w(0) 5816. F 0.00
+expand: inv (17, 4) FAR  w(0) 44882. F 0.00
+expand: inv (18, 5) FAR  w(0) 44882. F 0.00
+expand: inv (19, 6) FAR  w(0) 44882. F 0.00
+expand: inv (20, 7) FAR  w(0) 44882. F 0.00
+expand: inv (21, 8) FAR  w(0) 44882.
+	create_child: inv (20, 36) FAR 45252 U 0.00
+expand: inv (20, 8) FAR  w(0) 45252.
+	create_child: inv (19, 36) FAR 45274 U 0.04
+expand: inv (19, 8) FAR  w(0) 45274.
+	create_child: inv (18, 36) FAR 45284 U 0.00
+expand: inv (18, 8) FAR  w(0) 45284.
+	create_child: inv (17, 36) FAR 45299 U 0.00
+expand: inv (17, 8) FAR  w(0) 45299. F 0.00
+expand: inv (18, 8) FAR  w(0) 45284. F 0.06
+expand: inv (19, 8) FAR  w(0) 45274. F 0.00
+expand: inv (20, 8) FAR  w(0) 45252. F 0.00
+expand: inv (21, 8) FAR  w(0) 44882. F 0.00
+expand: inv (22, 9) FAR  w(0) 44882.
+	create_child: inv (21, 37) FAR 45252 U 0.00
+expand: inv (21, 9) FAR  w(0) 45252.
+	create_child: inv (20, 37) FAR 45274 U 0.00
+expand: inv (20, 9) FAR  w(0) 45274.
+	create_child: inv (19, 37) FAR 45284 U 0.00
+expand: inv (19, 9) FAR  w(0) 45284
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (19, 9) FAR  SUBS w(0) 45748. T 0.00
+expand: inv (20, 9) FAR  w(0) 45274. F 0.04
+expand: inv (19, 9) FAR  SUBS w(0) 12675
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (20, 10) FAR  SUBS w(0) 12675.
+	create_child: inv (19, 38) FAR 45974 U 0.00
+expand: inv (19, 10) FAR  w(0) 45974.
+	create_child: inv (18, 38) FAR 45934 U 0.00
+expand: inv (18, 10) FAR  w(0) 45934. F 0.04
+expand: inv (19, 10) FAR  w(0) 45974
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (20, 10) FAR  SUBS w(0) 12675
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (21, 9) FAR  w(0) 45252. F 0.00
+expand: inv (19, 9) FAR  SUBS w(0) 12675
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (20, 10) FAR  SUBS w(0) 12675
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (21, 11) FAR  SUBS w(0) 12675.
+	create_child: inv (20, 39) FAR 45974 U 0.00
+expand: inv (20, 11) FAR  w(0) 45974.
+	create_child: inv (19, 39) FAR 45934 U 0.00
+expand: inv (19, 11) FAR  w(0) 45934.
+	create_child: inv (18, 39) FAR 46100 U 0.00
+expand: inv (18, 11) FAR  w(0) 46100.
+	create_child: inv (17, 39) FAR 45876 U 0.00
+expand: inv (17, 11) FAR  w(0) 45876.
+	create_child: inv (16, 39) FAR 46155 U 0.00
+expand: inv (16, 11) FAR  w(0) 46155.
+	create_child: inv (15, 39) FAR 46252 U 0.07
+expand: inv (15, 11) FAR  w(0) 46252.
+	create_child: inv (14, 39) FAR 46325 U 0.00
+expand: inv (14, 11) FAR  w(0) 46325
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (15, 11) FAR  w(0) 46252
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.06
+expand: inv (16, 11) FAR  w(0) 46155
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (17, 11) FAR  w(0) 45876
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (18, 11) FAR  w(0) 46100. F 0.00
+expand: inv (19, 11) FAR  w(0) 45934. F 0.00
+expand: inv (16, 11) FAR  SUBS w(0) 27291. F 0.00
+expand: inv (17, 12) FAR  SUBS w(0) 27291. F 0.00
+expand: inv (18, 13) FAR  SUBS w(0) 27291.
+	create_child: inv (17, 41) FAR 46661 U 0.02
+expand: inv (17, 13) FAR  w(0) 46661.
+	create_child: inv (16, 41) FAR 46297 U 0.00
+expand: inv (16, 13) FAR  w(0) 46297.
+	create_child: inv (15, 41) FAR 45830 U 0.00
+expand: inv (15, 13) FAR  w(0) 45830.
+	create_child: inv (14, 41) FAR 46295 U 0.00
+expand: inv (14, 13) FAR  w(0) 46295. F 0.00
+expand: inv (15, 13) FAR  w(0) 45830. F 0.00
+expand: inv (16, 13) FAR  w(0) 46297
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (17, 13) FAR  w(0) 46661. F 0.00
+expand: inv (18, 13) FAR  SUBS w(0) 27291. F 0.00
+expand: inv (19, 14) FAR  SUBS w(0) 27291.
+	create_child: inv (18, 42) FAR 46661 U 0.00
+expand: inv (18, 14) FAR  w(0) 46661.
+	create_child: inv (17, 42) FAR 46297 U 0.00
+expand: inv (17, 14) FAR  w(0) 46297.
+	create_child: inv (16, 42) FAR 45830 U 0.10
+expand: inv (16, 14) FAR  w(0) 45830. F 0.00
+expand: inv (16, 14) FAR  SUBS w(0) 46362. F 0.00
+expand: inv (17, 14) FAR  w(0) 46297
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (16, 14) FAR  SUBS w(0) 46362. F 0.00
+expand: inv (17, 15) FAR  SUBS w(0) 46362.
+	create_child: inv (16, 43) FAR 47308 U 0.00
+expand: inv (16, 15) FAR  w(0) 47308.
+	create_child: inv (15, 43) FAR 47274 U 0.00
+expand: inv (15, 15) FAR  w(0) 47274. F 0.00
+expand: inv (16, 15) FAR  w(0) 47308. F 0.00
+expand: inv (17, 15) FAR  SUBS w(0) 46362. F 0.02
+expand: inv (18, 14) FAR  w(0) 46661. F 0.00
+expand: inv (19, 14) FAR  SUBS w(0) 27291. F 0.00
+expand: inv (20, 11) FAR  w(0) 45974
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (16, 11) FAR  SUBS w(0) 46362. F 0.00
+expand: inv (17, 12) FAR  SUBS w(0) 46362. F 0.00
+expand: inv (18, 13) FAR  SUBS w(0) 46362.
+	create_child: inv (17, 41) FAR 47308 U 0.00
+expand: inv (17, 13) FAR  w(0) 47308. F 0.00
+expand: inv (18, 13) FAR  SUBS w(0) 46362. F 0.00
+expand: inv (19, 14) FAR  SUBS w(0) 46362.
+	create_child: inv (18, 42) FAR 47308 U 0.00
+expand: inv (18, 14) FAR  w(0) 47308.
+	create_child: inv (17, 42) FAR 47274 U 0.00
+expand: inv (17, 14) FAR  w(0) 47274.
+	create_child: inv (16, 42) FAR 47645 U 0.00
+expand: inv (16, 14) FAR  w(0) 47645. F 0.00
+expand: inv (17, 14) FAR  w(0) 47274. F 0.06
+expand: inv (17, 14) FAR  SUBS w(0) 47885. F 0.00
+expand: inv (14, 14) FAR  w(0) 853. T 0.00
+is-reachable: query!0 (28, 0) FAR 1 F 0.01
+expand: inv (18, 14) FAR  w(0) 47308. F 0.00
+expand: inv (19, 14) FAR  SUBS w(0) 46362. F 0.00
+expand: inv (20, 15) FAR  SUBS w(0) 46362.
+	create_child: inv (19, 43) FAR 47308 U 0.00
+expand: inv (19, 15) FAR  w(0) 47308.
+	create_child: inv (18, 43) FAR 47274 U 0.00
+expand: inv (18, 15) FAR  w(0) 47274.
+	create_child: inv (17, 43) FAR 47645 U 0.00
+expand: inv (17, 15) FAR  w(0) 47645. F 0.01
+expand: inv (17, 15) FAR  SUBS w(0) 49207. F 0.00
+expand: inv (18, 15) FAR  w(0) 47274. F 0.06
+expand: inv (19, 15) FAR  w(0) 47308. F 0.00
+expand: inv (20, 15) FAR  SUBS w(0) 46362. F 0.00
+expand: inv (21, 11) FAR  SUBS w(0) 12675
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (22, 9) FAR  w(0) 44882. F 0.00
+expand: inv (23, 0) FAR  w(0) 23235. F 0.00
+expand: inv (19, 0) FAR  SUBS w(0) 49882
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.04
+expand: inv (20, 1) FAR  SUBS w(0) 49882
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.02
+expand: inv (17, 1) FAR  SUBS w(0) 49207. F 0.00
+expand: inv (18, 2) FAR  SUBS w(0) 49207.
+	create_child: inv (17, 30) FAR 49436 U 0.00
+expand: inv (17, 2) FAR  w(0) 49436. F 0.02
+expand: inv (18, 2) FAR  SUBS w(0) 49207. F 0.00
+expand: inv (19, 3) FAR  SUBS w(0) 49207.
+	create_child: inv (18, 31) FAR 49436 U 0.00
+expand: inv (18, 3) FAR  w(0) 49436. F 0.00
+expand: inv (18, 3) FAR  SUBS w(0) 49960. F 0.00
+expand: inv (19, 3) FAR  SUBS w(0) 49207. F 0.00
+expand: inv (20, 4) FAR  SUBS w(0) 49207.
+	create_child: inv (19, 32) FAR 49436 U 0.00
+expand: inv (19, 4) FAR  w(0) 49436.
+	create_child: inv (18, 32) FAR 50087 U 0.06
+expand: inv (18, 4) FAR  w(0) 50087.
+	create_child: inv (17, 32) FAR 49933 U 0.00
+expand: inv (17, 4) FAR  w(0) 49933.
+	create_child: inv (16, 32) FAR 50171 U 0.00
+expand: inv (16, 4) FAR  w(0) 50171.
+	create_child: inv (15, 32) FAR 50177 U 0.00
+expand: inv (15, 4) FAR  w(0) 50177.
+	create_child: inv (14, 32) FAR 50203 U 0.02
+expand: inv (14, 4) FAR  w(0) 50203. F 0.00
+expand: inv (15, 4) FAR  w(0) 50177. F 0.00
+expand: inv (16, 4) FAR  w(0) 50171. F 0.00
+expand: inv (17, 4) FAR  w(0) 49933. F 0.00
+expand: inv (18, 4) FAR  w(0) 50087. F 0.00
+expand: inv (19, 4) FAR  w(0) 49436. F 0.00
+expand: inv (19, 4) FAR  SUBS w(0) 49960. F 0.00
+expand: inv (20, 4) FAR  SUBS w(0) 49207. F 0.05
+expand: inv (21, 2) FAR  SUBS w(0) 49882
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.01
+expand: inv (22, 3) FAR  SUBS w(0) 49882.
+	create_child: inv (21, 31) FAR 50139 U 0.06
+expand: inv (21, 3) FAR  w(0) 50139
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (22, 3) FAR  SUBS w(0) 49882
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.01
+expand: inv (23, 4) FAR  SUBS w(0) 49882.
+	create_child: inv (22, 32) FAR 50139 U 0.00
+expand: inv (22, 4) FAR  w(0) 50139.
+	create_child: inv (21, 32) FAR 51114 U 0.00
+expand: inv (21, 4) FAR  w(0) 51114
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (22, 4) FAR  w(0) 50139
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.01
+expand: inv (23, 4) FAR  SUBS w(0) 49882
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.06
+expand: inv (24, 0) FAR  w(0) 11230. F 0.00
+expand: inv (19, 0) FAR  SUBS w(0) 12675
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (20, 1) FAR  SUBS w(0) 12675
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (21, 2) FAR  SUBS w(0) 12675
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (22, 3) FAR  SUBS w(0) 12675
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (23, 4) FAR  SUBS w(0) 12675
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (24, 5) FAR  SUBS w(0) 12675.
+	create_child: inv (23, 33) FAR 45974 U 0.00
+expand: inv (23, 5) FAR  w(0) 45974.
+	create_child: inv (22, 33) FAR 45934 U 0.00
+expand: inv (22, 5) FAR  w(0) 45934.
+	create_child: inv (21, 33) FAR 46100 U 0.00
+expand: inv (21, 5) FAR  w(0) 46100
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.08
+expand: inv (17, 5) FAR  SUBS w(0) 49207. F 0.00
+expand: inv (18, 6) FAR  SUBS w(0) 49207. F 0.00
+expand: inv (19, 7) FAR  SUBS w(0) 49207. F 0.00
+expand: inv (20, 8) FAR  SUBS w(0) 49207. F 0.00
+expand: inv (21, 9) FAR  SUBS w(0) 49207.
+	create_child: inv (20, 37) FAR 49436 U 0.00
+expand: inv (20, 9) FAR  w(0) 49436.
+	create_child: inv (19, 37) FAR 50087 U 0.00
+expand: inv (19, 9) FAR  w(0) 50087.
+	create_child: inv (18, 37) FAR 49933 U 0.00
+expand: inv (18, 9) FAR  w(0) 49933.
+	create_child: inv (17, 37) FAR 50171 U 0.00
+expand: inv (17, 9) FAR  w(0) 50171.
+	create_child: inv (16, 37) FAR 50177 U 0.00
+expand: inv (16, 9) FAR  w(0) 50177. F 0.04
+expand: inv (16, 9) FAR  SUBS w(0) 27330. F 0.00
+expand: inv (17, 9) FAR  w(0) 50171. F 0.01
+expand: inv (16, 9) FAR  SUBS w(0) 27330. F 0.00
+expand: inv (17, 10) FAR  SUBS w(0) 27330.
+	create_child: inv (16, 38) FAR 51565 U 0.00
+expand: inv (16, 10) FAR  w(0) 51565.
+	create_child: inv (15, 38) FAR 51551 U 0.00
+expand: inv (15, 10) FAR  w(0) 51551.
+	create_child: inv (14, 38) FAR 51556 U 0.00
+expand: inv (14, 10) FAR  w(0) 51556. F 0.00
+expand: inv (15, 10) FAR  w(0) 51551. F 0.00
+expand: inv (16, 10) FAR  w(0) 51565. F 0.00
+expand: inv (17, 10) FAR  SUBS w(0) 27330. F 0.00
+expand: inv (18, 9) FAR  w(0) 49933. F 0.00
+expand: inv (16, 9) FAR  SUBS w(0) 27330. F 0.00
+expand: inv (17, 10) FAR  SUBS w(0) 27330. F 0.00
+expand: inv (18, 11) FAR  SUBS w(0) 27330.
+	create_child: inv (17, 39) FAR 51565 U 0.00
+expand: inv (17, 11) FAR  w(0) 51565.
+	create_child: inv (16, 39) FAR 51551 U 0.00
+expand: inv (16, 11) FAR  w(0) 51551. F 0.08
+expand: inv (16, 11) FAR  SUBS w(0) 51951. F 0.00
+expand: inv (0, 11) FAR  w(0) 52092. T 0.00
+is-reachable: query!0 (28, 0) FAR 1 F 0.00
+expand: inv (17, 11) FAR  w(0) 51565. F 0.00
+expand: inv (16, 11) FAR  SUBS w(0) 53288. F 0.00
+expand: inv (17, 12) FAR  SUBS w(0) 53288.
+	create_child: inv (16, 40) FAR 53103 U 0.00
+expand: inv (16, 12) FAR  w(0) 53103.
+	create_child: inv (15, 40) FAR 53123 U 0.00
+expand: inv (15, 12) FAR  w(0) 53123.
+	create_child: inv (14, 40) FAR 53109 U 0.00
+expand: inv (14, 12) FAR  w(0) 53109. F 0.04
+expand: inv (15, 12) FAR  w(0) 53123. F 0.00
+expand: inv (16, 12) FAR  w(0) 53103. F 0.00
+expand: inv (17, 12) FAR  SUBS w(0) 53288. F 0.04
+expand: inv (17, 12) FAR  SUBS w(0) 50291. F 0.00
+expand: inv (18, 11) FAR  SUBS w(0) 27330. F 0.00
+expand: inv (19, 9) FAR  w(0) 50087. F 0.00
+expand: inv (20, 9) FAR  w(0) 49436. F 0.00
+expand: inv (21, 9) FAR  SUBS w(0) 49207. F 0.00
+expand: inv (22, 5) FAR  w(0) 45934
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.07
+expand: inv (23, 5) FAR  w(0) 45974
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (24, 5) FAR  SUBS w(0) 12675
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.01
+expand: inv (25, 0) FAR  w(0) 5701. F 0.00
+expand: inv (26, 0) FAR  w(0) 858. F 0.03
+expand: inv (27, 0) FAR  w(0) 608. F 0.03
+expand: query!0 (28, 0) FAR  w(2) 1.
+	create_child: inv (27, 28) FAR 302 U 0.00
+expand: inv (27, 0) FAR  w(0) 302.
+	create_child: inv (26, 28) FAR 1830 U 0.00
+expand: inv (26, 0) FAR  w(0) 1830.
+	create_child: inv (25, 28) FAR 54459 U 0.00
+expand: inv (25, 0) FAR  w(0) 54459. F 0.00
+expand: inv (6, 0) FAR  w(0) 54544. F 0.00
+expand: inv (7, 1) FAR  w(0) 54544. F 0.00
+expand: inv (8, 2) FAR  w(0) 54544. F 0.02
+expand: inv (2, 2) FAR  SUBS w(0) 54531. F 0.00
+expand: inv (3, 3) FAR  SUBS w(0) 54531.
+	create_child: inv (2, 31) FAR 54664 U 0.00
+expand: inv (2, 3) FAR  w(0) 54664. F 0.00
+expand: inv (3, 3) FAR  SUBS w(0) 54531. F 0.00
+expand: inv (3, 4) FAR  SUBS w(0) 54531. F 0.00
+expand: inv (4, 5) FAR  SUBS w(0) 54531.
+	create_child: inv (3, 33) FAR 54664 U 0.00
+expand: inv (3, 5) FAR  w(0) 54664. F 0.00
+expand: inv (4, 5) FAR  SUBS w(0) 54531.
+	create_child: inv (3, 33) FAR 54913 U 0.06
+expand: inv (3, 5) FAR  w(0) 54913. F 0.00
+expand: inv (4, 5) FAR  SUBS w(0) 54531. F 0.00
+expand: inv (4, 6) FAR  SUBS w(0) 54531. F 0.01
+expand: inv (5, 7) FAR  SUBS w(0) 54531.
+	create_child: inv (4, 35) FAR 54913 U 0.00
+expand: inv (4, 7) FAR  w(0) 54913. F 0.00
+expand: inv (5, 7) FAR  SUBS w(0) 54531.
+	create_child: inv (4, 35) FAR 54664 U 0.00
+expand: inv (4, 7) FAR  w(0) 54664.
+	create_child: inv (3, 35) FAR 54843 U 0.00
+expand: inv (3, 7) FAR  w(0) 54843. F 0.00
+expand: inv (3, 7) FAR  SUBS w(0) 55245. F 0.00
+expand: inv (3, 7) FAR  w(0) 55547.
+	create_child: inv (2, 35) FAR 55507 U 0.00
+expand: inv (2, 7) FAR  w(0) 55507. F 0.07
+expand: inv (2, 7) FAR  SUBS w(0) 55683. F 0.07
+expand: inv (3, 7) FAR  w(0) 55547. F 0.01
+expand: inv (3, 7) FAR  SUBS w(0) 55850. F 0.00
+expand: inv (3, 7) FAR  w(0) 56129. T 0.00
+is-reachable: query!0 (28, 0) FAR 1 F 0.00
+expand: inv (4, 7) FAR  w(0) 54664. F 0.07
+expand: inv (3, 7) FAR  w(0) 56570.
+	create_child: inv (2, 35) FAR 56560 U 0.00
+expand: inv (2, 7) FAR  w(0) 56560. F 0.00
+expand: inv (3, 7) FAR  w(0) 56570. F 0.00
+expand: inv (4, 8) FAR  w(0) 56570. F 0.00
+expand: inv (4, 8) FAR  SUBS w(0) 2737. F 0.00
+expand: inv (5, 7) FAR  SUBS w(0) 54531. F 0.00
+expand: inv (6, 8) FAR  SUBS w(0) 54531.
+	create_child: inv (5, 36) FAR 54664 U 0.00
+expand: inv (5, 8) FAR  w(0) 54664. F 0.00
+expand: inv (4, 8) FAR  w(0) 56570. F 0.39
+expand: inv (5, 9) FAR  w(0) 56570. F 0.50
+expand: inv (6, 8) FAR  SUBS w(0) 54531.
+	create_child: inv (5, 36) FAR 54913 U 0.00
+expand: inv (5, 8) FAR  w(0) 54913. F 0.00
+expand: inv (2, 8) FAR  SUBS w(0) 56674. F 0.00
+expand: inv (0, 8) FAR  w(0) 56844. F 0.00
+expand: inv (1, 9) FAR  w(0) 56844. F 0.00
+expand: inv (2, 10) FAR  w(0) 56844. F 0.00
+expand: inv (3, 9) FAR  SUBS w(0) 56674. F 0.04
+expand: inv (4, 10) FAR  SUBS w(0) 56674. F 0.00
+expand: inv (5, 11) FAR  SUBS w(0) 56674. F 0.00
+expand: inv (6, 8) FAR  SUBS w(0) 54531.
+	create_child: inv (5, 36) FAR 59173 U 0.03
+expand: inv (5, 8) FAR  w(0) 59173. F 0.00
+expand: inv (1, 8) FAR  w(0) 57680. T 0.00
+is-reachable: query!0 (28, 0) FAR 1 F 0.00
+expand: inv (6, 8) FAR  SUBS w(0) 54531. F 0.00
+expand: inv (7, 9) FAR  SUBS w(0) 54531.
+	create_child: inv (6, 37) FAR 54664 U 0.00
+expand: inv (6, 9) FAR  w(0) 54664. F 0.00
+expand: inv (5, 9) FAR  w(0) 56570. F 0.29
+expand: inv (6, 10) FAR  w(0) 56570.
+	create_child: inv (5, 38) FAR 56560 U 0.06
+expand: inv (5, 10) FAR  w(0) 56560.
+	create_child: inv (4, 38) FAR 56998 U 0.00
+expand: inv (4, 10) FAR  w(0) 56998. F 0.00
+expand: inv (4, 10) FAR  w(0) 58687. F 0.04
+expand: inv (5, 10) FAR  w(0) 56560. F 0.00
+expand: inv (6, 10) FAR  w(0) 56570. F 0.52
+expand: inv (7, 9) FAR  SUBS w(0) 54531.
+	create_child: inv (6, 37) FAR 54913 U 0.00
+expand: inv (6, 9) FAR  w(0) 54913.
+	create_child: inv (5, 37) FAR 57418 U 0.00
+expand: inv (5, 9) FAR  w(0) 57418. F 0.00
+expand: inv (6, 9) FAR  w(0) 54913. F 0.00
+expand: inv (2, 9) FAR  SUBS w(0) 56674. F 0.00
+expand: inv (3, 10) FAR  SUBS w(0) 56674. F 0.07
+expand: inv (4, 11) FAR  SUBS w(0) 56674. F 0.00
+expand: inv (5, 12) FAR  SUBS w(0) 56674. F 0.00
+expand: inv (6, 13) FAR  SUBS w(0) 56674. F 0.00
+expand: inv (7, 9) FAR  SUBS w(0) 54531.
+	create_child: inv (6, 37) FAR 59173 U 0.00
+expand: inv (6, 9) FAR  w(0) 59173. F 0.10
+expand: inv (2, 9) FAR  SUBS w(0) 951. T 0.00
+expand: inv (7, 9) FAR  SUBS w(0) 54531. F 0.06
+expand: inv (8, 10) FAR  SUBS w(0) 54531.
+	create_child: inv (7, 38) FAR 59173 U 0.00
+expand: inv (7, 10) FAR  w(0) 59173.
+	create_child: inv (6, 38) FAR 60728 U 0.00
+expand: inv (6, 10) FAR  w(0) 60728. F 0.00
+expand: inv (7, 10) FAR  w(0) 59173. F 10.22
+expand: inv (8, 10) FAR  SUBS w(0) 54531.
+	create_child: inv (7, 38) FAR 54913 U 0.01
+expand: inv (7, 10) FAR  w(0) 54913.
+	create_child: inv (6, 38) FAR 57418 U 0.00
+expand: inv (6, 10) FAR  w(0) 57418. F 0.01
+expand: inv (7, 10) FAR  w(0) 54913. F 0.00
+expand: inv (8, 10) FAR  SUBS w(0) 54531.
+	create_child: inv (7, 38) FAR 54664 U 0.11
+expand: inv (7, 10) FAR  w(0) 54664. F 0.00
+expand: inv (6, 10) FAR  w(0) 56570. F 0.56
+expand: inv (7, 11) FAR  w(0) 56570.
+	create_child: inv (6, 39) FAR 56560 U 0.00
+expand: inv (6, 11) FAR  w(0) 56560.
+	create_child: inv (5, 39) FAR 56998 U 0.00
+expand: inv (5, 11) FAR  w(0) 56998. F 0.00
+expand: inv (5, 11) FAR  SUBS w(0) 58250. F 0.00
+expand: inv (6, 11) FAR  w(0) 56560. F 0.00
+expand: inv (5, 11) FAR  SUBS w(0) 58250. F 0.06
+expand: inv (6, 12) FAR  SUBS w(0) 58250.
+	create_child: inv (5, 40) FAR 66386 U 0.00
+expand: inv (5, 12) FAR  w(0) 66386. F 0.00
+expand: inv (6, 12) FAR  SUBS w(0) 58250. F 0.04
+expand: inv (7, 11) FAR  w(0) 56570. F 0.00
+expand: inv (8, 10) FAR  SUBS w(0) 54531. F 0.04
+expand: inv (9, 3) FAR  w(0) 54544. F 0.01
+expand: inv (10, 4) FAR  w(0) 54544. F 0.04
+expand: inv (11, 5) FAR  w(0) 54544. F 0.06
+expand: inv (12, 6) FAR  w(0) 54544. F 0.00
+expand: inv (13, 7) FAR  w(0) 54544. F 0.01
+expand: inv (14, 8) FAR  w(0) 54544. F 0.01
+expand: inv (15, 9) FAR  w(0) 54544. F 0.04
+expand: inv (16, 10) FAR  w(0) 54544. F 0.00
+expand: inv (17, 11) FAR  w(0) 54544. F 0.00
+expand: inv (18, 12) FAR  w(0) 54544. F 0.07
+expand: inv (19, 13) FAR  w(0) 54544. F 0.01
+expand: inv (20, 14) FAR  w(0) 54544. F 0.03
+expand: inv (21, 15) FAR  w(0) 54544. F 0.00
+expand: inv (22, 16) FAR  w(0) 54544. F 0.00
+expand: inv (23, 17) FAR  w(0) 54544. F 0.06
+expand: inv (24, 18) FAR  w(0) 54544. F 0.01
+expand: inv (25, 19) FAR  w(0) 54544. F 0.03
+expand: inv (26, 0) FAR  w(0) 1830. F 0.00
+expand: inv (25, 0) FAR  SUBS w(0) 7497. F 0.00
+expand: inv (26, 1) FAR  SUBS w(0) 7497. F 0.00
+expand: inv (27, 0) FAR  w(0) 302. F 0.00
+expand: inv (26, 0) FAR  SUBS w(0) 7497. F 0.00
+expand: inv (27, 1) FAR  SUBS w(0) 7497.
+	create_child: inv (26, 29) FAR 64555 U 0.00
+expand: inv (26, 1) FAR  w(0) 64555. F 0.00
+expand: inv (27, 1) FAR  SUBS w(0) 7497. F 0.07
+expand: query!0 (28, 0) FAR  w(4) 1. F 0.00
+(spacer::context::check_reachability :time 15.66 :before-memory 37.29 :after-memory 58.76)
+Propagating: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28  ! 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 
+(spacer::context::propagate :time 2.99 :before-memory 58.76 :after-memory 85.50)
+Entering level 29
+expand: query!0 (29, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 85.50 :after-memory 85.48)
+Propagating: 29  ! 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 
+(spacer::context::propagate :time 0.04 :before-memory 85.48 :after-memory 86.29)
+Entering level 30
+expand: query!0 (30, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 86.29 :after-memory 86.30)
+Propagating: 30  ! 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 
+(spacer::context::propagate :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Entering level 31
+expand: query!0 (31, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Propagating: 31  ! 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 
+(spacer::context::propagate :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Entering level 32
+expand: query!0 (32, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Propagating: 32  ! 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 
+(spacer::context::propagate :time 0.04 :before-memory 86.30 :after-memory 86.30)
+Entering level 33
+expand: query!0 (33, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Propagating: 33  ! 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 
+(spacer::context::propagate :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Entering level 34
+expand: query!0 (34, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Propagating: 34  ! 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 
+(spacer::context::propagate :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Entering level 35
+expand: query!0 (35, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Propagating: 35  ! 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 
+(spacer::context::propagate :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Entering level 36
+expand: query!0 (36, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Propagating: 36  ! 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 
+(spacer::context::propagate :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Entering level 37
+expand: query!0 (37, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Propagating: 37  ! 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 
+(spacer::context::propagate :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Entering level 38
+expand: query!0 (38, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Propagating: 38  ! 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 
+(spacer::context::propagate :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Entering level 39
+expand: query!0 (39, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Propagating: 39  ! 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 
+(spacer::context::propagate :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Entering level 40
+expand: query!0 (40, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Propagating: 40  ! 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 
+(spacer::context::propagate :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Entering level 41
+expand: query!0 (41, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Propagating: 41  ! 42 43 44 45 46 47 48 49 50 51 52 53 54 55 
+(spacer::context::propagate :time 0.07 :before-memory 86.30 :after-memory 86.30)
+Entering level 42
+expand: query!0 (42, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Propagating: 42  ! 43 44 45 46 47 48 49 50 51 52 53 54 55 
+(spacer::context::propagate :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Entering level 43
+expand: query!0 (43, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Propagating: 43  ! 44 45 46 47 48 49 50 51 52 53 54 55 
+(spacer::context::propagate :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Entering level 44
+expand: query!0 (44, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Propagating: 44  ! 45 46 47 48 49 50 51 52 53 54 55 
+(spacer::context::propagate :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Entering level 45
+expand: query!0 (45, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Propagating: 45  ! 46 47 48 49 50 51 52 53 54 55 
+(spacer::context::propagate :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Entering level 46
+expand: query!0 (46, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Propagating: 46  ! 47 48 49 50 51 52 53 54 55 
+(spacer::context::propagate :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Entering level 47
+expand: query!0 (47, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Propagating: 47  ! 48 49 50 51 52 53 54 55 
+(spacer::context::propagate :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Entering level 48
+expand: query!0 (48, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Propagating: 48  ! 49 50 51 52 53 54 55 
+(spacer::context::propagate :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Entering level 49
+expand: query!0 (49, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Propagating: 49  ! 50 51 52 53 54 55 
+(spacer::context::propagate :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Entering level 50
+expand: query!0 (50, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Propagating: 50  ! 51 52 53 54 55 
+(spacer::context::propagate :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Entering level 51
+expand: query!0 (51, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Propagating: 51  ! 52 53 54 55 
+(spacer::context::propagate :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Entering level 52
+expand: query!0 (52, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Propagating: 52  ! 53 54 55 
+(spacer::context::propagate :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Entering level 53
+expand: query!0 (53, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Propagating: 53  ! 54 55 
+(spacer::context::propagate :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Entering level 54
+expand: query!0 (54, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Propagating: 54  ! 55 
+(spacer::context::propagate :time 0.00 :before-memory 86.30 :after-memory 86.30)
+Entering level 55
+expand: query!0 (55, 0) FAR  w(0) 1.
+	create_child: inv (54, 55) FAR 608 U 0.00
+expand: inv (54, 0) FAR  w(0) 608.
+	create_child: inv (53, 55) FAR 858 U 0.06
+expand: inv (53, 0) FAR  w(0) 858.
+	create_child: inv (52, 55) FAR 5701 U 0.00
+expand: inv (52, 0) FAR  w(0) 5701.
+	create_child: inv (51, 55) FAR 11230 U 0.00
+expand: inv (51, 0) FAR  w(0) 11230.
+	create_child: inv (50, 55) FAR 23235 U 0.00
+expand: inv (50, 0) FAR  w(0) 23235.
+	create_child: inv (49, 55) FAR 44714 U 0.00
+expand: inv (49, 0) FAR  w(0) 44714.
+	create_child: inv (48, 55) FAR 194998 U 0.00
+expand: inv (48, 0) FAR  w(0) 194998. F 0.06
+expand: inv (12, 0) FAR  w(0) 195246. F 0.00
+expand: inv (13, 1) FAR  w(0) 195246. F 0.00
+expand: inv (14, 2) FAR  w(0) 195246. F 0.00
+expand: inv (13, 2) FAR  w(0) 5816. F 0.00
+expand: inv (14, 3) FAR  w(0) 5816. F 0.00
+expand: inv (15, 3) FAR  w(0) 195246. F 0.00
+expand: inv (15, 4) FAR  w(0) 5816. F 0.00
+expand: inv (16, 4) FAR  w(0) 195246. F 0.00
+expand: inv (16, 5) FAR  w(0) 5816. F 0.00
+expand: inv (17, 5) FAR  w(0) 195246. F 0.00
+expand: inv (16, 5) FAR  w(0) 5816. F 0.00
+expand: inv (17, 6) FAR  w(0) 5816. F 0.00
+expand: inv (18, 6) FAR  w(0) 195246. F 0.00
+expand: inv (17, 6) FAR  w(0) 5816. F 0.00
+expand: inv (18, 7) FAR  w(0) 5816. F 0.00
+expand: inv (19, 7) FAR  w(0) 195246. F 0.00
+expand: inv (18, 7) FAR  w(0) 5816. F 0.00
+expand: inv (19, 8) FAR  w(0) 5816. F 0.00
+expand: inv (20, 8) FAR  w(0) 195246. F 0.00
+expand: inv (19, 8) FAR  w(0) 5816. F 0.00
+expand: inv (20, 9) FAR  w(0) 5816. F 0.00
+expand: inv (21, 9) FAR  w(0) 195246. F 0.00
+expand: inv (20, 9) FAR  w(0) 5816. F 0.00
+expand: inv (21, 10) FAR  w(0) 5816. F 0.00
+expand: inv (22, 10) FAR  w(0) 195246. F 0.00
+expand: inv (21, 10) FAR  w(0) 5816. F 0.00
+expand: inv (22, 11) FAR  w(0) 5816. F 0.00
+expand: inv (23, 11) FAR  w(0) 195246. F 0.00
+expand: inv (22, 11) FAR  w(0) 5816. F 0.00
+expand: inv (23, 12) FAR  w(0) 5816. F 0.00
+expand: inv (24, 12) FAR  w(0) 195246. F 0.00
+expand: inv (25, 13) FAR  w(0) 195246. F 0.00
+expand: inv (26, 14) FAR  w(0) 195246. F 0.04
+expand: inv (27, 15) FAR  w(0) 195246. F 0.02
+expand: inv (28, 16) FAR  w(0) 195246. F 0.00
+expand: inv (29, 17) FAR  w(0) 195246. F 0.00
+expand: inv (30, 18) FAR  w(0) 195246. F 0.00
+expand: inv (31, 19) FAR  w(0) 195246. F 0.00
+expand: inv (32, 20) FAR  w(0) 195246. F 0.00
+expand: inv (33, 21) FAR  w(0) 195246. F 0.00
+expand: inv (34, 22) FAR  w(0) 195246. F 0.00
+expand: inv (35, 23) FAR  w(0) 195246. F 0.00
+expand: inv (36, 24) FAR  w(0) 195246. F 0.00
+expand: inv (37, 25) FAR  w(0) 195246. F 0.00
+expand: inv (38, 26) FAR  w(0) 195246. F 0.00
+expand: inv (39, 27) FAR  w(0) 195246. F 0.00
+expand: inv (40, 28) FAR  w(0) 195246. F 0.00
+expand: inv (41, 29) FAR  w(0) 195246. F 0.00
+expand: inv (42, 30) FAR  w(0) 195246. F 0.00
+expand: inv (43, 31) FAR  w(0) 195246. F 0.00
+expand: inv (44, 32) FAR  w(0) 195246. F 0.00
+expand: inv (45, 33) FAR  w(0) 195246. F 0.00
+expand: inv (46, 34) FAR  w(0) 195246. F 0.00
+expand: inv (47, 35) FAR  w(0) 195246.
+	create_child: inv (46, 90) FAR 196866 U 0.00
+expand: inv (46, 35) FAR  w(0) 196866.
+	create_child: inv (45, 90) FAR 196886 U 0.00
+expand: inv (45, 35) FAR  w(0) 196886.
+	create_child: inv (44, 90) FAR 196895 U 0.06
+expand: inv (44, 35) FAR  w(0) 196895.
+	create_child: inv (43, 90) FAR 196901 U 0.00
+expand: inv (43, 35) FAR  w(0) 196901.
+	create_child: inv (42, 90) FAR 196909 U 0.00
+expand: inv (42, 35) FAR  w(0) 196909.
+	create_child: inv (41, 90) FAR 196932 U 0.00
+expand: inv (41, 35) FAR  w(0) 196932.
+	create_child: inv (40, 90) FAR 196962 U 0.00
+expand: inv (40, 35) FAR  w(0) 196962.
+	create_child: inv (39, 90) FAR 197001 U 0.00
+expand: inv (39, 35) FAR  w(0) 197001.
+	create_child: inv (38, 90) FAR 197043 U 0.00
+expand: inv (38, 35) FAR  w(0) 197043.
+	create_child: inv (37, 90) FAR 197085 U 0.00
+expand: inv (37, 35) FAR  w(0) 197085.
+	create_child: inv (36, 90) FAR 197127 U 0.00
+expand: inv (36, 35) FAR  w(0) 197127.
+	create_child: inv (35, 90) FAR 197185 U 0.07
+expand: inv (35, 35) FAR  w(0) 197185.
+	create_child: inv (34, 90) FAR 197227 U 0.00
+expand: inv (34, 35) FAR  w(0) 197227.
+	create_child: inv (33, 90) FAR 197285 U 0.00
+expand: inv (33, 35) FAR  w(0) 197285.
+	create_child: inv (32, 90) FAR 197342 U 0.00
+expand: inv (32, 35) FAR  w(0) 197342.
+	create_child: inv (31, 90) FAR 197408 U 0.00
+expand: inv (31, 35) FAR  w(0) 197408.
+	create_child: inv (30, 90) FAR 197471 U 0.01
+expand: inv (30, 35) FAR  w(0) 197471.
+	create_child: inv (29, 90) FAR 197533 U 0.07
+expand: inv (29, 35) FAR  w(0) 197533.
+	create_child: inv (28, 90) FAR 197598 U 0.00
+expand: inv (28, 35) FAR  w(0) 197598.
+	create_child: inv (27, 90) FAR 197660 U 0.00
+expand: inv (27, 35) FAR  w(0) 197660.
+	create_child: inv (26, 90) FAR 197723 U 0.00
+expand: inv (26, 35) FAR  w(0) 197723.
+	create_child: inv (25, 90) FAR 197785 U 0.05
+expand: inv (25, 35) FAR  w(0) 197785.
+	create_child: inv (24, 90) FAR 197848 U 0.01
+expand: inv (24, 35) FAR  w(0) 197848.
+	create_child: inv (23, 90) FAR 197913 U 0.03
+expand: inv (23, 35) FAR  w(0) 197913. F 0.00
+expand: inv (24, 35) FAR  w(0) 197848. F 0.00
+expand: inv (25, 35) FAR  w(0) 197785. F 0.00
+expand: inv (26, 35) FAR  w(0) 197723. F 0.00
+expand: inv (27, 35) FAR  w(0) 197660. F 0.00
+expand: inv (28, 35) FAR  w(0) 197598. F 0.08
+expand: inv (29, 35) FAR  w(0) 197533. F 0.00
+expand: inv (30, 35) FAR  w(0) 197471. F 0.00
+expand: inv (31, 35) FAR  w(0) 197408. F 0.00
+expand: inv (32, 35) FAR  w(0) 197342. F 0.00
+expand: inv (33, 35) FAR  w(0) 197285. F 0.00
+expand: inv (34, 35) FAR  w(0) 197227. F 0.06
+expand: inv (35, 35) FAR  w(0) 197185. F 0.05
+expand: inv (36, 35) FAR  w(0) 197127. F 0.00
+expand: inv (37, 35) FAR  w(0) 197085. F 0.00
+expand: inv (38, 35) FAR  w(0) 197043
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (39, 35) FAR  w(0) 197001. F 0.00
+expand: inv (40, 35) FAR  w(0) 196962. F 0.05
+expand: inv (41, 35) FAR  w(0) 196932. F 0.00
+expand: inv (42, 35) FAR  w(0) 196909. F 0.03
+expand: inv (43, 35) FAR  w(0) 196901. F 0.00
+expand: inv (44, 35) FAR  w(0) 196895
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (45, 35) FAR  w(0) 196886. F 0.00
+expand: inv (46, 35) FAR  w(0) 196866. F 0.00
+expand: inv (47, 35) FAR  w(0) 195246. F 0.00
+expand: inv (48, 36) FAR  w(0) 195246.
+	create_child: inv (47, 91) FAR 196866 U 0.00
+expand: inv (47, 36) FAR  w(0) 196866.
+	create_child: inv (46, 91) FAR 196886 U 0.07
+expand: inv (46, 36) FAR  w(0) 196886.
+	create_child: inv (45, 91) FAR 196895 U 0.00
+expand: inv (45, 36) FAR  w(0) 196895.
+	create_child: inv (44, 91) FAR 196901 U 0.00
+expand: inv (44, 36) FAR  w(0) 196901.
+	create_child: inv (43, 91) FAR 196909 U 0.00
+expand: inv (43, 36) FAR  w(0) 196909.
+	create_child: inv (42, 91) FAR 196932 U 0.00
+expand: inv (42, 36) FAR  w(0) 196932.
+	create_child: inv (41, 91) FAR 196962 U 0.00
+expand: inv (41, 36) FAR  w(0) 196962.
+	create_child: inv (40, 91) FAR 197001 U 0.05
+expand: inv (40, 36) FAR  w(0) 197001.
+	create_child: inv (39, 91) FAR 197043 U 0.00
+expand: inv (39, 36) FAR  w(0) 197043.
+	create_child: inv (38, 91) FAR 197085 U 0.00
+expand: inv (38, 36) FAR  w(0) 197085.
+	create_child: inv (37, 91) FAR 197127 U 0.00
+expand: inv (37, 36) FAR  w(0) 197127.
+	create_child: inv (36, 91) FAR 197185 U 0.00
+expand: inv (36, 36) FAR  w(0) 197185.
+	create_child: inv (35, 91) FAR 197227 U 0.00
+expand: inv (35, 36) FAR  w(0) 197227.
+	create_child: inv (34, 91) FAR 197285 U 0.06
+expand: inv (34, 36) FAR  w(0) 197285.
+	create_child: inv (33, 91) FAR 197342 U 0.01
+expand: inv (33, 36) FAR  w(0) 197342.
+	create_child: inv (32, 91) FAR 197408 U 0.07
+expand: inv (32, 36) FAR  w(0) 197408.
+	create_child: inv (31, 91) FAR 197471 U 0.01
+expand: inv (31, 36) FAR  w(0) 197471.
+	create_child: inv (30, 91) FAR 197533 U 0.01
+expand: inv (30, 36) FAR  w(0) 197533.
+	create_child: inv (29, 91) FAR 197598 U 0.09
+expand: inv (29, 36) FAR  w(0) 197598.
+	create_child: inv (28, 91) FAR 197660 U 0.01
+expand: inv (28, 36) FAR  w(0) 197660.
+	create_child: inv (27, 91) FAR 197723 U 0.00
+expand: inv (27, 36) FAR  w(0) 197723.
+	create_child: inv (26, 91) FAR 197785 U 0.04
+expand: inv (26, 36) FAR  w(0) 197785.
+	create_child: inv (25, 91) FAR 197848 U 0.00
+expand: inv (25, 36) FAR  w(0) 197848. F 0.01
+expand: inv (25, 36) FAR  SUBS w(0) 6832. T 0.00
+expand: inv (26, 36) FAR  w(0) 197785. F 0.01
+expand: inv (26, 36) FAR  SUBS w(0) 199958.
+	create_child: inv (25, 91) FAR 199470 U 0.00
+expand: inv (25, 36) FAR  w(0) 199470.
+	create_child: inv (24, 91) FAR 199931 U 0.13
+expand: inv (24, 36) FAR  w(0) 199931. F 0.01
+expand: inv (25, 36) FAR  w(0) 199470. F 0.04
+expand: inv (26, 36) FAR  SUBS w(0) 199958
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.04
+expand: inv (27, 36) FAR  w(0) 197723. F 0.00
+expand: inv (25, 36) FAR  SUBS w(0) 200242. F 0.00
+expand: inv (12, 36) FAR  w(0) 199825.
+	create_child: inv (11, 91) FAR 199923 U 0.00
+expand: inv (11, 36) FAR  w(0) 199923. F 0.09
+expand: inv (12, 36) FAR  w(0) 199825.
+	create_child: inv (11, 91) FAR 200318 U 0.05
+expand: inv (11, 36) FAR  w(0) 200318.
+	create_child: inv (10, 91) FAR 200482 U 0.03
+expand: inv (10, 36) FAR  w(0) 200482.
+	create_child: inv (9, 91) FAR 200519 U 0.00
+expand: inv (9, 36) FAR  w(0) 200519.
+	create_child: inv (8, 91) FAR 200550 U 0.00
+expand: inv (8, 36) FAR  w(0) 200550.
+	create_child: inv (7, 91) FAR 200603 U 0.00
+expand: inv (7, 36) FAR  w(0) 200603.
+	create_child: inv (6, 91) FAR 200680 U 0.00
+expand: inv (6, 36) FAR  w(0) 200680.
+	create_child: inv (5, 91) FAR 200758 U 0.07
+expand: inv (5, 36) FAR  w(0) 200758.
+	create_child: inv (4, 91) FAR 200893 U 0.00
+expand: inv (4, 36) FAR  w(0) 200893.
+	create_child: inv (3, 91) FAR 200996 U 0.00
+expand: inv (3, 36) FAR  w(0) 200996.
+	create_child: inv (2, 91) FAR 201100 U 0.00
+expand: inv (2, 36) FAR  w(0) 201100.
+	create_child: inv (1, 91) FAR 201203 U 0.00
+expand: inv (1, 36) FAR  w(0) 201203. F 0.07
+expand: inv (2, 36) FAR  w(0) 201100. F 0.02
+expand: inv (3, 36) FAR  w(0) 200996. F 0.00
+expand: inv (4, 36) FAR  w(0) 200893. F 0.00
+expand: inv (5, 36) FAR  w(0) 200758. F 0.03
+expand: inv (6, 36) FAR  w(0) 200680. F 0.06
+expand: inv (7, 36) FAR  w(0) 200603. F 0.01
+expand: inv (8, 36) FAR  w(0) 200550. F 0.00
+expand: inv (9, 36) FAR  w(0) 200519. F 0.07
+expand: inv (10, 36) FAR  w(0) 200482. F 0.00
+expand: inv (11, 36) FAR  w(0) 200318. F 0.00
+expand: inv (12, 36) FAR  w(0) 199825. F 0.02
+expand: inv (6, 36) FAR  w(0) 50290. T 0.01
+is-reachable: query!0 (55, 0) FAR 1 F 0.00
+expand: inv (13, 37) FAR  w(0) 199825.
+	create_child: inv (12, 92) FAR 200318 U 0.07
+expand: inv (12, 37) FAR  w(0) 200318.
+	create_child: inv (11, 92) FAR 200482 U 0.00
+expand: inv (11, 37) FAR  w(0) 200482.
+	create_child: inv (10, 92) FAR 200519 U 0.00
+expand: inv (10, 37) FAR  w(0) 200519.
+	create_child: inv (9, 92) FAR 200550 U 0.00
+expand: inv (9, 37) FAR  w(0) 200550.
+	create_child: inv (8, 92) FAR 200603 U 0.00
+expand: inv (8, 37) FAR  w(0) 200603 C 0.00
+expand: inv (8, 37) FAR  w(0) 204332. F 0.06
+expand: inv (8, 37) FAR  w(0) 200603. F 0.00
+expand: inv (9, 37) FAR  w(0) 200550. F 0.04
+expand: inv (10, 37) FAR  w(0) 200519. F 0.00
+expand: inv (11, 37) FAR  w(0) 200482. F 0.07
+expand: inv (9, 37) FAR  SUBS w(0) 204787. F 0.00
+expand: inv (10, 38) FAR  SUBS w(0) 204787. F 0.00
+expand: inv (11, 39) FAR  SUBS w(0) 204787. F 0.00
+expand: inv (12, 37) FAR  w(0) 200318. F 0.00
+expand: inv (9, 37) FAR  SUBS w(0) 205057. F 0.09
+expand: inv (10, 38) FAR  SUBS w(0) 205057. F 0.00
+expand: inv (11, 39) FAR  SUBS w(0) 205057. F 0.00
+expand: inv (12, 40) FAR  SUBS w(0) 205057. F 0.00
+expand: inv (13, 37) FAR  w(0) 199825. F 0.01
+expand: inv (14, 38) FAR  w(0) 199825.
+	create_child: inv (13, 93) FAR 200318 U 0.01
+expand: inv (13, 38) FAR  w(0) 200318. F 0.08
+expand: inv (14, 38) FAR  w(0) 199825. F 0.07
+expand: inv (15, 39) FAR  w(0) 199825.
+	create_child: inv (14, 94) FAR 200318 U 0.00
+expand: inv (14, 39) FAR  w(0) 200318.
+	create_child: inv (13, 94) FAR 200482 U 0.00
+expand: inv (13, 39) FAR  w(0) 200482. F 0.08
+expand: inv (14, 39) FAR  w(0) 200318. F 0.03
+expand: inv (15, 39) FAR  w(0) 199825. F 0.01
+expand: inv (16, 40) FAR  w(0) 199825.
+	create_child: inv (15, 95) FAR 200318 U 0.08
+expand: inv (15, 40) FAR  w(0) 200318.
+	create_child: inv (14, 95) FAR 200482 U 0.01
+expand: inv (14, 40) FAR  w(0) 200482.
+	create_child: inv (13, 95) FAR 200519 U 0.02
+expand: inv (13, 40) FAR  w(0) 200519. F 0.01
+expand: inv (14, 40) FAR  w(0) 200482. F 0.09
+expand: inv (15, 40) FAR  w(0) 200318. F 0.01
+expand: inv (16, 40) FAR  w(0) 199825. F 0.08
+expand: inv (17, 41) FAR  w(0) 199825.
+	create_child: inv (16, 96) FAR 200318 U 0.01
+expand: inv (16, 41) FAR  w(0) 200318.
+	create_child: inv (15, 96) FAR 200482 U 0.07
+expand: inv (15, 41) FAR  w(0) 200482.
+	create_child: inv (14, 96) FAR 200519 U 0.05
+expand: inv (14, 41) FAR  w(0) 200519.
+	create_child: inv (13, 96) FAR 200550 U 0.00
+expand: inv (13, 41) FAR  w(0) 200550. F 0.01
+expand: inv (14, 41) FAR  w(0) 200519. F 0.05
+expand: inv (15, 41) FAR  w(0) 200482. F 0.06
+expand: inv (16, 41) FAR  w(0) 200318. F 0.01
+expand: inv (17, 41) FAR  w(0) 199825. F 0.08
+expand: inv (18, 42) FAR  w(0) 199825.
+	create_child: inv (17, 97) FAR 200318 U 0.01
+expand: inv (17, 42) FAR  w(0) 200318.
+	create_child: inv (16, 97) FAR 200482 U 0.05
+expand: inv (16, 42) FAR  w(0) 200482.
+	create_child: inv (15, 97) FAR 200519 U 0.00
+expand: inv (15, 42) FAR  w(0) 200519.
+	create_child: inv (14, 97) FAR 200550 U 0.00
+expand: inv (14, 42) FAR  w(0) 200550.
+	create_child: inv (13, 97) FAR 200603 U 0.00
+expand: inv (13, 42) FAR  w(0) 200603 C 0.00
+expand: inv (13, 42) FAR  w(0) 205102. F 0.09
+expand: inv (13, 42) FAR  w(0) 200603. F 0.00
+expand: inv (14, 42) FAR  w(0) 200550. F 0.09
+expand: inv (15, 42) FAR  w(0) 200519. F 0.01
+expand: inv (16, 42) FAR  w(0) 200482. F 0.06
+expand: inv (17, 42) FAR  w(0) 200318. F 0.04
+expand: inv (18, 42) FAR  w(0) 199825. F 0.07
+expand: inv (19, 43) FAR  w(0) 199825.
+	create_child: inv (18, 98) FAR 200318 U 0.01
+expand: inv (18, 43) FAR  w(0) 200318.
+	create_child: inv (17, 98) FAR 200482 U 0.07
+expand: inv (17, 43) FAR  w(0) 200482.
+	create_child: inv (16, 98) FAR 200519 U 0.00
+expand: inv (16, 43) FAR  w(0) 200519.
+	create_child: inv (15, 98) FAR 200550 U 0.00
+expand: inv (15, 43) FAR  w(0) 200550.
+	create_child: inv (14, 98) FAR 200603 U 0.00
+expand: inv (14, 43) FAR  w(0) 200603 C 0.00
+expand: inv (14, 43) FAR  w(0) 205102.
+	create_child: inv (13, 98) FAR 207135 U 0.00
+expand: inv (13, 43) FAR  w(0) 207135. F 0.05
+expand: inv (14, 43) FAR  w(0) 205102. F 0.05
+expand: inv (14, 43) FAR  w(0) 200603 C 0.00
+expand: inv (14, 43) FAR  w(0) 207041.
+	create_child: inv (13, 98) FAR 206314 U 0.00
+expand: inv (13, 43) FAR  w(0) 206314. F 0.07
+expand: inv (14, 43) FAR  w(0) 207041. F 0.06
+expand: inv (14, 43) FAR  w(0) 200603. F 0.05
+expand: inv (15, 43) FAR  w(0) 200550. F 0.04
+expand: inv (16, 43) FAR  w(0) 200519. F 0.01
+expand: inv (17, 43) FAR  w(0) 200482. F 0.06
+expand: inv (18, 43) FAR  w(0) 200318. F 0.05
+expand: inv (19, 43) FAR  w(0) 199825. F 0.06
+expand: inv (20, 44) FAR  w(0) 199825.
+	create_child: inv (19, 99) FAR 200318 U 0.00
+expand: inv (19, 44) FAR  w(0) 200318.
+	create_child: inv (18, 99) FAR 200482 U 0.05
+expand: inv (18, 44) FAR  w(0) 200482.
+	create_child: inv (17, 99) FAR 200519 U 0.01
+expand: inv (17, 44) FAR  w(0) 200519.
+	create_child: inv (16, 99) FAR 200550 U 0.05
+expand: inv (16, 44) FAR  w(0) 200550.
+	create_child: inv (15, 99) FAR 200603 U 0.00
+expand: inv (15, 44) FAR  w(0) 200603 C 0.00
+expand: inv (15, 44) FAR  w(0) 208005.
+	create_child: inv (14, 99) FAR 208112 U 0.00
+expand: inv (14, 44) FAR  w(0) 208112. F 0.00
+expand: inv (15, 44) FAR  w(0) 208005. F 0.11
+expand: inv (13, 44) FAR  SUBS w(0) 208745. F 0.00
+expand: inv (14, 45) FAR  SUBS w(0) 208745. F 0.00
+expand: inv (14, 46) FAR  SUBS w(0) 208745. F 0.00
+expand: inv (13, 46) FAR  SUBS w(0) 206938.
+	create_child: inv (12, 101) FAR 208586 U 0.06
+expand: inv (12, 46) FAR  w(0) 208586.
+	create_child: inv (11, 101) FAR 208774 U 0.03
+expand: inv (11, 46) FAR  w(0) 208774.
+	create_child: inv (10, 101) FAR 208873 U 0.06
+expand: inv (10, 46) FAR  w(0) 208873.
+	create_child: inv (9, 101) FAR 208900 U 0.00
+expand: inv (9, 46) FAR  w(0) 208900. F 0.00
+expand: inv (10, 46) FAR  w(0) 208873. F 0.00
+expand: inv (11, 46) FAR  w(0) 208774. F 0.07
+expand: inv (12, 46) FAR  w(0) 208586. F 0.03
+expand: inv (13, 46) FAR  SUBS w(0) 206938. F 0.05
+expand: inv (14, 47) FAR  SUBS w(0) 206938.
+	create_child: inv (13, 102) FAR 208586 U 0.01
+expand: inv (13, 47) FAR  w(0) 208586. F 0.01
+expand: inv (14, 47) FAR  SUBS w(0) 206938. F 0.00
+expand: inv (15, 44) FAR  w(0) 200603. F 0.00
+expand: inv (15, 47) FAR  SUBS w(0) 208745. F 0.06
+expand: inv (16, 44) FAR  w(0) 200550. F 0.05
+expand: inv (17, 44) FAR  w(0) 200519. F 0.01
+expand: inv (18, 44) FAR  w(0) 200482. F 0.09
+expand: inv (19, 44) FAR  w(0) 200318. F 0.05
+expand: inv (20, 44) FAR  w(0) 199825. F 0.04
+expand: inv (21, 45) FAR  w(0) 199825.
+	create_child: inv (20, 100) FAR 200318 U 0.00
+expand: inv (20, 45) FAR  w(0) 200318.
+	create_child: inv (19, 100) FAR 200482 U 0.06
+expand: inv (19, 45) FAR  w(0) 200482.
+	create_child: inv (18, 100) FAR 200519 U 0.01
+expand: inv (18, 45) FAR  w(0) 200519.
+	create_child: inv (17, 100) FAR 200550 U 0.03
+expand: inv (17, 45) FAR  w(0) 200550.
+	create_child: inv (16, 100) FAR 200603 U 0.00
+expand: inv (16, 45) FAR  w(0) 200603 C 0.00
+expand: inv (16, 45) FAR  w(0) 208005.
+	create_child: inv (15, 100) FAR 208112 U 0.00
+expand: inv (15, 45) FAR  w(0) 208112. F 0.00
+expand: inv (16, 45) FAR  w(0) 208005. F 0.05
+expand: inv (16, 45) FAR  w(0) 200603 C 0.00
+expand: inv (16, 45) FAR  w(0) 209430. F 0.10
+expand: inv (16, 45) FAR  w(0) 200603. F 0.04
+expand: inv (17, 45) FAR  w(0) 200550. F 0.01
+expand: inv (18, 45) FAR  w(0) 200519. F 0.09
+expand: inv (19, 45) FAR  w(0) 200482. F 0.06
+expand: inv (20, 45) FAR  w(0) 200318. F 0.03
+expand: inv (21, 45) FAR  w(0) 199825. F 0.05
+expand: inv (22, 46) FAR  w(0) 199825.
+	create_child: inv (21, 101) FAR 200318 U 0.01
+expand: inv (21, 46) FAR  w(0) 200318.
+	create_child: inv (20, 101) FAR 200482 U 0.05
+expand: inv (20, 46) FAR  w(0) 200482.
+	create_child: inv (19, 101) FAR 200519 U 0.00
+expand: inv (19, 46) FAR  w(0) 200519.
+	create_child: inv (18, 101) FAR 200550 U 0.00
+expand: inv (18, 46) FAR  w(0) 200550.
+	create_child: inv (17, 101) FAR 200603 U 0.00
+expand: inv (17, 46) FAR  w(0) 200603 C 0.00
+expand: inv (17, 46) FAR  w(0) 207041.
+	create_child: inv (16, 101) FAR 206314 U 0.05
+expand: inv (16, 46) FAR  w(0) 206314. F 0.01
+expand: inv (17, 46) FAR  w(0) 207041. F 0.11
+expand: inv (17, 46) FAR  w(0) 200603. F 0.00
+expand: inv (18, 46) FAR  w(0) 200550. F 0.01
+expand: inv (19, 46) FAR  w(0) 200519. F 0.10
+expand: inv (20, 46) FAR  w(0) 200482. F 0.01
+expand: inv (21, 46) FAR  w(0) 200318. F 0.06
+expand: inv (22, 46) FAR  w(0) 199825. F 0.04
+expand: inv (23, 47) FAR  w(0) 199825.
+	create_child: inv (22, 102) FAR 200318 U 0.00
+expand: inv (22, 47) FAR  w(0) 200318.
+	create_child: inv (21, 102) FAR 200482 U 0.06
+expand: inv (21, 47) FAR  w(0) 200482.
+	create_child: inv (20, 102) FAR 200519 U 0.01
+expand: inv (20, 47) FAR  w(0) 200519.
+	create_child: inv (19, 102) FAR 200550 U 0.06
+expand: inv (19, 47) FAR  w(0) 200550.
+	create_child: inv (18, 102) FAR 200603 U 0.00
+expand: inv (18, 47) FAR  w(0) 200603 C 0.00
+expand: inv (18, 47) FAR  w(0) 207041.
+	create_child: inv (17, 102) FAR 206314 U 0.00
+expand: inv (17, 47) FAR  w(0) 206314. F 0.00
+expand: inv (18, 47) FAR  w(0) 207041. F 0.11
+expand: inv (18, 47) FAR  w(0) 200603. F 0.00
+expand: inv (19, 47) FAR  w(0) 200550. F 0.09
+expand: inv (20, 47) FAR  w(0) 200519. F 0.01
+expand: inv (21, 47) FAR  w(0) 200482. F 0.07
+expand: inv (22, 47) FAR  w(0) 200318. F 0.01
+expand: inv (23, 47) FAR  w(0) 199825. F 0.09
+expand: inv (24, 48) FAR  w(0) 199825.
+	create_child: inv (23, 103) FAR 200318 U 0.01
+expand: inv (23, 48) FAR  w(0) 200318.
+	create_child: inv (22, 103) FAR 200482 U 0.00
+expand: inv (22, 48) FAR  w(0) 200482.
+	create_child: inv (21, 103) FAR 200519 U 0.00
+expand: inv (21, 48) FAR  w(0) 200519.
+	create_child: inv (20, 103) FAR 200550 U 0.00
+expand: inv (20, 48) FAR  w(0) 200550.
+	create_child: inv (19, 103) FAR 200603 U 0.00
+expand: inv (19, 48) FAR  w(0) 200603 C 0.00
+expand: inv (19, 48) FAR  w(0) 207041.
+	create_child: inv (18, 103) FAR 206314 U 0.00
+expand: inv (18, 48) FAR  w(0) 206314. F 0.13
+expand: inv (19, 48) FAR  w(0) 207041. F 0.01
+expand: inv (19, 48) FAR  w(0) 200603. F 0.04
+expand: inv (20, 48) FAR  w(0) 200550. F 0.01
+expand: inv (21, 48) FAR  w(0) 200519. F 0.11
+expand: inv (22, 48) FAR  w(0) 200482. F 0.01
+expand: inv (23, 48) FAR  w(0) 200318. F 0.08
+expand: inv (24, 48) FAR  w(0) 199825. F 0.08
+expand: inv (25, 49) FAR  w(0) 199825.
+	create_child: inv (24, 104) FAR 200318 U 0.00
+expand: inv (24, 49) FAR  w(0) 200318.
+	create_child: inv (23, 104) FAR 200482 U 0.00
+expand: inv (23, 49) FAR  w(0) 200482.
+	create_child: inv (22, 104) FAR 200519 U 0.00
+expand: inv (22, 49) FAR  w(0) 200519.
+	create_child: inv (21, 104) FAR 200550 U 0.00
+expand: inv (21, 49) FAR  w(0) 200550.
+	create_child: inv (20, 104) FAR 200603 U 0.00
+expand: inv (20, 49) FAR  w(0) 200603 C 0.00
+expand: inv (20, 49) FAR  w(0) 208005.
+	create_child: inv (19, 104) FAR 208112 U 0.00
+expand: inv (19, 49) FAR  w(0) 208112. F 0.11
+expand: inv (20, 49) FAR  w(0) 208005. F 0.00
+expand: inv (20, 49) FAR  w(0) 200603 C 0.00
+expand: inv (20, 49) FAR  w(0) 209430. F 0.02
+expand: inv (20, 49) FAR  w(0) 200603. F 0.09
+expand: inv (21, 49) FAR  w(0) 200550. F 0.03
+expand: inv (22, 49) FAR  w(0) 200519. F 0.06
+expand: inv (23, 49) FAR  w(0) 200482. F 0.01
+expand: inv (24, 49) FAR  w(0) 200318. F 0.07
+expand: inv (25, 49) FAR  w(0) 199825. F 0.04
+expand: inv (26, 37) FAR  SUBS w(0) 200242. F 0.00
+expand: inv (27, 38) FAR  SUBS w(0) 200242. F 0.08
+expand: inv (28, 36) FAR  w(0) 197660. F 0.00
+expand: inv (25, 36) FAR  SUBS w(0) 212162. F 0.00
+expand: inv (12, 36) FAR  w(0) 211886. F 0.00
+expand: inv (6, 36) FAR  w(0) 49837. T 0.00
+is-reachable: query!0 (55, 0) FAR 1 F 0.04
+expand: inv (13, 37) FAR  w(0) 211886. F 0.01
+expand: inv (14, 38) FAR  w(0) 211886. F 0.08
+expand: inv (15, 39) FAR  w(0) 211886. F 0.01
+expand: inv (16, 40) FAR  w(0) 211886. F 0.06
+expand: inv (17, 41) FAR  w(0) 211886. F 0.08
+expand: inv (18, 42) FAR  w(0) 211886. F 0.03
+expand: inv (19, 43) FAR  w(0) 211886. F 0.01
+expand: inv (20, 44) FAR  w(0) 211886. F 0.07
+expand: inv (21, 45) FAR  w(0) 211886. F 0.01
+expand: inv (22, 46) FAR  w(0) 211886. F 0.01
+expand: inv (23, 47) FAR  w(0) 211886. F 0.07
+expand: inv (24, 48) FAR  w(0) 211886. F 0.09
+expand: inv (25, 49) FAR  w(0) 211886. F 0.01
+expand: inv (26, 37) FAR  SUBS w(0) 212162. F 0.00
+expand: inv (27, 38) FAR  SUBS w(0) 212162. F 0.00
+expand: inv (26, 38) FAR  w(0) 58953. F 0.00
+expand: inv (12, 38) FAR  w(0) 200268. F 0.00
+expand: inv (13, 39) FAR  w(0) 200268. F 0.00
+expand: inv (14, 40) FAR  w(0) 200268. F 0.00
+expand: inv (15, 41) FAR  w(0) 200268. F 0.00
+expand: inv (16, 42) FAR  w(0) 200268. F 0.00
+expand: inv (17, 43) FAR  w(0) 200268. F 0.00
+expand: inv (18, 44) FAR  w(0) 200268. F 0.00
+expand: inv (19, 45) FAR  w(0) 200268. F 0.00
+expand: inv (20, 46) FAR  w(0) 200268. F 0.00
+expand: inv (21, 47) FAR  w(0) 200268. F 0.00
+expand: inv (22, 48) FAR  w(0) 200268. F 0.00
+expand: inv (23, 49) FAR  w(0) 200268. F 0.00
+expand: inv (24, 50) FAR  w(0) 200268. F 0.00
+expand: inv (25, 51) FAR  w(0) 200268. F 0.00
+expand: inv (26, 52) FAR  w(0) 200268.
+	create_child: inv (25, 107) FAR 215995 U 0.00
+expand: inv (25, 52) FAR  w(0) 215995.
+	create_child: inv (24, 107) FAR 215950 U 0.00
+expand: inv (24, 52) FAR  w(0) 215950.
+	create_child: inv (23, 107) FAR 215256 U 0.00
+expand: inv (23, 52) FAR  w(0) 215256.
+	create_child: inv (22, 107) FAR 215941 U 0.00
+expand: inv (22, 52) FAR  w(0) 215941.
+	create_child: inv (21, 107) FAR 216001 U 0.00
+expand: inv (21, 52) FAR  w(0) 216001.
+	create_child: inv (20, 107) FAR 215983 U 0.24
+expand: inv (20, 52) FAR  w(0) 215983. F 0.01
+expand: inv (21, 52) FAR  w(0) 216001. F 0.01
+expand: inv (22, 52) FAR  w(0) 215941. F 0.05
+expand: inv (23, 52) FAR  w(0) 215256. F 0.03
+expand: inv (24, 52) FAR  w(0) 215950. F 0.21
+expand: inv (25, 52) FAR  w(0) 215995. F 0.01
+expand: inv (26, 52) FAR  w(0) 200268. F 0.00
+expand: inv (27, 39) FAR  w(0) 58953. F 0.00
+expand: inv (28, 39) FAR  SUBS w(0) 212162.
+	create_child: inv (27, 94) FAR 216170 U 0.00
+expand: inv (27, 39) FAR  w(0) 216170
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.08
+expand: inv (28, 39) FAR  SUBS w(0) 212162. F 0.08
+expand: inv (27, 39) FAR  w(0) 58953. F 0.00
+expand: inv (28, 40) FAR  w(0) 58953. F 0.00
+expand: inv (29, 36) FAR  w(0) 197598. F 0.00
+expand: inv (25, 36) FAR  SUBS w(0) 216601. F 0.00
+expand: inv (6, 36) FAR  w(0) 216713. F 0.00
+expand: inv (6, 36) FAR  w(0) 46263. T 0.00
+is-reachable: query!0 (55, 0) FAR 1 F 0.00
+expand: inv (7, 37) FAR  w(0) 216713. F 0.11
+expand: inv (8, 38) FAR  w(0) 216713. F 0.01
+expand: inv (9, 39) FAR  w(0) 216713. F 0.04
+expand: inv (10, 40) FAR  w(0) 216713. F 0.00
+expand: inv (11, 41) FAR  w(0) 216713. F 0.00
+expand: inv (12, 42) FAR  w(0) 216713. F 0.12
+expand: inv (13, 43) FAR  w(0) 216713. F 0.08
+expand: inv (14, 44) FAR  w(0) 216713. F 0.00
+expand: inv (15, 45) FAR  w(0) 216713. F 0.01
+expand: inv (16, 46) FAR  w(0) 216713. F 0.03
+expand: inv (17, 47) FAR  w(0) 216713. F 0.00
+expand: inv (18, 48) FAR  w(0) 216713. F 0.00
+expand: inv (19, 49) FAR  w(0) 216713. F 0.10
+expand: inv (20, 50) FAR  w(0) 216713. F 0.08
+expand: inv (21, 51) FAR  w(0) 216713. F 0.05
+expand: inv (22, 52) FAR  w(0) 216713. F 0.01
+expand: inv (23, 53) FAR  w(0) 216713. F 0.05
+expand: inv (24, 54) FAR  w(0) 216713. F 0.00
+expand: inv (25, 55) FAR  w(0) 216713. F 0.07
+expand: inv (26, 37) FAR  SUBS w(0) 216601. F 0.00
+expand: inv (26, 37) FAR  w(0) 58953. F 0.00
+expand: inv (27, 38) FAR  SUBS w(0) 216601. F 0.00
+expand: inv (27, 38) FAR  w(0) 58953. F 0.00
+expand: inv (28, 39) FAR  SUBS w(0) 216601. F 0.00
+expand: inv (28, 39) FAR  w(0) 58953. F 0.00
+expand: inv (29, 40) FAR  SUBS w(0) 216601.
+	create_child: inv (28, 95) FAR 218840 U 0.00
+expand: inv (28, 40) FAR  w(0) 218840.
+	create_child: inv (27, 95) FAR 205485 U 0.01
+expand: inv (27, 40) FAR  w(0) 205485
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.01
+expand: inv (28, 40) FAR  w(0) 218840
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.11
+expand: inv (29, 40) FAR  SUBS w(0) 216601. F 0.04
+expand: inv (28, 40) FAR  w(0) 58953. F 0.00
+expand: inv (29, 41) FAR  w(0) 58953. F 0.00
+expand: inv (30, 36) FAR  w(0) 197533. F 0.00
+expand: inv (25, 36) FAR  SUBS w(0) 219243. F 0.00
+expand: inv (6, 36) FAR  w(0) 218825. F 0.00
+expand: inv (6, 36) FAR  w(0) 47338. T 0.07
+is-reachable: query!0 (55, 0) FAR 1 F 0.00
+expand: inv (7, 37) FAR  w(0) 218825. F 0.00
+expand: inv (8, 38) FAR  w(0) 218825. F 0.00
+expand: inv (9, 39) FAR  w(0) 218825. F 0.07
+expand: inv (10, 40) FAR  w(0) 218825. F 0.01
+expand: inv (11, 41) FAR  w(0) 218825. F 0.00
+expand: inv (12, 42) FAR  w(0) 218825. F 0.07
+expand: inv (13, 43) FAR  w(0) 218825. F 0.10
+expand: inv (14, 44) FAR  w(0) 218825. F 0.04
+expand: inv (15, 45) FAR  w(0) 218825. F 0.01
+expand: inv (16, 46) FAR  w(0) 218825. F 0.03
+expand: inv (17, 47) FAR  w(0) 218825. F 0.00
+expand: inv (18, 48) FAR  w(0) 218825. F 0.00
+expand: inv (19, 49) FAR  w(0) 218825. F 0.00
+expand: inv (20, 50) FAR  w(0) 218825. F 0.00
+expand: inv (21, 51) FAR  w(0) 218825. F 0.00
+expand: inv (22, 52) FAR  w(0) 218825. F 0.00
+expand: inv (23, 53) FAR  w(0) 218825. F 0.17
+expand: inv (24, 54) FAR  w(0) 218825. F 0.00
+expand: inv (25, 55) FAR  w(0) 218825. F 0.00
+expand: inv (26, 37) FAR  SUBS w(0) 219243. F 0.00
+expand: inv (26, 37) FAR  w(0) 58953. F 0.00
+expand: inv (27, 38) FAR  SUBS w(0) 219243. F 0.00
+expand: inv (27, 38) FAR  w(0) 58953. F 0.00
+expand: inv (28, 39) FAR  SUBS w(0) 219243. F 0.00
+expand: inv (28, 39) FAR  w(0) 58953. F 0.00
+expand: inv (29, 40) FAR  SUBS w(0) 219243. F 0.00
+expand: inv (29, 40) FAR  w(0) 58953. F 0.00
+expand: inv (30, 41) FAR  SUBS w(0) 219243.
+	create_child: inv (29, 96) FAR 220265 U 0.00
+expand: inv (29, 41) FAR  w(0) 220265.
+	create_child: inv (28, 96) FAR 220547 U 0.00
+expand: inv (28, 41) FAR  w(0) 220547
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (29, 41) FAR  w(0) 220265
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.01
+expand: inv (30, 41) FAR  SUBS w(0) 219243. F 0.01
+expand: inv (31, 36) FAR  w(0) 197471. F 0.18
+expand: inv (31, 36) FAR  SUBS w(0) 221080. T 0.00
+expand: inv (32, 36) FAR  w(0) 197408. F 0.01
+expand: inv (32, 36) FAR  SUBS w(0) 221685.
+	create_child: inv (31, 91) FAR 221697 U 0.00
+expand: inv (31, 36) FAR  w(0) 221697.
+	create_child: inv (30, 91) FAR 50571 U 0.00
+expand: inv (30, 36) FAR  w(0) 50571.
+	create_child: inv (29, 91) FAR 221374 U 0.13
+expand: inv (29, 36) FAR  w(0) 221374.
+	create_child: inv (28, 91) FAR 221736 U 0.01
+expand: inv (28, 36) FAR  w(0) 221736.
+	create_child: inv (27, 91) FAR 221798 U 0.05
+expand: inv (27, 36) FAR  w(0) 221798
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.10
+expand: inv (28, 36) FAR  w(0) 221736
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.02
+expand: inv (29, 36) FAR  w(0) 221374
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.02
+expand: inv (30, 36) FAR  w(0) 50571
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (31, 36) FAR  w(0) 221697
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (32, 36) FAR  SUBS w(0) 221685
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (33, 36) FAR  w(0) 197342. F 0.08
+expand: inv (31, 36) FAR  SUBS w(0) 222401. F 0.00
+expand: inv (29, 36) FAR  w(0) 222278.
+	create_child: inv (28, 91) FAR 207008 U 0.00
+expand: inv (28, 36) FAR  w(0) 207008.
+	create_child: inv (27, 91) FAR 206852 U 0.00
+expand: inv (27, 36) FAR  w(0) 206852. F 0.13
+expand: inv (28, 36) FAR  w(0) 207008. F 0.04
+expand: inv (29, 36) FAR  w(0) 222278. F 0.00
+expand: inv (6, 36) FAR  w(0) 49765. T 0.00
+is-reachable: query!0 (55, 0) FAR 1 F 0.00
+expand: inv (30, 37) FAR  w(0) 222278. F 0.09
+expand: inv (31, 38) FAR  w(0) 222278. F 0.01
+expand: inv (30, 38) FAR  w(0) 200268. F 0.00
+expand: inv (31, 39) FAR  w(0) 200268. F 0.00
+expand: inv (32, 37) FAR  SUBS w(0) 222401. F 0.00
+expand: inv (33, 38) FAR  SUBS w(0) 222401. F 0.01
+expand: inv (27, 38) FAR  SUBS w(0) 58953. F 0.00
+expand: inv (28, 39) FAR  SUBS w(0) 58953. F 0.00
+expand: inv (29, 40) FAR  SUBS w(0) 58953. F 0.00
+expand: inv (30, 41) FAR  SUBS w(0) 58953. F 0.00
+expand: inv (31, 42) FAR  SUBS w(0) 58953. F 0.00
+expand: inv (32, 43) FAR  SUBS w(0) 58953. F 0.00
+expand: inv (33, 44) FAR  SUBS w(0) 58953 C 0.00
+expand: inv (33, 44) FAR  SUBS w(0) 58953 C 0.00
+expand: inv (33, 44) FAR  SUBS w(0) 58953 C 0.00
+expand: inv (33, 44) FAR  SUBS w(0) 58953 C 0.00
+expand: inv (33, 44) FAR  SUBS w(0) 58953 C 0.14
+expand: inv (33, 44) FAR  SUBS w(0) 58953 C 0.00
+expand: inv (33, 44) FAR  SUBS w(0) 58953 C 0.03
+expand: inv (33, 44) FAR  SUBS w(0) 58953 C 0.00
+expand: inv (33, 44) FAR  SUBS w(0) 58953 C 0.00
+expand: inv (33, 44) FAR  SUBS w(0) 58953 C 0.00
+expand: inv (33, 44) FAR  SUBS w(0) 58953expand: inv (33, 44) FAR  w(0) 223907. F 0.00
+expand: inv (12, 44) FAR  w(0) 223902. F 0.00
+expand: inv (13, 45) FAR  w(0) 223902. F 0.01
+expand: inv (14, 46) FAR  w(0) 223902. F 0.00
+expand: inv (15, 47) FAR  w(0) 223902. F 0.00
+expand: inv (16, 48) FAR  w(0) 223902. F 0.00
+expand: inv (17, 49) FAR  w(0) 223902. F 0.00
+expand: inv (18, 50) FAR  w(0) 223902. F 0.05
+expand: inv (19, 51) FAR  w(0) 223902. F 0.00
+expand: inv (20, 52) FAR  w(0) 223902. F 0.00
+expand: inv (21, 53) FAR  w(0) 223902. F 0.00
+expand: inv (22, 54) FAR  w(0) 223902. F 0.00
+expand: inv (23, 55) FAR  w(0) 223902. F 0.00
+expand: inv (24, 56) FAR  w(0) 223902. F 0.00
+expand: inv (25, 57) FAR  w(0) 223902. F 0.00
+expand: inv (26, 58) FAR  w(0) 223902. F 0.00
+expand: inv (27, 59) FAR  w(0) 223902. F 0.00
+expand: inv (28, 60) FAR  w(0) 223902. F 0.00
+expand: inv (29, 61) FAR  w(0) 223902. F 0.00
+expand: inv (30, 62) FAR  w(0) 223902. F 0.00
+expand: inv (31, 63) FAR  w(0) 223902. F 0.08
+expand: inv (32, 64) FAR  w(0) 223902. F 0.00
+expand: inv (33, 44) FAR  w(0) 223907. F 0.00
+expand: inv (33, 44) FAR  w(0) 223907. F 0.00
+expand: inv (33, 44) FAR  w(0) 223907. F 0.00
+expand: inv (33, 44) FAR  w(0) 223907. F 0.00
+expand: inv (33, 44) FAR  w(0) 223907. F 0.00
+expand: inv (33, 44) FAR  w(0) 223907. F 0.00
+expand: inv (33, 44) FAR  w(0) 223907. F 0.00
+expand: inv (33, 44) FAR  w(0) 223907. F 0.03
+expand: inv (33, 44) FAR  w(0) 223907. F 0.03
+expand: inv (33, 65) FAR  w(0) 223902. F 0.00
+expand: inv (34, 36) FAR  w(0) 197285. F 0.00
+expand: inv (31, 36) FAR  SUBS w(0) 224827. F 0.00
+expand: inv (29, 36) FAR  w(0) 224907. F 0.00
+expand: inv (6, 36) FAR  w(0) 47863. T 0.06
+is-reachable: query!0 (55, 0) FAR 1 F 0.00
+expand: inv (30, 37) FAR  w(0) 224907. F 0.00
+expand: inv (30, 37) FAR  w(0) 200268. F 0.00
+expand: inv (31, 38) FAR  w(0) 200268. F 0.02
+expand: inv (31, 38) FAR  w(0) 224907. F 0.00
+expand: inv (30, 38) FAR  w(0) 200268. F 0.02
+expand: inv (31, 39) FAR  w(0) 200268. F 0.00
+expand: inv (32, 37) FAR  SUBS w(0) 224827. F 0.00
+expand: inv (27, 37) FAR  SUBS w(0) 225994. F 0.00
+expand: inv (6, 37) FAR  w(0) 226043. F 0.00
+expand: inv (7, 38) FAR  w(0) 226043. F 0.00
+expand: inv (8, 39) FAR  w(0) 226043. F 0.05
+expand: inv (9, 40) FAR  w(0) 226043. F 0.00
+expand: inv (10, 41) FAR  w(0) 226043. F 0.00
+expand: inv (11, 42) FAR  w(0) 226043. F 0.00
+expand: inv (12, 43) FAR  w(0) 226043. F 0.00
+expand: inv (13, 44) FAR  w(0) 226043. F 0.01
+expand: inv (14, 45) FAR  w(0) 226043. F 0.00
+expand: inv (15, 46) FAR  w(0) 226043. F 0.00
+expand: inv (16, 47) FAR  w(0) 226043. F 0.00
+expand: inv (17, 48) FAR  w(0) 226043. F 0.00
+expand: inv (18, 49) FAR  w(0) 226043. F 0.00
+expand: inv (19, 50) FAR  w(0) 226043. F 0.00
+expand: inv (20, 51) FAR  w(0) 226043. F 0.00
+expand: inv (21, 52) FAR  w(0) 226043. F 0.00
+expand: inv (22, 53) FAR  w(0) 226043. F 0.00
+expand: inv (23, 54) FAR  w(0) 226043. F 0.00
+expand: inv (24, 55) FAR  w(0) 226043. F 0.00
+expand: inv (25, 56) FAR  w(0) 226043. F 0.05
+expand: inv (26, 57) FAR  w(0) 226043. F 0.00
+expand: inv (27, 58) FAR  w(0) 226043. F 0.00
+expand: inv (28, 38) FAR  SUBS w(0) 225994. F 0.00
+expand: inv (29, 39) FAR  SUBS w(0) 225994. F 0.00
+expand: inv (30, 40) FAR  SUBS w(0) 225994. F 0.00
+expand: inv (31, 41) FAR  SUBS w(0) 225994. F 0.00
+expand: inv (32, 42) FAR  SUBS w(0) 225994. F 0.00
+expand: inv (33, 38) FAR  SUBS w(0) 224827. F 0.08
+expand: inv (27, 38) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (28, 39) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (29, 40) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (30, 41) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (31, 42) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (32, 43) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (33, 44) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (34, 39) FAR  SUBS w(0) 224827. F 0.01
+expand: inv (27, 39) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (28, 40) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (29, 41) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (30, 42) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (31, 43) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (32, 44) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (33, 45) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (34, 46) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (35, 36) FAR  w(0) 197227. F 0.00
+expand: inv (31, 36) FAR  SUBS w(0) 226560. F 0.00
+expand: inv (29, 36) FAR  w(0) 226225. F 0.00
+expand: inv (6, 36) FAR  w(0) 47259. T 0.16
+is-reachable: query!0 (55, 0) FAR 1 F 0.00
+expand: inv (30, 37) FAR  w(0) 226225. F 0.00
+expand: inv (30, 37) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (31, 38) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (31, 38) FAR  w(0) 226225. F 0.00
+expand: inv (32, 37) FAR  SUBS w(0) 226560. F 0.00
+expand: inv (27, 37) FAR  SUBS w(0) 208014. F 0.00
+expand: inv (6, 37) FAR  w(0) 227097. F 0.00
+expand: inv (7, 38) FAR  w(0) 227097. F 0.00
+expand: inv (8, 39) FAR  w(0) 227097. F 0.00
+expand: inv (9, 40) FAR  w(0) 227097. F 0.00
+expand: inv (10, 41) FAR  w(0) 227097. F 0.05
+expand: inv (11, 42) FAR  w(0) 227097. F 0.00
+expand: inv (12, 43) FAR  w(0) 227097. F 0.01
+expand: inv (13, 44) FAR  w(0) 227097. F 0.00
+expand: inv (14, 45) FAR  w(0) 227097. F 0.00
+expand: inv (15, 46) FAR  w(0) 227097. F 0.00
+expand: inv (16, 47) FAR  w(0) 227097. F 0.00
+expand: inv (17, 48) FAR  w(0) 227097. F 0.00
+expand: inv (18, 49) FAR  w(0) 227097. F 0.00
+expand: inv (19, 50) FAR  w(0) 227097. F 0.00
+expand: inv (20, 51) FAR  w(0) 227097. F 0.00
+expand: inv (21, 52) FAR  w(0) 227097. F 0.04
+expand: inv (22, 53) FAR  w(0) 227097. F 0.00
+expand: inv (23, 54) FAR  w(0) 227097. F 0.00
+expand: inv (24, 55) FAR  w(0) 227097. F 0.00
+expand: inv (25, 56) FAR  w(0) 227097. F 0.00
+expand: inv (26, 57) FAR  w(0) 227097. F 0.04
+expand: inv (27, 58) FAR  w(0) 227097. F 0.00
+expand: inv (28, 38) FAR  SUBS w(0) 208014. F 0.00
+expand: inv (29, 39) FAR  SUBS w(0) 208014. F 0.00
+expand: inv (30, 40) FAR  SUBS w(0) 208014. F 0.00
+expand: inv (31, 41) FAR  SUBS w(0) 208014. F 0.00
+expand: inv (32, 39) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (32, 42) FAR  SUBS w(0) 208014. F 0.00
+expand: inv (33, 38) FAR  SUBS w(0) 226560. F 0.03
+expand: inv (33, 40) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (34, 39) FAR  SUBS w(0) 226560. F 0.07
+expand: inv (34, 41) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (35, 40) FAR  SUBS w(0) 226560. F 0.09
+expand: inv (27, 40) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (28, 41) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (29, 42) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (30, 43) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (31, 44) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (32, 45) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (33, 46) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (34, 47) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (35, 48) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (36, 36) FAR  w(0) 197185. F 0.04
+expand: inv (31, 36) FAR  SUBS w(0) 227056. F 0.00
+expand: inv (29, 36) FAR  w(0) 227141. F 0.00
+expand: inv (6, 36) FAR  w(0) 46847. T 0.02
+is-reachable: query!0 (55, 0) FAR 1 F 0.00
+expand: inv (30, 37) FAR  w(0) 227141. F 0.00
+expand: inv (30, 37) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (31, 38) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (31, 38) FAR  w(0) 227141. F 0.03
+expand: inv (32, 37) FAR  SUBS w(0) 227056. F 0.03
+expand: inv (27, 37) FAR  SUBS w(0) 227632. F 0.00
+expand: inv (28, 38) FAR  SUBS w(0) 227632. F 0.00
+expand: inv (29, 39) FAR  SUBS w(0) 227632. F 0.00
+expand: inv (30, 40) FAR  SUBS w(0) 227632. F 0.00
+expand: inv (31, 41) FAR  SUBS w(0) 227632. F 0.00
+expand: inv (32, 39) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (32, 42) FAR  SUBS w(0) 227632. F 0.00
+expand: inv (33, 38) FAR  SUBS w(0) 227056. F 0.08
+expand: inv (33, 40) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (34, 39) FAR  SUBS w(0) 227056. F 0.00
+expand: inv (34, 41) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (35, 40) FAR  SUBS w(0) 227056. F 0.00
+expand: inv (35, 42) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (36, 41) FAR  SUBS w(0) 227056. F 0.05
+expand: inv (37, 36) FAR  w(0) 197127. F 0.05
+expand: inv (37, 36) FAR  SUBS w(0) 228259. T 0.00
+expand: inv (38, 36) FAR  w(0) 197085. F 0.07
+expand: inv (25, 36) FAR  SUBS w(0) 228311. F 0.00
+expand: inv (26, 37) FAR  SUBS w(0) 228311. F 0.00
+expand: inv (27, 38) FAR  SUBS w(0) 228311. F 0.10
+expand: inv (28, 39) FAR  SUBS w(0) 228311. F 0.00
+expand: inv (29, 40) FAR  SUBS w(0) 228311. F 0.00
+expand: inv (30, 41) FAR  SUBS w(0) 228311. F 0.00
+expand: inv (31, 42) FAR  SUBS w(0) 228311. F 0.00
+expand: inv (32, 43) FAR  SUBS w(0) 228311. F 0.03
+expand: inv (33, 44) FAR  SUBS w(0) 228311. F 0.01
+expand: inv (34, 45) FAR  SUBS w(0) 228311. F 0.10
+expand: inv (35, 46) FAR  SUBS w(0) 228311. F 0.00
+expand: inv (36, 47) FAR  SUBS w(0) 228311. F 0.00
+expand: inv (37, 48) FAR  SUBS w(0) 228311.
+	create_child: inv (36, 103) FAR 228657 U 0.01
+expand: inv (36, 48) FAR  w(0) 228657
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.01
+expand: inv (37, 48) FAR  SUBS w(0) 228311. F 0.01
+expand: inv (38, 49) FAR  SUBS w(0) 228311.
+	create_child: inv (37, 104) FAR 228657 U 0.12
+expand: inv (37, 49) FAR  w(0) 228657
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.01
+expand: inv (38, 49) FAR  SUBS w(0) 228311. F 0.00
+expand: inv (37, 49) FAR  SUBS w(0) 228804. F 0.00
+expand: inv (38, 50) FAR  SUBS w(0) 228804. F 0.12
+expand: inv (39, 36) FAR  w(0) 197043
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (37, 36) FAR  SUBS w(0) 229117. F 0.00
+expand: inv (38, 37) FAR  SUBS w(0) 229117
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (38, 37) FAR  SUBS w(0) 228772
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (39, 38) FAR  SUBS w(0) 229117. F 0.09
+expand: inv (37, 38) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (38, 39) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (39, 40) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (40, 36) FAR  w(0) 197001. F 0.00
+expand: inv (37, 36) FAR  SUBS w(0) 229345. F 0.00
+expand: inv (38, 37) FAR  SUBS w(0) 229345. F 0.00
+expand: inv (38, 37) FAR  SUBS w(0) 229306. F 0.09
+expand: inv (39, 38) FAR  SUBS w(0) 229345. F 0.01
+expand: inv (37, 38) FAR  SUBS w(0) 200268. F 0.02
+expand: inv (38, 39) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (39, 40) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (40, 39) FAR  SUBS w(0) 229345. F 0.01
+expand: inv (37, 39) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (38, 40) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (39, 41) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (40, 42) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (41, 36) FAR  w(0) 196962. F 0.07
+expand: inv (37, 36) FAR  SUBS w(0) 229086. F 0.00
+expand: inv (38, 37) FAR  SUBS w(0) 229086. F 0.02
+expand: inv (38, 37) FAR  SUBS w(0) 229306. F 0.00
+expand: inv (39, 38) FAR  SUBS w(0) 229086. F 0.00
+expand: inv (37, 38) FAR  SUBS w(0) 200268. F 0.07
+expand: inv (38, 39) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (39, 40) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (40, 39) FAR  SUBS w(0) 229086. F 0.05
+expand: inv (40, 41) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (41, 40) FAR  SUBS w(0) 229086. F 0.01
+expand: inv (37, 40) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (38, 41) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (39, 42) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (40, 43) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (41, 44) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (42, 36) FAR  w(0) 196932. F 0.06
+expand: inv (37, 36) FAR  SUBS w(0) 229850. F 0.00
+expand: inv (38, 37) FAR  SUBS w(0) 229850. F 0.00
+expand: inv (39, 38) FAR  SUBS w(0) 229850. F 0.00
+expand: inv (40, 39) FAR  SUBS w(0) 229850. F 0.07
+expand: inv (41, 40) FAR  SUBS w(0) 229850. F 0.00
+expand: inv (42, 41) FAR  SUBS w(0) 229850. F 0.00
+expand: inv (43, 36) FAR  w(0) 196909. F 0.10
+expand: inv (25, 36) FAR  SUBS w(0) 230362. F 0.00
+expand: inv (26, 37) FAR  SUBS w(0) 230362. F 0.00
+expand: inv (27, 38) FAR  SUBS w(0) 230362. F 0.00
+expand: inv (28, 39) FAR  SUBS w(0) 230362. F 0.00
+expand: inv (29, 40) FAR  SUBS w(0) 230362. F 0.00
+expand: inv (30, 41) FAR  SUBS w(0) 230362. F 0.00
+expand: inv (31, 42) FAR  SUBS w(0) 230362. F 0.00
+expand: inv (32, 43) FAR  SUBS w(0) 230362. F 0.04
+expand: inv (33, 44) FAR  SUBS w(0) 230362. F 0.00
+expand: inv (34, 45) FAR  SUBS w(0) 230362. F 0.00
+expand: inv (35, 46) FAR  SUBS w(0) 230362. F 0.00
+expand: inv (36, 47) FAR  SUBS w(0) 230362. F 0.00
+expand: inv (37, 48) FAR  SUBS w(0) 230362. F 0.00
+expand: inv (38, 49) FAR  SUBS w(0) 230362. F 0.00
+expand: inv (39, 50) FAR  SUBS w(0) 230362. F 0.00
+expand: inv (40, 51) FAR  SUBS w(0) 230362. F 0.00
+expand: inv (41, 52) FAR  SUBS w(0) 230362. F 0.00
+expand: inv (42, 53) FAR  SUBS w(0) 230362. F 0.00
+expand: inv (43, 54) FAR  SUBS w(0) 230362.
+	create_child: inv (42, 109) FAR 230990 U 0.00
+expand: inv (42, 54) FAR  w(0) 230990
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (43, 54) FAR  SUBS w(0) 230362. F 0.00
+expand: inv (44, 36) FAR  w(0) 196901
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.01
+expand: inv (25, 36) FAR  SUBS w(0) 231347. F 0.00
+expand: inv (26, 37) FAR  SUBS w(0) 231347. F 0.00
+expand: inv (27, 38) FAR  SUBS w(0) 231347. F 0.00
+expand: inv (28, 39) FAR  SUBS w(0) 231347. F 0.00
+expand: inv (29, 40) FAR  SUBS w(0) 231347. F 0.00
+expand: inv (30, 41) FAR  SUBS w(0) 231347. F 0.00
+expand: inv (31, 42) FAR  SUBS w(0) 231347. F 0.00
+expand: inv (32, 43) FAR  SUBS w(0) 231347. F 0.00
+expand: inv (33, 44) FAR  SUBS w(0) 231347. F 0.00
+expand: inv (34, 45) FAR  SUBS w(0) 231347. F 0.00
+expand: inv (35, 46) FAR  SUBS w(0) 231347. F 0.00
+expand: inv (36, 47) FAR  SUBS w(0) 231347. F 0.00
+expand: inv (37, 48) FAR  SUBS w(0) 231347. F 0.00
+expand: inv (38, 49) FAR  SUBS w(0) 231347. F 0.00
+expand: inv (39, 50) FAR  SUBS w(0) 231347. F 0.00
+expand: inv (40, 51) FAR  SUBS w(0) 231347. F 0.00
+expand: inv (41, 52) FAR  SUBS w(0) 231347. F 0.00
+expand: inv (42, 53) FAR  SUBS w(0) 231347. F 0.00
+expand: inv (43, 54) FAR  SUBS w(0) 231347
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (44, 55) FAR  SUBS w(0) 231347.
+	create_child: inv (43, 110) FAR 232003 U 0.15
+expand: inv (43, 55) FAR  w(0) 232003
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.10
+expand: inv (44, 55) FAR  SUBS w(0) 231347. F 0.00
+expand: inv (45, 36) FAR  w(0) 196895
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (43, 36) FAR  SUBS w(0) 231903. F 0.00
+expand: inv (44, 37) FAR  SUBS w(0) 231903
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (45, 38) FAR  SUBS w(0) 231903. F 0.00
+expand: inv (42, 38) FAR  SUBS w(0) 232398. F 0.00
+expand: inv (43, 39) FAR  SUBS w(0) 232398. F 0.00
+expand: inv (44, 40) FAR  SUBS w(0) 232398
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (38, 40) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (39, 41) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (40, 42) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (41, 43) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (42, 44) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (43, 45) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (44, 46) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (45, 41) FAR  SUBS w(0) 232398. F 0.14
+expand: inv (38, 41) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (39, 42) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (40, 43) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (41, 44) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (42, 45) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (43, 46) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (44, 47) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (45, 48) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (46, 36) FAR  w(0) 196886
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: inv (43, 36) FAR  SUBS w(0) 232374. F 0.00
+expand: inv (44, 37) FAR  SUBS w(0) 232374. F 0.13
+expand: inv (42, 37) FAR  SUBS w(0) 232398. F 0.00
+expand: inv (38, 37) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (39, 38) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (40, 39) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (41, 40) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (42, 41) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (43, 38) FAR  SUBS w(0) 232398. F 0.00
+expand: inv (43, 42) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (44, 39) FAR  SUBS w(0) 232398. F 0.00
+expand: inv (44, 43) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (45, 38) FAR  SUBS w(0) 232374. F 0.05
+expand: inv (45, 40) FAR  SUBS w(0) 232398. F 0.00
+expand: inv (45, 44) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (46, 39) FAR  SUBS w(0) 232374. F 0.01
+expand: inv (42, 39) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (43, 40) FAR  SUBS w(0) 200268. F 0.03
+expand: inv (44, 41) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (45, 42) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (46, 43) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (47, 36) FAR  w(0) 196866. F 0.00
+expand: inv (43, 36) FAR  SUBS w(0) 232680. F 0.00
+expand: inv (44, 37) FAR  SUBS w(0) 232680. F 0.04
+expand: inv (42, 37) FAR  SUBS w(0) 232398. F 0.00
+expand: inv (38, 37) FAR  SUBS w(0) 200268. F 0.01
+expand: inv (39, 38) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (40, 39) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (41, 40) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (42, 41) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (43, 38) FAR  SUBS w(0) 232398. F 0.00
+expand: inv (43, 42) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (44, 39) FAR  SUBS w(0) 232398. F 0.00
+expand: inv (44, 43) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (45, 38) FAR  SUBS w(0) 232680. F 0.00
+expand: inv (45, 40) FAR  SUBS w(0) 232398. F 0.00
+expand: inv (45, 44) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (46, 39) FAR  SUBS w(0) 232680. F 0.00
+expand: inv (46, 45) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (47, 40) FAR  SUBS w(0) 232680. F 0.05
+expand: inv (42, 40) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (43, 41) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (44, 42) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (45, 43) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (46, 44) FAR  SUBS w(0) 200268. F 0.00
+expand: inv (47, 45) FAR  SUBS w(0) 200268. F 0.01
+expand: inv (48, 36) FAR  w(0) 195246.
+	create_child: inv (47, 91) FAR 232973 U 0.00
+expand: inv (47, 36) FAR  w(0) 232973. F 0.00
+expand: inv (48, 36) FAR  w(0) 195246. F 0.00
+expand: inv (49, 0) FAR  w(0) 44714. F 0.11
+expand: inv (43, 0) FAR  SUBS w(0) 233239. T 0.00
+expand: inv (50, 0) FAR  w(0) 23235. F 0.03
+expand: inv (51, 0) FAR  w(0) 11230. F 0.01
+expand: inv (52, 0) FAR  w(0) 5701. F 0.07
+expand: inv (53, 0) FAR  w(0) 858. F 0.01
+expand: inv (54, 0) FAR  w(0) 608
+
+
+FAILED TO FIND COEFFICIENT
+
+
+
+
+
+FAILED TO FIND COEFFICIENT
+
+
+. F 0.00
+expand: query!0 (55, 0) FAR  w(8) 1.
+	create_child: inv (54, 55) FAR 302 U 0.01
+expand: inv (54, 0) FAR  w(0) 302.
+	create_child: inv (53, 55) FAR 1830 U 0.00
+expand: inv (53, 0) FAR  w(0) 1830.
+	create_child: inv (52, 55) FAR 54459 U 0.00
+expand: inv (52, 0) FAR  w(0) 54459.
+	create_child: inv (51, 55) FAR 233750 U 0.00
+expand: inv (51, 0) FAR  w(0) 233750.
+	create_child: inv (50, 55) FAR 236621 U 0.00
+expand: inv (50, 0) FAR  w(0) 236621.
+	create_child: inv (49, 55) FAR 236641 U 0.00
+expand: inv (49, 0) FAR  w(0) 236641. F 0.06
+expand: inv (21, 0) FAR  w(0) 228217. F 0.00
+expand: inv (22, 1) FAR  w(0) 228217. F 0.06
+expand: inv (11, 1) FAR  SUBS w(0) 55850. F 0.00
+expand: inv (12, 2) FAR  SUBS w(0) 55850.
+	create_child: inv (11, 57) FAR 236814 U 0.00
+expand: inv (11, 2) FAR  w(0) 236814. F 0.04
+expand: inv (12, 2) FAR  SUBS w(0) 55850. F 0.04
+expand: inv (13, 3) FAR  SUBS w(0) 55850.
+	create_child: inv (12, 58) FAR 237117 U 0.05
+expand: inv (12, 3) FAR  w(0) 237117. F 0.00
+expand: inv (13, 3) FAR  SUBS w(0) 55850.
+	create_child: inv (12, 58) FAR 236814 U 0.00
+expand: inv (12, 3) FAR  w(0) 236814.
+	create_child: inv (11, 58) FAR 237123 U 0.01
+expand: inv (11, 3) FAR  w(0) 237123. F 0.04
+expand: inv (12, 3) FAR  w(0) 236814. F 0.07
+expand: inv (11, 3) FAR  SUBS w(0) 237292. F 0.00
+expand: inv (12, 4) FAR  SUBS w(0) 237292.
+	create_child: inv (11, 59) FAR 236571 U 0.00
+expand: inv (11, 4) FAR  w(0) 236571. F 0.11
+expand: inv (11, 4) FAR  SUBS w(0) 68818.
+	create_child: inv (10, 59) FAR 237384 U 0.00
+expand: inv (10, 4) FAR  w(0) 237384.
+	create_child: inv (9, 59) FAR 237152 U 0.00
+expand: inv (9, 4) FAR  w(0) 237152.
+	create_child: inv (8, 59) FAR 237387 U 0.00
+expand: inv (8, 4) FAR  w(0) 237387.
+	create_child: inv (7, 59) FAR 237486 U 0.00
+expand: inv (7, 4) FAR  w(0) 237486.
+	create_child: inv (6, 59) FAR 237489 U 0.00
+expand: inv (6, 4) FAR  w(0) 237489. F 0.00
+expand: inv (7, 4) FAR  w(0) 237486. F 0.14
+expand: inv (8, 4) FAR  w(0) 237387. F 0.00
+expand: inv (9, 4) FAR  w(0) 237152. F 0.00
+expand: inv (10, 4) FAR  w(0) 237384. F 0.05
+expand: inv (11, 4) FAR  SUBS w(0) 68818. F 0.01
+expand: inv (12, 4) FAR  SUBS w(0) 237292. F 0.00
+expand: inv (13, 3) FAR  SUBS w(0) 55850. F 0.00
+expand: inv (14, 4) FAR  SUBS w(0) 55850.
+	create_child: inv (13, 59) FAR 237117 U 0.12
+expand: inv (13, 4) FAR  w(0) 237117. F 0.07
+expand: inv (13, 4) FAR  SUBS w(0) 238353. T 0.00
+expand: inv (14, 4) FAR  SUBS w(0) 55850.
+	create_child: inv (13, 59) FAR 236814 U 0.07
+expand: inv (13, 4) FAR  w(0) 236814. F 0.06
+expand: inv (13, 4) FAR  w(0) 238192.
+	create_child: inv (12, 59) FAR 237288 U 0.00
+expand: inv (12, 4) FAR  w(0) 237288. F 0.00
+expand: inv (12, 4) FAR  w(0) 238389. F 0.00
+expand: inv (13, 4) FAR  w(0) 238192.
+	create_child: inv (12, 59) FAR 238032 U 0.03
+expand: inv (12, 4) FAR  w(0) 238032. F 0.02
+expand: inv (12, 4) FAR  w(0) 238021. F 0.02
+expand: inv (13, 4) FAR  w(0) 238192. F 0.03
+expand: inv (14, 4) FAR  SUBS w(0) 55850. F 0.05
+expand: inv (15, 5) FAR  SUBS w(0) 55850.
+	create_child: inv (14, 60) FAR 237117 U 0.01
+expand: inv (14, 5) FAR  w(0) 237117. F 0.10
+expand: inv (15, 5) FAR  SUBS w(0) 55850.
+	create_child: inv (14, 60) FAR 236814 U 0.00
+expand: inv (14, 5) FAR  w(0) 236814. F 0.00
+expand: inv (12, 5) FAR  w(0) 238192. F 0.14
+expand: inv (13, 6) FAR  w(0) 238192. F 0.04
+expand: inv (12, 6) FAR  SUBS w(0) 238496. F 0.00
+expand: inv (12, 6) FAR  w(0) 236678. T 0.07
+is-reachable: query!0 (55, 0) FAR 1 F 0.00
+expand: inv (13, 7) FAR  SUBS w(0) 238496. F 0.01
+expand: inv (14, 7) FAR  w(0) 238192.
+	create_child: inv (13, 62) FAR 238032 U 0.09
+expand: inv (13, 7) FAR  w(0) 238032.
+	create_child: inv (12, 62) FAR 239241 U 0.04
+expand: inv (12, 7) FAR  w(0) 239241.
+	create_child: inv (11, 62) FAR 239263 U 0.04
+expand: inv (11, 7) FAR  w(0) 239263.
+	create_child: inv (10, 62) FAR 239318 U 0.05
+expand: inv (10, 7) FAR  w(0) 239318.
+	create_child: inv (9, 62) FAR 239339 U 0.00
+expand: inv (9, 7) FAR  w(0) 239339.
+	create_child: inv (8, 62) FAR 239382 U 0.00
+expand: inv (8, 7) FAR  w(0) 239382.
+	create_child: inv (7, 62) FAR 239403 U 0.00
+expand: inv (7, 7) FAR  w(0) 239403. F 0.09
+expand: inv (7, 7) FAR  w(0) 239516. F 0.00
+expand: inv (8, 7) FAR  w(0) 239382. F 0.00
+expand: inv (8, 7) FAR  w(0) 239568. F 0.00
+expand: inv (9, 7) FAR  w(0) 239339. F 0.00
+expand: inv (9, 7) FAR  w(0) 239622. F 0.01
+expand: inv (10, 7) FAR  w(0) 239318. F 0.00
+expand: inv (10, 7) FAR  w(0) 239645. F 0.00
+expand: inv (11, 7) FAR  w(0) 239263. F 0.00
+expand: inv (11, 7) FAR  w(0) 239694. F 0.06
+expand: inv (12, 7) FAR  w(0) 239241. F 0.01
+expand: inv (12, 7) FAR  w(0) 239759. F 0.00
+expand: inv (13, 7) FAR  w(0) 238032. F 0.01
+expand: inv (14, 7) FAR  w(0) 238192. F 0.01
+expand: inv (13, 7) FAR  SUBS w(0) 238496. F 0.00
+expand: inv (14, 8) FAR  SUBS w(0) 238496. F 0.13
+expand: inv (15, 5) FAR  SUBS w(0) 55850. F 0.01
+expand: inv (16, 6) FAR  SUBS w(0) 55850.
+	create_child: inv (15, 61) FAR 237117 U 0.06
+expand: inv (15, 6) FAR  w(0) 237117. F 0.03
+expand: inv (16, 6) FAR  SUBS w(0) 55850.
+	create_child: inv (15, 61) FAR 236814 U 0.00
+expand: inv (15, 6) FAR  w(0) 236814. F 0.00
+expand: inv (12, 6) FAR  w(0) 238192. F 0.12
+expand: inv (12, 6) FAR  SUBS w(0) 238496. F 0.00
+expand: inv (13, 7) FAR  SUBS w(0) 238496. F 0.00
+expand: inv (13, 7) FAR  w(0) 238192. F 0.07
+expand: inv (14, 8) FAR  SUBS w(0) 238496. F 0.00
+expand: inv (14, 8) FAR  w(0) 238192. F 0.00
+expand: inv (14, 8) FAR  SUBS w(0) 238496. F 0.00
+expand: inv (15, 9) FAR  w(0) 238192.
+	create_child: inv (14, 64) FAR 238032 U 0.00
+expand: inv (14, 9) FAR  w(0) 238032.
+	create_child: inv (13, 64) FAR 239241 U 0.07
+expand: inv (13, 9) FAR  w(0) 239241.
+	create_child: inv (12, 64) FAR 239263 U 0.00
+expand: inv (12, 9) FAR  w(0) 239263.
+	create_child: inv (11, 64) FAR 239318 U 0.00
+expand: inv (11, 9) FAR  w(0) 239318.
+	create_child: inv (10, 64) FAR 239339 U 0.00
+expand: inv (10, 9) FAR  w(0) 239339.
+	create_child: inv (9, 64) FAR 239382 U 0.07
+expand: inv (9, 9) FAR  w(0) 239382.
+	create_child: inv (8, 64) FAR 239403 U 0.00
+expand: inv (8, 9) FAR  w(0) 239403. F 0.03
+expand: inv (9, 9) FAR  w(0) 239382. F 0.07
+expand: inv (8, 9) FAR  SUBS w(0) 240162. F 0.00
+expand: inv (9, 10) FAR  SUBS w(0) 240162.
+	create_child: inv (8, 65) FAR 240243 U 0.00
+expand: inv (8, 10) FAR  w(0) 240243.
+	create_child: inv (7, 65) FAR 240303 U 0.01
+expand: inv (7, 10) FAR  w(0) 240303. F 0.10
+expand: inv (8, 10) FAR  w(0) 240243. F 0.00
+expand: inv (9, 10) FAR  SUBS w(0) 240162.

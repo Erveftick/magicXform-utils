@@ -1,0 +1,53 @@
+Running /Users/ekvashyn/Code/benchmarks/ver_2/s_split_43.smt2
+sat
+(:SPACER-cex-depth                 2
+ :SPACER-inductive-gen             4
+ :SPACER-inductive-gen-weaken-fail 4
+ :SPACER-max-depth                 2
+ :SPACER-max-query-lvl             2
+ :SPACER-num-active-lemmas         5
+ :SPACER-num-is_invariant          2
+ :SPACER-num-lemmas                6
+ :SPACER-num-pobs                  5
+ :SPACER-num-queries               5
+ :SPACER-num-reach-queries         2
+ :SPACER-num-reuse-reach-facts     1
+ :added-eqs                        194
+ :arith-assert-diseq               40
+ :arith-assert-lower               248
+ :arith-assert-upper               166
+ :arith-bound-prop                 46
+ :arith-conflicts                  16
+ :arith-eq-adapter                 68
+ :arith-fixed-eqs                  36
+ :arith-num-rows                   30
+ :arith-offset-eqs                 10
+ :arith-pivots                     72
+ :arith-row-summations             170
+ :arith-tableau-max-columns        64
+ :arith-tableau-max-rows           30
+ :conflicts                        50
+ :decisions                        132
+ :del-clause                       74
+ :final-checks                     18
+ :iuc_solver.num_proxies           11
+ :max-memory                       31.00
+ :memory                           30.47
+ :mk-bool-var                      426
+ :mk-clause                        344
+ :num-allocs                       4947231
+ :num-checks                       46
+ :pool_solver.checks               23
+ :pool_solver.checks.sat           9
+ :propagations                     724
+ :rlimit-count                     9231
+ :time                             0.01
+ :time.pool_solver.smt.total       0.00
+ :time.spacer.solve                0.01
+ :time.spacer.solve.reach          0.01)
+(:max-memory   31.00
+ :memory       30.47
+ :num-allocs   4947231
+ :rlimit-count 9231
+ :time         0.01
+ :total-time   0.02)

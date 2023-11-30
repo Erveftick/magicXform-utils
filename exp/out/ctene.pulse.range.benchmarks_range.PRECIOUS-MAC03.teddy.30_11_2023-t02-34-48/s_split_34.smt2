@@ -1,0 +1,43 @@
+Running /Users/ekvashyn/Code/benchmarks/ver_2/s_split_34.smt2
+unsat
+(:SPACER-max-depth           1
+ :SPACER-max-query-lvl       1
+ :SPACER-num-active-lemmas   2
+ :SPACER-num-invariants      2
+ :SPACER-num-is_invariant    1
+ :SPACER-num-lemmas          3
+ :SPACER-num-pobs            2
+ :SPACER-num-propagations    1
+ :SPACER-num-queries         1
+ :arith-assert-diseq         2
+ :arith-assert-upper         8
+ :arith-eq-adapter           16
+ :arith-num-rows             14
+ :arith-pivots               2
+ :arith-tableau-max-columns  38
+ :arith-tableau-max-rows     14
+ :conflicts                  16
+ :decisions                  16
+ :del-clause                 8
+ :final-checks               2
+ :iuc_solver.num_proxies     1
+ :max-memory                 30.65
+ :memory                     30.35
+ :mk-bool-var                152
+ :mk-clause                  168
+ :num-allocs                 4646698
+ :num-checks                 12
+ :pool_solver.checks         6
+ :pool_solver.checks.sat     1
+ :propagations               74
+ :rlimit-count               2079
+ :time                       0.01
+ :time.pool_solver.smt.total 0.00
+ :time.spacer.solve          0.00
+ :time.spacer.solve.reach    0.00)
+(:max-memory   30.65
+ :memory       30.35
+ :num-allocs   4646698
+ :rlimit-count 2079
+ :time         0.01
+ :total-time   0.01)

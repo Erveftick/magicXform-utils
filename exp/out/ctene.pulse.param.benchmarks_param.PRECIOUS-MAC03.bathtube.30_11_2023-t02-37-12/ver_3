@@ -1,0 +1,6 @@
+Running /Users/ekvashyn/Code/benchmarks/ver_3
+(:max-memory   0.19
+ :memory       0.19
+ :num-allocs   617
+ :rlimit-count 1
+ :total-time   0.00)

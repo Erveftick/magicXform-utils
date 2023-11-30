@@ -1,0 +1,55 @@
+Running /Users/ekvashyn/Code/benchmarks/ver_2/s_split_24.smt2
+sat
+(:SPACER-cex-depth                 2
+ :SPACER-inductive-gen             1
+ :SPACER-inductive-gen-weaken-fail 1
+ :SPACER-max-depth                 2
+ :SPACER-max-query-lvl             2
+ :SPACER-num-active-lemmas         2
+ :SPACER-num-is_invariant          2
+ :SPACER-num-lemmas                3
+ :SPACER-num-pobs                  2
+ :SPACER-num-queries               2
+ :SPACER-num-reach-queries         2
+ :SPACER-num-reuse-reach-facts     1
+ :added-eqs                        204
+ :arith-assert-diseq               40
+ :arith-assert-lower               164
+ :arith-assert-upper               138
+ :arith-bound-prop                 38
+ :arith-conflicts                  4
+ :arith-eq-adapter                 72
+ :arith-fixed-eqs                  34
+ :arith-num-rows                   40
+ :arith-offset-eqs                 10
+ :arith-pivots                     44
+ :arith-row-summations             86
+ :arith-tableau-max-columns        90
+ :arith-tableau-max-rows           40
+ :conflicts                        22
+ :decisions                        158
+ :del-clause                       66
+ :final-checks                     12
+ :iuc_solver.num_proxies           3
+ :max-memory                       30.56
+ :memory                           30.56
+ :mk-bool-var                      414
+ :mk-clause                        460
+ :num-allocs                       4304511
+ :num-checks                       24
+ :pool_solver.checks               12
+ :pool_solver.checks.sat           6
+ :propagations                     542
+ :rlimit-count                     5811
+ :time                             0.02
+ :time.pool_solver.smt.total       0.01
+ :time.spacer.init_rules           0.00
+ :time.spacer.solve                0.01
+ :time.spacer.solve.reach          0.01
+ :time.spacer.solve.reach.is-reach 0.00)
+(:max-memory   30.56
+ :memory       30.56
+ :num-allocs   4304511
+ :rlimit-count 5811
+ :time         0.02
+ :total-time   0.03)

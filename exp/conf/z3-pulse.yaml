@@ -1,0 +1,18 @@
+z3:
+  v: 1
+  st: ''
+  T: 300
+  memory: 16384
+ 
+fp:
+  engine: spacer
+  # validate: true
+  # print_statistics: true
+  spacer:
+    #global guidance related stuff
+    global: true
+    max_level: 300
+    # expand_bnd: true
+    # concretize: true
+    # subsume: true
+    # conjecture: true

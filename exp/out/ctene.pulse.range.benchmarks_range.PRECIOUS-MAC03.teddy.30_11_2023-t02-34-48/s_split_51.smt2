@@ -1,0 +1,55 @@
+Running /Users/ekvashyn/Code/benchmarks/ver_2/s_split_51.smt2
+sat
+(:SPACER-cex-depth                    2
+ :SPACER-inductive-gen                1
+ :SPACER-inductive-gen-weaken-fail    1
+ :SPACER-inductive-gen-weaken-success 1
+ :SPACER-max-depth                    2
+ :SPACER-max-query-lvl                2
+ :SPACER-num-active-lemmas            2
+ :SPACER-num-is_invariant             2
+ :SPACER-num-lemmas                   3
+ :SPACER-num-pobs                     2
+ :SPACER-num-queries                  2
+ :SPACER-num-reach-queries            2
+ :SPACER-num-reuse-reach-facts        1
+ :added-eqs                           176
+ :arith-assert-diseq                  24
+ :arith-assert-lower                  122
+ :arith-assert-upper                  112
+ :arith-bound-prop                    12
+ :arith-conflicts                     8
+ :arith-eq-adapter                    56
+ :arith-fixed-eqs                     38
+ :arith-num-rows                      32
+ :arith-pivots                        56
+ :arith-row-summations                78
+ :arith-tableau-max-columns           86
+ :arith-tableau-max-rows              32
+ :conflicts                           26
+ :decisions                           84
+ :del-clause                          42
+ :final-checks                        12
+ :iuc_solver.num_proxies              5
+ :max-memory                          30.56
+ :memory                              30.56
+ :mk-bool-var                         338
+ :mk-clause                           336
+ :num-allocs                          4363794
+ :num-checks                          26
+ :pool_solver.checks                  13
+ :pool_solver.checks.sat              6
+ :propagations                        398
+ :rlimit-count                        5625
+ :time                                0.02
+ :time.pool_solver.smt.total          0.00
+ :time.spacer.init_rules              0.00
+ :time.spacer.solve                   0.01
+ :time.spacer.solve.reach             0.01
+ :time.spacer.solve.reach.is-reach    0.00)
+(:max-memory   30.56
+ :memory       30.56
+ :num-allocs   4363794
+ :rlimit-count 5625
+ :time         0.02
+ :total-time   0.03)

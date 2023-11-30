@@ -1,0 +1,54 @@
+Running /Users/ekvashyn/Code/benchmarks/ver_4/s_split_28.smt2
+sat
+(:SPACER-cex-depth                    2
+ :SPACER-inductive-gen                1
+ :SPACER-inductive-gen-weaken-fail    1
+ :SPACER-inductive-gen-weaken-success 1
+ :SPACER-max-depth                    2
+ :SPACER-max-query-lvl                2
+ :SPACER-num-active-lemmas            2
+ :SPACER-num-is_invariant             2
+ :SPACER-num-lemmas                   3
+ :SPACER-num-pobs                     2
+ :SPACER-num-queries                  2
+ :SPACER-num-reach-queries            2
+ :SPACER-num-reuse-reach-facts        1
+ :added-eqs                           180
+ :arith-assert-diseq                  10
+ :arith-assert-lower                  128
+ :arith-assert-upper                  92
+ :arith-bound-prop                    20
+ :arith-conflicts                     4
+ :arith-eq-adapter                    44
+ :arith-fixed-eqs                     20
+ :arith-num-rows                      30
+ :arith-offset-eqs                    14
+ :arith-pivots                        24
+ :arith-row-summations                32
+ :arith-tableau-max-columns           78
+ :arith-tableau-max-rows              30
+ :conflicts                           20
+ :decisions                           72
+ :del-clause                          42
+ :final-checks                        14
+ :iuc_solver.num_proxies              6
+ :max-memory                          30.44
+ :memory                              30.44
+ :mk-bool-var                         304
+ :mk-clause                           294
+ :num-allocs                          4296081
+ :num-checks                          28
+ :pool_solver.checks                  14
+ :pool_solver.checks.sat              7
+ :propagations                        398
+ :rlimit-count                        4630
+ :time                                0.01
+ :time.pool_solver.smt.total          0.00
+ :time.spacer.solve                   0.00
+ :time.spacer.solve.reach             0.00)
+(:max-memory   30.44
+ :memory       30.44
+ :num-allocs   4296081
+ :rlimit-count 4630
+ :time         0.01
+ :total-time   0.02)

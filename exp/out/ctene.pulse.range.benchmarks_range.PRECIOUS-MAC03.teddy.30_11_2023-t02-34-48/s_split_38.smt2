@@ -1,0 +1,56 @@
+Running /Users/ekvashyn/Code/benchmarks/ver_2/s_split_38.smt2
+sat
+(:SPACER-cex-depth                 3
+ :SPACER-inductive-gen             2
+ :SPACER-inductive-gen-weaken-fail 2
+ :SPACER-max-depth                 3
+ :SPACER-max-query-lvl             3
+ :SPACER-num-active-lemmas         3
+ :SPACER-num-ctp-blocked           1
+ :SPACER-num-is_invariant          4
+ :SPACER-num-lemmas                5
+ :SPACER-num-pobs                  3
+ :SPACER-num-queries               4
+ :SPACER-num-reach-queries         3
+ :SPACER-num-reuse-reach-facts     1
+ :added-eqs                        208
+ :arith-assert-diseq               30
+ :arith-assert-lower               230
+ :arith-assert-upper               146
+ :arith-bound-prop                 44
+ :arith-conflicts                  8
+ :arith-eq-adapter                 64
+ :arith-fixed-eqs                  40
+ :arith-num-rows                   30
+ :arith-offset-eqs                 6
+ :arith-pivots                     66
+ :arith-row-summations             108
+ :arith-tableau-max-columns        70
+ :arith-tableau-max-rows           30
+ :conflicts                        42
+ :decisions                        178
+ :del-clause                       74
+ :final-checks                     20
+ :iuc_solver.num_proxies           7
+ :max-memory                       30.95
+ :memory                           30.52
+ :minimized-lits                   2
+ :mk-bool-var                      450
+ :mk-clause                        450
+ :num-allocs                       4959824
+ :num-checks                       42
+ :pool_solver.checks               21
+ :pool_solver.checks.sat           10
+ :propagations                     710
+ :rlimit-count                     8543
+ :time                             0.01
+ :time.pool_solver.smt.total       0.00
+ :time.spacer.solve                0.01
+ :time.spacer.solve.reach          0.01
+ :time.spacer.solve.reach.is-reach 0.00)
+(:max-memory   30.95
+ :memory       30.52
+ :num-allocs   4959824
+ :rlimit-count 8543
+ :time         0.01
+ :total-time   0.02)

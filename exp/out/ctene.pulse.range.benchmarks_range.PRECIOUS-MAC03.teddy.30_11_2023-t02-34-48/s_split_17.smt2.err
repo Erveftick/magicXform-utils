@@ -1,0 +1,87 @@
+(transform N7datalog13mk_coi_filterE...no-op 0s)
+(transform N7datalog25mk_interp_tail_simplifierE...4 rules 0s)
+(transform N7datalog27mk_quantifier_instantiationE...no-op 0s)
+(transform N7datalog8mk_scaleE...no-op 0s)
+(transform N7datalog18mk_karr_invariantsE...no-op 0s)
+(transform N7datalog14mk_array_blastE...no-op 0s)
+(transform N7datalog16mk_elim_term_iteE...no-op 0s)
+(transform N7datalog22mk_subsumption_checkerE...no-op 0s)
+(transform N7datalog15mk_rule_inlinerE...3 rules 0s)
+(transform N7datalog12mk_bit_blastE...no-op 0s)
+(transform N7datalog13mk_coi_filterE...no-op 0s)
+(transform N7datalog25mk_interp_tail_simplifierE...3 rules 0s)
+(transform N7datalog22mk_subsumption_checkerE...no-op 0s)
+(transform N7datalog15mk_rule_inlinerE...no-op 0s)
+(transform N7datalog13mk_coi_filterE...no-op 0s)
+(transform N7datalog25mk_interp_tail_simplifierE...3 rules 0s)
+(transform N7datalog22mk_subsumption_checkerE...no-op 0s)
+(transform N7datalog15mk_rule_inlinerE...no-op 0s)
+(transform N7datalog22mk_subsumption_checkerE...no-op 0s)
+(transform N7datalog15mk_rule_inlinerE...no-op 0s)
+(transform N7datalog22mk_subsumption_checkerE...no-op 0s)
+(transform N7datalog15mk_rule_inlinerE...no-op 0s)
+(transform N7datalog22mk_subsumption_checkerE...no-op 0s)
+(transform N7datalog8mk_sliceE...no-op 0s)
+expand: query!0 (0, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 29.86 :after-memory 30.05)
+Entering level 1
+expand: query!0 (1, 0) FAR  w(0) 1.
+	create_child: inv2 (0, 1) FAR 356 U 0.00
+expand: inv2 (0, 0) FAR  w(0) 356. F 0.00
+expand: query!0 (1, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 30.05 :after-memory 30.33)
+Propagating: 0 1  ! 2 
+(spacer::context::propagate :time 0.00 :before-memory 30.33 :after-memory 30.33)
+Entering level 2
+expand: query!0 (2, 0) FAR  w(0) 1.
+	create_child: inv2 (1, 2) FAR 356 U 0.00
+expand: inv2 (1, 0) FAR  w(0) 356. F 0.00
+expand: query!0 (2, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.01 :before-memory 30.33 :after-memory 30.42)
+Propagating: 1 2  ! 3 
+(spacer::context::propagate :time 0.00 :before-memory 30.42 :after-memory 30.42)
+Entering level 3
+expand: query!0 (3, 0) FAR  w(0) 1.
+	create_child: inv2 (2, 3) FAR 356 U 0.00
+expand: inv2 (2, 0) FAR  w(0) 356.
+	create_child: inv2 (1, 3) FAR 976 U 0.00
+expand: inv2 (1, 0) FAR  w(0) 976.
+	create_child: inv2 (0, 3) FAR 1025 U 0.00
+expand: inv2 (0, 0) FAR  w(0) 1025. F 0.00
+expand: inv2 (1, 0) FAR  w(0) 976. F 0.00
+expand: inv2 (2, 0) FAR  w(0) 356. F 0.00
+expand: query!0 (3, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.01 :before-memory 30.42 :after-memory 30.48)
+Propagating: 0 1 2 3  ! 4 5 
+(spacer::context::propagate :time 0.00 :before-memory 30.48 :after-memory 30.48)
+Entering level 4
+expand: query!0 (4, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.00 :before-memory 30.48 :after-memory 30.48)
+Propagating: 4  ! 5 
+(spacer::context::propagate :time 0.00 :before-memory 30.48 :after-memory 30.48)
+Entering level 5
+expand: query!0 (5, 0) FAR  w(0) 1.
+	create_child: inv2 (4, 5) FAR 356 U 0.00
+expand: inv2 (4, 0) FAR  w(0) 356.
+	create_child: inv2 (3, 5) FAR 976 U 0.03
+expand: inv2 (3, 0) FAR  w(0) 976.
+	create_child: inv2 (2, 5) FAR 1025 U 0.00
+expand: inv2 (2, 0) FAR  w(0) 1025.
+	create_child: inv2 (1, 5) FAR 1651 U 0.00
+expand: inv2 (1, 0) FAR  w(0) 1651.
+	create_child: inv2 (0, 5) FAR 1712 U 0.00
+expand: inv2 (0, 0) FAR  w(0) 1712. F 0.00
+expand: inv2 (1, 0) FAR  w(0) 1651. F 0.00
+expand: inv2 (2, 0) FAR  w(0) 1025. F 0.00
+expand: inv2 (3, 0) FAR  w(0) 976. F 0.09
+expand: inv2 (4, 0) FAR  w(0) 356. F 0.00
+expand: query!0 (5, 0) FAR  w(0) 1. F 0.00
+(spacer::context::check_reachability :time 0.13 :before-memory 30.48 :after-memory 30.66)
+Propagating: 0 1 2 3 4 
+(spacer::context::propagate :time 0.01 :before-memory 30.66 :after-memory 30.66)
+(define-fun inv2 ((x!0 Int) (x!1 Int) (x!2 Int) (x!3 Int) (x!4 Int)) Bool
+  (let ((a!1 (not (>= (+ x!2 (* (- 1) x!4)) 0)))
+        (a!2 (not (<= (+ x!0 (* (- 1) x!1)) 0))))
+    (and (or (not (<= x!3 0)) a!1)
+         (not (<= x!3 (- 1)))
+         (or a!2 (not (<= x!3 0))))))

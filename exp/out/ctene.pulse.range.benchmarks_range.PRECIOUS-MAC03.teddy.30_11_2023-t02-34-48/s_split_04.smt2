@@ -1,0 +1,55 @@
+Running /Users/ekvashyn/Code/benchmarks/ver_2/s_split_04.smt2
+sat
+(:SPACER-cex-depth                 2
+ :SPACER-inductive-gen             1
+ :SPACER-inductive-gen-weaken-fail 1
+ :SPACER-max-depth                 2
+ :SPACER-max-query-lvl             2
+ :SPACER-num-active-lemmas         2
+ :SPACER-num-is_invariant          2
+ :SPACER-num-lemmas                3
+ :SPACER-num-pobs                  2
+ :SPACER-num-queries               2
+ :SPACER-num-reach-queries         2
+ :SPACER-num-reuse-reach-facts     1
+ :added-eqs                        78
+ :arith-assert-diseq               28
+ :arith-assert-lower               88
+ :arith-assert-upper               90
+ :arith-bound-prop                 22
+ :arith-conflicts                  6
+ :arith-eq-adapter                 38
+ :arith-fixed-eqs                  16
+ :arith-num-rows                   22
+ :arith-offset-eqs                 4
+ :arith-pivots                     24
+ :arith-row-summations             22
+ :arith-tableau-max-columns        58
+ :arith-tableau-max-rows           22
+ :conflicts                        20
+ :decisions                        56
+ :del-clause                       40
+ :final-checks                     12
+ :iuc_solver.num_proxies           2
+ :max-memory                       30.43
+ :memory                           30.43
+ :mk-bool-var                      246
+ :mk-clause                        252
+ :num-allocs                       4219767
+ :num-checks                       24
+ :pool_solver.checks               12
+ :pool_solver.checks.sat           6
+ :propagations                     250
+ :rlimit-count                     3761
+ :time                             0.02
+ :time.pool_solver.smt.total       0.00
+ :time.spacer.init_rules           0.00
+ :time.spacer.solve                0.01
+ :time.spacer.solve.reach          0.01
+ :time.spacer.solve.reach.is-reach 0.00)
+(:max-memory   30.43
+ :memory       30.43
+ :num-allocs   4219767
+ :rlimit-count 3761
+ :time         0.02
+ :total-time   0.03)
