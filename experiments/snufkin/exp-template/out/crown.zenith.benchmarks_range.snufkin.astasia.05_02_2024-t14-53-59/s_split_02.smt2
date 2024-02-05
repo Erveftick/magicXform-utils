@@ -1,0 +1,41 @@
+sat
+(:SPACER-cex-depth             1
+ :SPACER-max-depth             1
+ :SPACER-max-query-lvl         1
+ :SPACER-num-active-lemmas     1
+ :SPACER-num-lemmas            1
+ :SPACER-num-pobs              1
+ :SPACER-num-reach-queries     1
+ :SPACER-num-reuse-reach-facts 1
+ :added-eqs                    6
+ :arith-assert-diseq           2
+ :arith-assert-lower           12
+ :arith-assert-upper           14
+ :arith-bound-prop             4
+ :arith-eq-adapter             8
+ :arith-num-rows               4
+ :arith-tableau-max-columns    16
+ :arith-tableau-max-rows       4
+ :conflicts                    2
+ :del-clause                   2
+ :final-checks                 2
+ :max-memory                   29.92
+ :memory                       29.92
+ :mk-bool-var                  56
+ :mk-clause                    70
+ :num-allocs                   4111724
+ :num-checks                   4
+ :pool_solver.checks           2
+ :pool_solver.checks.sat       1
+ :propagations                 36
+ :rlimit-count                 1425
+ :time                         0.01
+ :time.spacer.init_rules       0.00
+ :time.spacer.solve            0.00
+ :time.spacer.solve.reach      0.00)
+(:max-memory   29.92
+ :memory       29.92
+ :num-allocs   4111724
+ :rlimit-count 1425
+ :time         0.01
+ :total-time   0.03)
