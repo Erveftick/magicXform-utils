@@ -1,0 +1,48 @@
+** expand-pob: query!0 level: 0 depth: 0 exprID: 1 pobID: none
+true
+
+** add-lemma: 0 exprID: 2 pobID: 1
+query!0
+false
+
+
+* LEVEL 1
+
+** expand-pob: query!0 level: 1 depth: 0 exprID: 1 pobID: none
+true
+
+** expand-pob: inv2 level: 0 depth: 0 exprID: 398 pobID: 1
+(and (= inv2_4_n inv2_1_n) (< inv2_2_n inv2_3_n))
+
+** add-lemma: 0 exprID: 689 pobID: 398
+inv2
+(> inv2_2_n (+ inv2_3_n (- 1)))
+
+** expand-pob: query!0 level: 1 depth: 0 exprID: 1 pobID: none
+true
+
+** expand-pob: inv2 level: 0 depth: 0 exprID: 742 pobID: 1
+(and (= inv2_4_n inv2_1_n) (> inv2_2_n inv2_3_n))
+
+** add-lemma: 0 exprID: 805 pobID: 742
+inv2
+(< inv2_2_n (+ inv2_3_n 1))
+
+** expand-pob: query!0 level: 1 depth: 0 exprID: 1 pobID: none
+true
+
+** add-lemma: 1 exprID: 2 pobID: 1
+query!0
+false
+
+Propagating
+
+
+* LEVEL 2
+
+** expand-pob: query!0 level: 2 depth: 0 exprID: 1 pobID: none
+true
+
+** expand-pob: inv2 level: 1 depth: 0 exprID: 742 pobID: 1
+(and (= inv2_4_n inv2_1_n) (> inv2_2_n inv2_3_n))
+

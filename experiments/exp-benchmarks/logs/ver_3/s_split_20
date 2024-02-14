@@ -1,0 +1,4895 @@
+** expand-pob: query!0 level: 0 depth: 0 exprID: 1 pobID: none
+true
+
+** add-lemma: 0 exprID: 2 pobID: 1
+query!0
+false
+
+
+* LEVEL 1
+
+** expand-pob: query!0 level: 1 depth: 0 exprID: 1 pobID: none
+true
+
+** expand-pob: inv2 level: 0 depth: 0 exprID: 377 pobID: 1
+(and (= inv2_4_n inv2_0_n) (> (+ inv2_1_n inv2_2_n) 0))
+
+** add-lemma: 0 exprID: 697 pobID: 377
+inv2
+(< inv2_0_n inv2_4_n)
+
+** expand-pob: query!0 level: 1 depth: 0 exprID: 1 pobID: none
+true
+
+** add-lemma: 1 exprID: 2 pobID: 1
+query!0
+false
+
+Propagating
+
+
+* LEVEL 2
+
+** expand-pob: query!0 level: 2 depth: 0 exprID: 1 pobID: none
+true
+
+** expand-pob: inv2 level: 1 depth: 0 exprID: 937 pobID: 1
+(and (= inv2_4_n inv2_0_n) (< (+ inv2_1_n inv2_2_n) 0))
+
+** expand-pob: inv2 level: 0 depth: 0 exprID: 939 pobID: 937
+(= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1))
+
+** add-lemma: 0 exprID: 965 pobID: 939
+inv2
+(< inv2_0_n (+ inv2_4_n (- 1)))
+
+** expand-pob: inv2 level: 1 depth: 0 exprID: 937 pobID: 1
+(and (= inv2_4_n inv2_0_n) (< (+ inv2_1_n inv2_2_n) 0))
+
+** add-lemma: 1 exprID: 697 pobID: 377
+inv2
+(< inv2_0_n inv2_4_n)
+
+** expand-pob: query!0 level: 2 depth: 0 exprID: 1 pobID: none
+true
+
+** add-lemma: 2 exprID: 2 pobID: 1
+query!0
+false
+
+Propagating
+
+
+* LEVEL 3
+
+** expand-pob: query!0 level: 3 depth: 0 exprID: 1 pobID: none
+true
+
+** expand-pob: inv2 level: 2 depth: 0 exprID: 937 pobID: 1
+(and (= inv2_4_n inv2_0_n) (< (+ inv2_1_n inv2_2_n) 0))
+
+** expand-pob: inv2 level: 1 depth: 0 exprID: 939 pobID: 937
+(= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1))
+
+** expand-pob: inv2 level: 0 depth: 0 exprID: 1253 pobID: 939
+(= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 2))
+
+** add-lemma: 0 exprID: 1230 pobID: 1253
+inv2
+(< inv2_0_n (+ inv2_4_n (- 2)))
+
+** expand-pob: inv2 level: 1 depth: 0 exprID: 939 pobID: 937
+(= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1))
+
+** add-lemma: 1 exprID: 965 pobID: 939
+inv2
+(< inv2_0_n (+ inv2_4_n (- 1)))
+
+** expand-pob: inv2 level: 2 depth: 0 exprID: 937 pobID: 1
+(and (= inv2_4_n inv2_0_n) (< (+ inv2_1_n inv2_2_n) 0))
+
+** add-lemma: 2 exprID: 697 pobID: 377
+inv2
+(< inv2_0_n inv2_4_n)
+
+** expand-pob: query!0 level: 3 depth: 0 exprID: 1 pobID: none
+true
+
+** add-lemma: 3 exprID: 2 pobID: 1
+query!0
+false
+
+Propagating
+
+
+* LEVEL 4
+
+** expand-pob: query!0 level: 4 depth: 0 exprID: 1 pobID: none
+true
+
+** expand-pob: inv2 level: 3 depth: 0 exprID: 937 pobID: 1
+(and (= inv2_4_n inv2_0_n) (< (+ inv2_1_n inv2_2_n) 0))
+
+** expand-pob: inv2 level: 2 depth: 0 exprID: 939 pobID: 937
+(= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1))
+
+** expand-pob: inv2 level: 1 depth: 0 exprID: 1253 pobID: 939
+(= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 2))
+
+** expand-pob: inv2 level: 0 depth: 0 exprID: 1595 pobID: 1253
+(= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 3))
+
+** add-lemma: 0 exprID: 1594 pobID: 1595
+inv2
+(< inv2_0_n (+ inv2_4_n (- 3)))
+
+** expand-pob: inv2 level: 1 depth: 0 exprID: 1253 pobID: 939
+(= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 2))
+
+** add-lemma: 1 exprID: 1230 pobID: 1253
+inv2
+(< inv2_0_n (+ inv2_4_n (- 2)))
+
+** expand-pob: inv2 level: 2 depth: 0 exprID: 939 pobID: 937
+(= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1))
+
+** add-lemma: 2 exprID: 1587 pobID: 939
+inv2
+(not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1)))
+
+** expand-pob: inv2 level: 3 depth: 0 exprID: 937 pobID: 1
+(and (= inv2_4_n inv2_0_n) (< (+ inv2_1_n inv2_2_n) 0))
+
+** add-lemma: 3 exprID: 697 pobID: 377
+inv2
+(< inv2_0_n inv2_4_n)
+
+** expand-pob: query!0 level: 4 depth: 0 exprID: 1 pobID: none
+true
+
+** add-lemma: 4 exprID: 2 pobID: 1
+query!0
+false
+
+Propagating
+
+** add-lemma: 2 exprID: 965 pobID: 939
+inv2
+(< inv2_0_n (+ inv2_4_n (- 1)))
+
+
+* LEVEL 5
+
+** expand-pob: query!0 level: 5 depth: 0 exprID: 1 pobID: none
+true
+
+** expand-pob: inv2 level: 4 depth: 0 exprID: 937 pobID: 1
+(and (= inv2_4_n inv2_0_n) (< (+ inv2_1_n inv2_2_n) 0))
+
+** expand-pob: inv2 level: 3 depth: 0 exprID: 939 pobID: 937
+(= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1))
+
+** expand-pob: inv2 level: 2 depth: 0 exprID: 1253 pobID: 939
+(= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 2))
+
+** expand-pob: inv2 level: 1 depth: 0 exprID: 1595 pobID: 1253
+(= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 3))
+
+** expand-pob: inv2 level: 0 depth: 0 exprID: 2099 pobID: 1595
+(= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 4))
+
+** add-lemma: 0 exprID: 2097 pobID: 2099
+inv2
+(< inv2_0_n (+ inv2_4_n (- 4)))
+
+** expand-pob: inv2 level: 1 depth: 0 exprID: 1595 pobID: 1253
+(= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 3))
+
+** add-lemma: 1 exprID: 2230 pobID: 1595
+inv2
+(not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 3)))
+
+** expand-pob: inv2 level: 2 depth: 0 exprID: 1253 pobID: 939
+(= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 2))
+
+** add-lemma: 2 exprID: 2104 pobID: 1253
+inv2
+(not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 2)))
+
+** expand-pob: inv2 SUBS level: 1 depth: 0 exprID: 2342 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 1))) (>= inv2_0_n (+ inv2_4_n (- 3))))
+
+** add-lemma: 1 exprID: 1594 pobID: 1595
+inv2
+(< inv2_0_n (+ inv2_4_n (- 3)))
+
+** expand-pob: inv2 level: 0 depth: 0 exprID: 837 pobID: 1
+(<= inv2_0_n (+ inv2_4_n (- 1)))
+
+** expand-pob: inv2 SUBS level: 2 depth: 1 exprID: 2342 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 1))) (>= inv2_0_n (+ inv2_4_n (- 3))))
+
+** expand-pob: inv2 SUBS level: 2 depth: 1 exprID: 2342 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 1))) (>= inv2_0_n (+ inv2_4_n (- 3))))
+
+** expand-pob: inv2 level: 1 depth: 1 exprID: 2417 pobID: 2342
+(and (<= inv2_0_n (+ inv2_4_n (- 2)))
+     (>= inv2_0_n (+ inv2_4_n (- 4)))
+     (= (mod inv2_0_n 2) 0))
+
+** expand-pob: inv2 level: 0 depth: 1 exprID: 2646 pobID: 2417
+(and (<= inv2_0_n (+ inv2_4_n (- 3)))
+     (>= inv2_0_n (+ inv2_4_n (- 5)))
+     (= (mod (+ 1 inv2_0_n) 2) 0))
+
+** add-lemma: 0 exprID: 2685 pobID: 2646
+inv2
+(< inv2_0_n (+ inv2_4_n (- 942573484)))
+
+** expand-pob: inv2 level: 0 depth: 1 exprID: 2729 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 3))) (= (mod (+ 1 inv2_0_n) 2) 0))
+
+** expand-pob: inv2 level: 0 depth: 1 exprID: 2729 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 3))) (= (mod (+ 1 inv2_0_n) 2) 0))
+
+** add-lemma: 0 exprID: 2739 pobID: 2729
+inv2
+(not (= (mod (+ 1 inv2_0_n) 2) 0))
+
+** expand-pob: inv2 level: 1 depth: 1 exprID: 2417 pobID: 2342
+(and (<= inv2_0_n (+ inv2_4_n (- 2)))
+     (>= inv2_0_n (+ inv2_4_n (- 4)))
+     (= (mod inv2_0_n 2) 0))
+
+** add-lemma: 1 exprID: 2946 pobID: 2417
+inv2
+(or (not (= (mod inv2_0_n 2) 0)) (< inv2_0_n (+ inv2_4_n (- 942573484))))
+
+** expand-pob: inv2 SUBS level: 2 depth: 1 exprID: 2342 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 1))) (>= inv2_0_n (+ inv2_4_n (- 3))))
+
+** expand-pob: inv2 level: 1 depth: 1 exprID: 2979 pobID: 2342
+(and (<= inv2_0_n (+ inv2_4_n (- 2)))
+     (>= inv2_0_n (+ inv2_4_n (- 4)))
+     (> (mod inv2_0_n 2) 0))
+
+** add-lemma: 1 exprID: 3151 pobID: 2979
+inv2
+(< inv2_0_n (+ inv2_4_n (- 942573483)))
+
+** expand-pob: inv2 level: 0 depth: 1 exprID: 3130 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 2))) (> (mod inv2_0_n 2) 0))
+
+** expand-pob: inv2 level: 0 depth: 1 exprID: 3130 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 2))) (> (mod inv2_0_n 2) 0))
+
+** add-lemma: 0 exprID: 3240 pobID: 3130
+inv2
+(< (mod inv2_0_n 2) 1)
+
+** expand-pob: inv2 level: 1 depth: 2 exprID: 3130 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 2))) (> (mod inv2_0_n 2) 0))
+
+** expand-pob: inv2 SUBS level: 2 depth: 1 exprID: 2342 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 1))) (>= inv2_0_n (+ inv2_4_n (- 3))))
+
+** add-lemma: 2 exprID: 3590 pobID: 2342
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 1))) (< inv2_0_n (+ inv2_4_n (- 3))))
+
+** expand-pob: inv2 level: 3 depth: 0 exprID: 939 pobID: 937
+(= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1))
+
+** add-lemma: 3 exprID: 1587 pobID: 939
+inv2
+(not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1)))
+
+** expand-pob: inv2 SUBS level: 1 depth: 0 exprID: 2342 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 1))) (>= inv2_0_n (+ inv2_4_n (- 3))))
+
+** expand-pob: inv2 SUBS level: 2 depth: 1 exprID: 2342 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 1))) (>= inv2_0_n (+ inv2_4_n (- 3))))
+
+** expand-pob: inv2 SUBS level: 3 depth: 2 exprID: 2342 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 1))) (>= inv2_0_n (+ inv2_4_n (- 3))))
+
+** expand-pob: inv2 level: 2 depth: 2 exprID: 2417 pobID: 2342
+(and (<= inv2_0_n (+ inv2_4_n (- 2)))
+     (>= inv2_0_n (+ inv2_4_n (- 4)))
+     (= (mod inv2_0_n 2) 0))
+
+** add-lemma: 2 exprID: 2648 pobID: 2417
+inv2
+(< inv2_0_n (+ inv2_4_n (- 5)))
+
+** expand-pob: inv2 level: 0 depth: 2 exprID: 3792 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 2))) (= (mod inv2_0_n 2) 0))
+
+** expand-pob: inv2 SUBS level: 3 depth: 2 exprID: 2342 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 1))) (>= inv2_0_n (+ inv2_4_n (- 3))))
+
+** add-lemma: 3 exprID: 3590 pobID: 2342
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 1))) (< inv2_0_n (+ inv2_4_n (- 3))))
+
+** expand-pob: inv2 level: 4 depth: 0 exprID: 937 pobID: 1
+(and (= inv2_4_n inv2_0_n) (< (+ inv2_1_n inv2_2_n) 0))
+
+** add-lemma: 4 exprID: 697 pobID: 377
+inv2
+(< inv2_0_n inv2_4_n)
+
+** expand-pob: query!0 level: 5 depth: 0 exprID: 1 pobID: none
+true
+
+** add-lemma: 5 exprID: 2 pobID: 1
+query!0
+false
+
+Propagating
+
+** add-lemma: 2 exprID: 2097 pobID: 2099
+inv2
+(< inv2_0_n (+ inv2_4_n (- 4)))
+
+** add-lemma: 2 exprID: 1230 pobID: 1253
+inv2
+(< inv2_0_n (+ inv2_4_n (- 2)))
+
+** add-lemma: 2 exprID: 1594 pobID: 1595
+inv2
+(< inv2_0_n (+ inv2_4_n (- 3)))
+
+** add-lemma: 2 exprID: 2230 pobID: 1595
+inv2
+(not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 3)))
+
+** add-lemma: 3 exprID: 965 pobID: 939
+inv2
+(< inv2_0_n (+ inv2_4_n (- 1)))
+
+** add-lemma: 3 exprID: 1230 pobID: 1253
+inv2
+(< inv2_0_n (+ inv2_4_n (- 2)))
+
+** add-lemma: 3 exprID: 1594 pobID: 1595
+inv2
+(< inv2_0_n (+ inv2_4_n (- 3)))
+
+** add-lemma: 3 exprID: 2097 pobID: 2099
+inv2
+(< inv2_0_n (+ inv2_4_n (- 4)))
+
+** add-lemma: 3 exprID: 2104 pobID: 1253
+inv2
+(not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 2)))
+
+** add-lemma: 3 exprID: 2230 pobID: 1595
+inv2
+(not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 3)))
+
+** add-lemma: 4 exprID: 965 pobID: 939
+inv2
+(< inv2_0_n (+ inv2_4_n (- 1)))
+
+** add-lemma: 4 exprID: 1230 pobID: 1253
+inv2
+(< inv2_0_n (+ inv2_4_n (- 2)))
+
+** add-lemma: 4 exprID: 1587 pobID: 939
+inv2
+(not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1)))
+
+** add-lemma: 4 exprID: 1594 pobID: 1595
+inv2
+(< inv2_0_n (+ inv2_4_n (- 3)))
+
+** add-lemma: 4 exprID: 2104 pobID: 1253
+inv2
+(not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 2)))
+
+** add-lemma: 4 exprID: 2230 pobID: 1595
+inv2
+(not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 3)))
+
+** add-lemma: 4 exprID: 3590 pobID: 2342
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 1))) (< inv2_0_n (+ inv2_4_n (- 3))))
+
+** add-lemma: 5 exprID: 697 pobID: 377
+inv2
+(< inv2_0_n inv2_4_n)
+
+** add-lemma: 5 exprID: 965 pobID: 939
+inv2
+(< inv2_0_n (+ inv2_4_n (- 1)))
+
+** add-lemma: 5 exprID: 1230 pobID: 1253
+inv2
+(< inv2_0_n (+ inv2_4_n (- 2)))
+
+** add-lemma: 5 exprID: 1587 pobID: 939
+inv2
+(not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1)))
+
+** add-lemma: 5 exprID: 2104 pobID: 1253
+inv2
+(not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 2)))
+
+** add-lemma: 6 exprID: 2 pobID: 1
+query!0
+false
+
+** add-lemma: 6 exprID: 697 pobID: 377
+inv2
+(< inv2_0_n inv2_4_n)
+
+** add-lemma: 6 exprID: 965 pobID: 939
+inv2
+(< inv2_0_n (+ inv2_4_n (- 1)))
+
+** add-lemma: 6 exprID: 1587 pobID: 939
+inv2
+(not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1)))
+
+** add-lemma: 7 exprID: 2 pobID: 1
+query!0
+false
+
+** add-lemma: 7 exprID: 697 pobID: 377
+inv2
+(< inv2_0_n inv2_4_n)
+
+** add-lemma: 8 exprID: 2 pobID: 1
+query!0
+false
+
+
+* LEVEL 6
+
+** expand-pob: query!0 level: 6 depth: 0 exprID: 1 pobID: none
+true
+
+Propagating
+
+
+* LEVEL 7
+
+** expand-pob: query!0 level: 7 depth: 0 exprID: 1 pobID: none
+true
+
+Propagating
+
+
+* LEVEL 8
+
+** expand-pob: query!0 level: 8 depth: 0 exprID: 1 pobID: none
+true
+
+Propagating
+
+
+* LEVEL 9
+
+** expand-pob: query!0 level: 9 depth: 0 exprID: 1 pobID: none
+true
+
+** expand-pob: inv2 level: 8 depth: 0 exprID: 937 pobID: 1
+(and (= inv2_4_n inv2_0_n) (< (+ inv2_1_n inv2_2_n) 0))
+
+** expand-pob: inv2 level: 7 depth: 0 exprID: 5745 pobID: 937
+(and (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1))
+     (> (mod inv2_0_n 2) 0)
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0))
+
+** expand-pob: inv2 level: 6 depth: 0 exprID: 6045 pobID: 5745
+(and (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 2))
+     (> (mod inv2_0_n 2) 0)
+     (< (+ inv2_1_n inv2_2_n) 1))
+
+** expand-pob: inv2 level: 5 depth: 0 exprID: 6077 pobID: 6045
+(and (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 3))
+     (> (mod inv2_0_n 2) 0)
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) (- 1)))
+
+** expand-pob: inv2 level: 4 depth: 0 exprID: 5991 pobID: 6077
+(and (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 4))
+     (> (mod inv2_0_n 2) 0)
+     (< (+ inv2_1_n inv2_2_n) 2))
+
+** expand-pob: inv2 level: 3 depth: 0 exprID: 6168 pobID: 5991
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) (- 1))
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 5)))
+
+** expand-pob: inv2 level: 2 depth: 0 exprID: 6234 pobID: 6168
+(and (= (mod inv2_0_n 2) 0)
+     (< (+ inv2_1_n inv2_2_n) 1)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 6)))
+
+** add-lemma: 2 exprID: 6229 pobID: 6234
+inv2
+(< inv2_0_n (+ inv2_4_n (- 6)))
+
+** expand-pob: inv2 level: 0 depth: 0 exprID: 6439 pobID: 1
+(and (= (mod inv2_0_n 2) 0) (< (+ inv2_1_n inv2_2_n) 1))
+
+** expand-pob: inv2 level: 3 depth: 0 exprID: 6168 pobID: 5991
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) (- 1))
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 5)))
+
+** add-lemma: 3 exprID: 2648 pobID: 2417
+inv2
+(< inv2_0_n (+ inv2_4_n (- 5)))
+
+** expand-pob: inv2 level: 2 depth: 0 exprID: 6373 pobID: 1
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) (- 1)))
+
+** expand-pob: inv2 level: 4 depth: 0 exprID: 5991 pobID: 6077
+(and (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 4))
+     (> (mod inv2_0_n 2) 0)
+     (< (+ inv2_1_n inv2_2_n) 2))
+
+** add-lemma: 4 exprID: 2097 pobID: 2099
+inv2
+(< inv2_0_n (+ inv2_4_n (- 4)))
+
+** expand-pob: inv2 level: 0 depth: 0 exprID: 6485 pobID: 1
+(and (> (mod inv2_0_n 2) 0) (< (+ inv2_1_n inv2_2_n) 2))
+
+** expand-pob: inv2 level: 1 depth: 1 exprID: 6485 pobID: 1
+(and (> (mod inv2_0_n 2) 0) (< (+ inv2_1_n inv2_2_n) 2))
+
+** expand-pob: inv2 level: 5 depth: 0 exprID: 6077 pobID: 6045
+(and (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 3))
+     (> (mod inv2_0_n 2) 0)
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) (- 1)))
+
+** add-lemma: 5 exprID: 1594 pobID: 1595
+inv2
+(< inv2_0_n (+ inv2_4_n (- 3)))
+
+** expand-pob: inv2 level: 0 depth: 0 exprID: 6613 pobID: 1
+(and (> (mod inv2_0_n 2) 0) (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) (- 1)))
+
+** expand-pob: inv2 level: 1 depth: 1 exprID: 6613 pobID: 1
+(and (> (mod inv2_0_n 2) 0) (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) (- 1)))
+
+** expand-pob: inv2 level: 6 depth: 0 exprID: 6045 pobID: 5745
+(and (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 2))
+     (> (mod inv2_0_n 2) 0)
+     (< (+ inv2_1_n inv2_2_n) 1))
+
+** add-lemma: 6 exprID: 1230 pobID: 1253
+inv2
+(< inv2_0_n (+ inv2_4_n (- 2)))
+
+** expand-pob: inv2 level: 0 depth: 0 exprID: 6628 pobID: 1
+(and (> (mod inv2_0_n 2) 0) (< (+ inv2_1_n inv2_2_n) 1))
+
+** expand-pob: inv2 level: 1 depth: 1 exprID: 6628 pobID: 1
+(and (> (mod inv2_0_n 2) 0) (< (+ inv2_1_n inv2_2_n) 1))
+
+** expand-pob: inv2 level: 7 depth: 0 exprID: 5745 pobID: 937
+(and (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1))
+     (> (mod inv2_0_n 2) 0)
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0))
+
+** add-lemma: 7 exprID: 965 pobID: 939
+inv2
+(< inv2_0_n (+ inv2_4_n (- 1)))
+
+** expand-pob: inv2 level: 0 depth: 0 exprID: 6737 pobID: 1
+(and (> (mod inv2_0_n 2) 0) (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0))
+
+** expand-pob: inv2 level: 1 depth: 1 exprID: 6737 pobID: 1
+(and (> (mod inv2_0_n 2) 0) (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0))
+
+** expand-pob: inv2 level: 8 depth: 0 exprID: 937 pobID: 1
+(and (= inv2_4_n inv2_0_n) (< (+ inv2_1_n inv2_2_n) 0))
+
+** add-lemma: 8 exprID: 697 pobID: 377
+inv2
+(< inv2_0_n inv2_4_n)
+
+** expand-pob: query!0 level: 9 depth: 0 exprID: 1 pobID: none
+true
+
+** add-lemma: 9 exprID: 2 pobID: 1
+query!0
+false
+
+Propagating
+
+** add-lemma: 5 exprID: 2230 pobID: 1595
+inv2
+(not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 3)))
+
+** add-lemma: 5 exprID: 3590 pobID: 2342
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 1))) (< inv2_0_n (+ inv2_4_n (- 3))))
+
+** add-lemma: 6 exprID: 2104 pobID: 1253
+inv2
+(not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 2)))
+
+** add-lemma: 7 exprID: 1587 pobID: 939
+inv2
+(not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1)))
+
+
+* LEVEL 10
+
+** expand-pob: query!0 level: 10 depth: 0 exprID: 1 pobID: none
+true
+
+** expand-pob: inv2 level: 9 depth: 0 exprID: 937 pobID: 1
+(and (= inv2_4_n inv2_0_n) (< (+ inv2_1_n inv2_2_n) 0))
+
+** expand-pob: inv2 level: 8 depth: 0 exprID: 939 pobID: 937
+(= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1))
+
+** expand-pob: inv2 level: 7 depth: 0 exprID: 7254 pobID: 939
+(and (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 2)) (> (mod inv2_0_n 2) 0))
+
+** expand-pob: inv2 level: 6 depth: 0 exprID: 7277 pobID: 7254
+(and (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 3))
+     (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0))
+
+** expand-pob: inv2 level: 5 depth: 0 exprID: 7154 pobID: 7277
+(and (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 4))
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0))
+
+** expand-pob: inv2 level: 4 depth: 0 exprID: 7143 pobID: 7154
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 5)))
+
+** expand-pob: inv2 level: 3 depth: 0 exprID: 7285 pobID: 7143
+(and (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 6)))
+
+** expand-pob: inv2 level: 2 depth: 0 exprID: 6751 pobID: 7285
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 7)))
+
+** add-lemma: 2 exprID: 7301 pobID: 6751
+inv2
+(< inv2_0_n (+ inv2_4_n (- 7)))
+
+** expand-pob: inv2 level: 2 depth: 0 exprID: 7412 pobID: 1
+(and (= (mod inv2_0_n 2) 0) (> (mod (+ 1 inv2_0_n) 2) 0))
+
+** expand-pob: inv2 level: 3 depth: 0 exprID: 7285 pobID: 7143
+(and (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 6)))
+
+** add-lemma: 3 exprID: 6229 pobID: 6234
+inv2
+(< inv2_0_n (+ inv2_4_n (- 6)))
+
+** expand-pob: inv2 level: 2 depth: 0 exprID: 7324 pobID: 1
+(and (= (mod (+ 1 inv2_0_n) 2) 0) (> (mod inv2_0_n 2) 0))
+
+** expand-pob: inv2 level: 4 depth: 0 exprID: 7143 pobID: 7154
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 5)))
+
+** add-lemma: 4 exprID: 2648 pobID: 2417
+inv2
+(< inv2_0_n (+ inv2_4_n (- 5)))
+
+** expand-pob: inv2 level: 5 depth: 0 exprID: 7154 pobID: 7277
+(and (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 4))
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0))
+
+** add-lemma: 5 exprID: 2097 pobID: 2099
+inv2
+(< inv2_0_n (+ inv2_4_n (- 4)))
+
+** expand-pob: inv2 level: 6 depth: 0 exprID: 7277 pobID: 7254
+(and (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 3))
+     (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0))
+
+** add-lemma: 6 exprID: 1594 pobID: 1595
+inv2
+(< inv2_0_n (+ inv2_4_n (- 3)))
+
+** expand-pob: inv2 level: 7 depth: 0 exprID: 7254 pobID: 939
+(and (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 2)) (> (mod inv2_0_n 2) 0))
+
+** add-lemma: 7 exprID: 1230 pobID: 1253
+inv2
+(< inv2_0_n (+ inv2_4_n (- 2)))
+
+** expand-pob: inv2 level: 8 depth: 0 exprID: 939 pobID: 937
+(= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1))
+
+** add-lemma: 8 exprID: 1587 pobID: 939
+inv2
+(not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1)))
+
+** expand-pob: inv2 SUBS level: 5 depth: 0 exprID: 2342 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 1))) (>= inv2_0_n (+ inv2_4_n (- 3))))
+
+** expand-pob: inv2 SUBS level: 6 depth: 1 exprID: 2342 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 1))) (>= inv2_0_n (+ inv2_4_n (- 3))))
+
+** add-lemma: 6 exprID: 3590 pobID: 2342
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 1))) (< inv2_0_n (+ inv2_4_n (- 3))))
+
+** expand-pob: inv2 SUBS level: 7 depth: 2 exprID: 2342 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 1))) (>= inv2_0_n (+ inv2_4_n (- 3))))
+
+** expand-pob: inv2 level: 6 depth: 2 exprID: 2417 pobID: 2342
+(and (<= inv2_0_n (+ inv2_4_n (- 2)))
+     (>= inv2_0_n (+ inv2_4_n (- 4)))
+     (= (mod inv2_0_n 2) 0))
+
+** expand-pob: inv2 level: 5 depth: 2 exprID: 7837 pobID: 2417
+(and (<= inv2_0_n (+ inv2_4_n (- 3)))
+     (= (mod inv2_0_n 2) 0)
+     (>= inv2_0_n (+ inv2_4_n (- 5))))
+
+** expand-pob: inv2 level: 4 depth: 2 exprID: 7765 pobID: 7837
+(and (<= inv2_0_n (+ inv2_4_n (- 4)))
+     (= (mod inv2_0_n 2) 0)
+     (>= inv2_0_n (+ inv2_4_n (- 6))))
+
+** expand-pob: inv2 level: 3 depth: 2 exprID: 7806 pobID: 7765
+(and (= (mod inv2_0_n 2) 0)
+     (<= inv2_0_n (+ inv2_4_n (- 5)))
+     (>= inv2_0_n (+ inv2_4_n (- 7))))
+
+** expand-pob: inv2 level: 2 depth: 2 exprID: 7854 pobID: 7806
+(and (= (mod inv2_0_n 2) 0)
+     (<= inv2_0_n (+ inv2_4_n (- 6)))
+     (>= inv2_0_n (+ inv2_4_n (- 8))))
+
+** add-lemma: 2 exprID: 7962 pobID: 7854
+inv2
+(< inv2_0_n (+ inv2_4_n (- 942573482)))
+
+** expand-pob: inv2 level: 2 depth: 2 exprID: 8056 pobID: 1
+(and (= (mod inv2_0_n 2) 0) (<= inv2_0_n (+ inv2_4_n (- 6))))
+
+** expand-pob: inv2 level: 3 depth: 2 exprID: 7806 pobID: 7765
+(and (= (mod inv2_0_n 2) 0)
+     (<= inv2_0_n (+ inv2_4_n (- 5)))
+     (>= inv2_0_n (+ inv2_4_n (- 7))))
+
+** add-lemma: 3 exprID: 7920 pobID: 7806
+inv2
+(< inv2_0_n (+ inv2_4_n (- 8)))
+
+** expand-pob: inv2 level: 2 depth: 2 exprID: 8310 pobID: 1
+(and (= (mod inv2_0_n 2) 0) (<= inv2_0_n (+ inv2_4_n (- 5))))
+
+** expand-pob: inv2 level: 4 depth: 2 exprID: 7765 pobID: 7837
+(and (<= inv2_0_n (+ inv2_4_n (- 4)))
+     (= (mod inv2_0_n 2) 0)
+     (>= inv2_0_n (+ inv2_4_n (- 6))))
+
+** add-lemma: 4 exprID: 6229 pobID: 6234
+inv2
+(< inv2_0_n (+ inv2_4_n (- 6)))
+
+** expand-pob: inv2 level: 2 depth: 2 exprID: 7894 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 4))) (= (mod inv2_0_n 2) 0))
+
+** expand-pob: inv2 level: 5 depth: 2 exprID: 7837 pobID: 2417
+(and (<= inv2_0_n (+ inv2_4_n (- 3)))
+     (= (mod inv2_0_n 2) 0)
+     (>= inv2_0_n (+ inv2_4_n (- 5))))
+
+** add-lemma: 5 exprID: 2648 pobID: 2417
+inv2
+(< inv2_0_n (+ inv2_4_n (- 5)))
+
+** expand-pob: inv2 level: 2 depth: 2 exprID: 8188 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 3))) (= (mod inv2_0_n 2) 0))
+
+** expand-pob: inv2 level: 6 depth: 2 exprID: 2417 pobID: 2342
+(and (<= inv2_0_n (+ inv2_4_n (- 2)))
+     (>= inv2_0_n (+ inv2_4_n (- 4)))
+     (= (mod inv2_0_n 2) 0))
+
+** add-lemma: 6 exprID: 8420 pobID: 2417
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 2)))
+    (< inv2_0_n (+ inv2_4_n (- 4)))
+    (not (= (mod inv2_0_n 2) 0)))
+
+** expand-pob: inv2 SUBS level: 7 depth: 2 exprID: 2342 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 1))) (>= inv2_0_n (+ inv2_4_n (- 3))))
+
+** expand-pob: inv2 SUBS level: 7 depth: 2 exprID: 2342 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 1))) (>= inv2_0_n (+ inv2_4_n (- 3))))
+
+** expand-pob: inv2 level: 6 depth: 2 exprID: 2979 pobID: 2342
+(and (<= inv2_0_n (+ inv2_4_n (- 2)))
+     (>= inv2_0_n (+ inv2_4_n (- 4)))
+     (> (mod inv2_0_n 2) 0))
+
+** add-lemma: 6 exprID: 8419 pobID: 2979
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 2)))
+    (< inv2_0_n (+ inv2_4_n (- 4)))
+    (< (mod inv2_0_n 2) 1))
+
+** expand-pob: inv2 SUBS level: 7 depth: 2 exprID: 2342 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 1))) (>= inv2_0_n (+ inv2_4_n (- 3))))
+
+** add-lemma: 7 exprID: 3590 pobID: 2342
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 1))) (< inv2_0_n (+ inv2_4_n (- 3))))
+
+** expand-pob: inv2 SUBS level: 8 depth: 3 exprID: 2342 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 1))) (>= inv2_0_n (+ inv2_4_n (- 3))))
+
+** expand-pob: inv2 level: 7 depth: 3 exprID: 2979 pobID: 2342
+(and (<= inv2_0_n (+ inv2_4_n (- 2)))
+     (>= inv2_0_n (+ inv2_4_n (- 4)))
+     (> (mod inv2_0_n 2) 0))
+
+** expand-pob: inv2 level: 6 depth: 3 exprID: 8711 pobID: 2979
+(and (<= inv2_0_n (+ inv2_4_n (- 3))) (>= inv2_0_n (+ inv2_4_n (- 5))))
+
+** expand-pob: inv2 level: 5 depth: 3 exprID: 8589 pobID: 8711
+(and (<= inv2_0_n (+ inv2_4_n (- 4))) (>= inv2_0_n (+ inv2_4_n (- 6))))
+
+** expand-pob: inv2 level: 4 depth: 3 exprID: 8672 pobID: 8589
+(and (<= inv2_0_n (+ inv2_4_n (- 5))) (>= inv2_0_n (+ inv2_4_n (- 7))))
+
+** add-lemma: 4 exprID: 7301 pobID: 6751
+inv2
+(< inv2_0_n (+ inv2_4_n (- 7)))
+
+** expand-pob: inv2 level: 2 depth: 3 exprID: 6110 pobID: 1
+(<= inv2_0_n (+ inv2_4_n (- 5)))
+
+** expand-pob: inv2 level: 5 depth: 3 exprID: 8589 pobID: 8711
+(and (<= inv2_0_n (+ inv2_4_n (- 4))) (>= inv2_0_n (+ inv2_4_n (- 6))))
+
+** add-lemma: 5 exprID: 6229 pobID: 6234
+inv2
+(< inv2_0_n (+ inv2_4_n (- 6)))
+
+** expand-pob: inv2 level: 2 depth: 3 exprID: 2034 pobID: 1
+(<= inv2_0_n (+ inv2_4_n (- 4)))
+
+** expand-pob: inv2 level: 6 depth: 3 exprID: 8711 pobID: 2979
+(and (<= inv2_0_n (+ inv2_4_n (- 3))) (>= inv2_0_n (+ inv2_4_n (- 5))))
+
+** add-lemma: 6 exprID: 2648 pobID: 2417
+inv2
+(< inv2_0_n (+ inv2_4_n (- 5)))
+
+** expand-pob: inv2 level: 7 depth: 3 exprID: 2979 pobID: 2342
+(and (<= inv2_0_n (+ inv2_4_n (- 2)))
+     (>= inv2_0_n (+ inv2_4_n (- 4)))
+     (> (mod inv2_0_n 2) 0))
+
+** add-lemma: 7 exprID: 8419 pobID: 2979
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 2)))
+    (< inv2_0_n (+ inv2_4_n (- 4)))
+    (< (mod inv2_0_n 2) 1))
+
+** expand-pob: inv2 SUBS level: 8 depth: 3 exprID: 2342 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 1))) (>= inv2_0_n (+ inv2_4_n (- 3))))
+
+** expand-pob: inv2 SUBS level: 8 depth: 3 exprID: 2342 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 1))) (>= inv2_0_n (+ inv2_4_n (- 3))))
+
+** expand-pob: inv2 level: 7 depth: 3 exprID: 2417 pobID: 2342
+(and (<= inv2_0_n (+ inv2_4_n (- 2)))
+     (>= inv2_0_n (+ inv2_4_n (- 4)))
+     (= (mod inv2_0_n 2) 0))
+
+** add-lemma: 7 exprID: 8420 pobID: 2417
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 2)))
+    (< inv2_0_n (+ inv2_4_n (- 4)))
+    (not (= (mod inv2_0_n 2) 0)))
+
+** expand-pob: inv2 SUBS level: 8 depth: 3 exprID: 2342 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 1))) (>= inv2_0_n (+ inv2_4_n (- 3))))
+
+** add-lemma: 8 exprID: 3590 pobID: 2342
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 1))) (< inv2_0_n (+ inv2_4_n (- 3))))
+
+** expand-pob: inv2 level: 9 depth: 0 exprID: 937 pobID: 1
+(and (= inv2_4_n inv2_0_n) (< (+ inv2_1_n inv2_2_n) 0))
+
+** add-lemma: 9 exprID: 697 pobID: 377
+inv2
+(< inv2_0_n inv2_4_n)
+
+** expand-pob: query!0 level: 10 depth: 0 exprID: 1 pobID: none
+true
+
+** add-lemma: 10 exprID: 2 pobID: 1
+query!0
+false
+
+Propagating
+
+** add-lemma: 6 exprID: 2097 pobID: 2099
+inv2
+(< inv2_0_n (+ inv2_4_n (- 4)))
+
+** add-lemma: 6 exprID: 2230 pobID: 1595
+inv2
+(not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 3)))
+
+** add-lemma: 7 exprID: 1594 pobID: 1595
+inv2
+(< inv2_0_n (+ inv2_4_n (- 3)))
+
+** add-lemma: 7 exprID: 2097 pobID: 2099
+inv2
+(< inv2_0_n (+ inv2_4_n (- 4)))
+
+** add-lemma: 7 exprID: 2104 pobID: 1253
+inv2
+(not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 2)))
+
+** add-lemma: 7 exprID: 2230 pobID: 1595
+inv2
+(not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 3)))
+
+** add-lemma: 8 exprID: 965 pobID: 939
+inv2
+(< inv2_0_n (+ inv2_4_n (- 1)))
+
+** add-lemma: 8 exprID: 1230 pobID: 1253
+inv2
+(< inv2_0_n (+ inv2_4_n (- 2)))
+
+** add-lemma: 8 exprID: 1594 pobID: 1595
+inv2
+(< inv2_0_n (+ inv2_4_n (- 3)))
+
+** add-lemma: 8 exprID: 2104 pobID: 1253
+inv2
+(not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 2)))
+
+** add-lemma: 8 exprID: 2230 pobID: 1595
+inv2
+(not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 3)))
+
+** add-lemma: 9 exprID: 965 pobID: 939
+inv2
+(< inv2_0_n (+ inv2_4_n (- 1)))
+
+** add-lemma: 9 exprID: 1230 pobID: 1253
+inv2
+(< inv2_0_n (+ inv2_4_n (- 2)))
+
+** add-lemma: 9 exprID: 1587 pobID: 939
+inv2
+(not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1)))
+
+** add-lemma: 9 exprID: 2104 pobID: 1253
+inv2
+(not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 2)))
+
+** add-lemma: 10 exprID: 697 pobID: 377
+inv2
+(< inv2_0_n inv2_4_n)
+
+** add-lemma: 10 exprID: 965 pobID: 939
+inv2
+(< inv2_0_n (+ inv2_4_n (- 1)))
+
+** add-lemma: 10 exprID: 1587 pobID: 939
+inv2
+(not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1)))
+
+** add-lemma: 11 exprID: 2 pobID: 1
+query!0
+false
+
+** add-lemma: 11 exprID: 697 pobID: 377
+inv2
+(< inv2_0_n inv2_4_n)
+
+** add-lemma: 12 exprID: 2 pobID: 1
+query!0
+false
+
+
+* LEVEL 11
+
+** expand-pob: query!0 level: 11 depth: 0 exprID: 1 pobID: none
+true
+
+Propagating
+
+
+* LEVEL 12
+
+** expand-pob: query!0 level: 12 depth: 0 exprID: 1 pobID: none
+true
+
+Propagating
+
+
+* LEVEL 13
+
+** expand-pob: query!0 level: 13 depth: 0 exprID: 1 pobID: none
+true
+
+** expand-pob: inv2 level: 12 depth: 0 exprID: 937 pobID: 1
+(and (= inv2_4_n inv2_0_n) (< (+ inv2_1_n inv2_2_n) 0))
+
+** expand-pob: inv2 level: 11 depth: 0 exprID: 5745 pobID: 937
+(and (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1))
+     (> (mod inv2_0_n 2) 0)
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0))
+
+** expand-pob: inv2 level: 10 depth: 0 exprID: 6045 pobID: 5745
+(and (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 2))
+     (> (mod inv2_0_n 2) 0)
+     (< (+ inv2_1_n inv2_2_n) 1))
+
+** expand-pob: inv2 level: 9 depth: 0 exprID: 6077 pobID: 6045
+(and (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 3))
+     (> (mod inv2_0_n 2) 0)
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) (- 1)))
+
+** expand-pob: inv2 level: 8 depth: 0 exprID: 5991 pobID: 6077
+(and (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 4))
+     (> (mod inv2_0_n 2) 0)
+     (< (+ inv2_1_n inv2_2_n) 2))
+
+** expand-pob: inv2 level: 7 depth: 0 exprID: 10710 pobID: 5991
+(and (> (mod inv2_0_n 2) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 5))
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) (- 2)))
+
+** expand-pob: inv2 level: 6 depth: 0 exprID: 10584 pobID: 10710
+(and (> (mod inv2_0_n 2) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 6))
+     (< (+ inv2_1_n inv2_2_n) 3))
+
+** expand-pob: inv2 level: 5 depth: 0 exprID: 10746 pobID: 10584
+(and (> (mod inv2_0_n 2) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 7))
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) (- 3)))
+
+** expand-pob: inv2 level: 4 depth: 0 exprID: 10764 pobID: 10746
+(and (> (mod inv2_0_n 2) 0)
+     (< (+ inv2_1_n inv2_2_n) 4)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 8)))
+
+** expand-pob: inv2 level: 3 depth: 0 exprID: 10828 pobID: 10764
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) (- 3))
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 9)))
+
+** add-lemma: 3 exprID: 10818 pobID: 10828
+inv2
+(< inv2_0_n (+ inv2_4_n (- 9)))
+
+** expand-pob: inv2 level: 4 depth: 0 exprID: 10764 pobID: 10746
+(and (> (mod inv2_0_n 2) 0)
+     (< (+ inv2_1_n inv2_2_n) 4)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 8)))
+
+** add-lemma: 4 exprID: 7920 pobID: 7806
+inv2
+(< inv2_0_n (+ inv2_4_n (- 8)))
+
+** expand-pob: inv2 level: 5 depth: 0 exprID: 10746 pobID: 10584
+(and (> (mod inv2_0_n 2) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 7))
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) (- 3)))
+
+** add-lemma: 5 exprID: 7301 pobID: 6751
+inv2
+(< inv2_0_n (+ inv2_4_n (- 7)))
+
+** expand-pob: inv2 level: 6 depth: 0 exprID: 10584 pobID: 10710
+(and (> (mod inv2_0_n 2) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 6))
+     (< (+ inv2_1_n inv2_2_n) 3))
+
+** add-lemma: 6 exprID: 6229 pobID: 6234
+inv2
+(< inv2_0_n (+ inv2_4_n (- 6)))
+
+** expand-pob: inv2 level: 7 depth: 0 exprID: 10710 pobID: 5991
+(and (> (mod inv2_0_n 2) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 5))
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) (- 2)))
+
+** add-lemma: 7 exprID: 2648 pobID: 2417
+inv2
+(< inv2_0_n (+ inv2_4_n (- 5)))
+
+** expand-pob: inv2 level: 8 depth: 0 exprID: 5991 pobID: 6077
+(and (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 4))
+     (> (mod inv2_0_n 2) 0)
+     (< (+ inv2_1_n inv2_2_n) 2))
+
+** add-lemma: 8 exprID: 11250 pobID: 5991
+inv2
+(or (not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 4)))
+    (< (mod inv2_0_n 2) 1)
+    (> (+ inv2_1_n inv2_2_n) 1))
+
+** expand-pob: inv2 level: 9 depth: 0 exprID: 6077 pobID: 6045
+(and (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 3))
+     (> (mod inv2_0_n 2) 0)
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) (- 1)))
+
+** expand-pob: inv2 level: 8 depth: 0 exprID: 11217 pobID: 6077
+(and (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 4))
+     (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (< (+ inv2_1_n inv2_2_n) 1))
+
+** add-lemma: 8 exprID: 2097 pobID: 2099
+inv2
+(< inv2_0_n (+ inv2_4_n (- 4)))
+
+** expand-pob: inv2 level: 9 depth: 0 exprID: 6077 pobID: 6045
+(and (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 3))
+     (> (mod inv2_0_n 2) 0)
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) (- 1)))
+
+** add-lemma: 9 exprID: 11276 pobID: 6077
+inv2
+(or (not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 3)))
+    (< (mod inv2_0_n 2) 1)
+    (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0))
+
+** expand-pob: inv2 level: 10 depth: 0 exprID: 6045 pobID: 5745
+(and (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 2))
+     (> (mod inv2_0_n 2) 0)
+     (< (+ inv2_1_n inv2_2_n) 1))
+
+** expand-pob: inv2 level: 9 depth: 0 exprID: 11421 pobID: 6045
+(and (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 3))
+     (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0))
+
+** add-lemma: 9 exprID: 1594 pobID: 1595
+inv2
+(< inv2_0_n (+ inv2_4_n (- 3)))
+
+** expand-pob: inv2 level: 10 depth: 0 exprID: 6045 pobID: 5745
+(and (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 2))
+     (> (mod inv2_0_n 2) 0)
+     (< (+ inv2_1_n inv2_2_n) 1))
+
+** add-lemma: 10 exprID: 11441 pobID: 6045
+inv2
+(or (> (+ inv2_1_n inv2_2_n) 0)
+    (not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 2)))
+    (< (mod inv2_0_n 2) 1))
+
+** expand-pob: inv2 level: 11 depth: 0 exprID: 5745 pobID: 937
+(and (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1))
+     (> (mod inv2_0_n 2) 0)
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0))
+
+** expand-pob: inv2 level: 10 depth: 0 exprID: 11497 pobID: 5745
+(and (< (+ inv2_1_n inv2_2_n) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 2))
+     (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0))
+
+** add-lemma: 10 exprID: 1230 pobID: 1253
+inv2
+(< inv2_0_n (+ inv2_4_n (- 2)))
+
+** expand-pob: inv2 level: 11 depth: 0 exprID: 5745 pobID: 937
+(and (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1))
+     (> (mod inv2_0_n 2) 0)
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0))
+
+** add-lemma: 11 exprID: 11580 pobID: 5745
+inv2
+(or (not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1)))
+    (< (mod inv2_0_n 2) 1)
+    (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** expand-pob: inv2 level: 12 depth: 0 exprID: 937 pobID: 1
+(and (= inv2_4_n inv2_0_n) (< (+ inv2_1_n inv2_2_n) 0))
+
+** expand-pob: inv2 level: 11 depth: 0 exprID: 11708 pobID: 937
+(and (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1))
+     (= (mod inv2_0_n 2) 0)
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** add-lemma: 11 exprID: 965 pobID: 939
+inv2
+(< inv2_0_n (+ inv2_4_n (- 1)))
+
+** expand-pob: inv2 level: 12 depth: 0 exprID: 937 pobID: 1
+(and (= inv2_4_n inv2_0_n) (< (+ inv2_1_n inv2_2_n) 0))
+
+** add-lemma: 12 exprID: 697 pobID: 377
+inv2
+(< inv2_0_n inv2_4_n)
+
+** expand-pob: query!0 level: 13 depth: 0 exprID: 1 pobID: none
+true
+
+** add-lemma: 13 exprID: 2 pobID: 1
+query!0
+false
+
+Propagating
+
+** add-lemma: 8 exprID: 8419 pobID: 2979
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 2)))
+    (< inv2_0_n (+ inv2_4_n (- 4)))
+    (< (mod inv2_0_n 2) 1))
+
+** add-lemma: 8 exprID: 8420 pobID: 2417
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 2)))
+    (< inv2_0_n (+ inv2_4_n (- 4)))
+    (not (= (mod inv2_0_n 2) 0)))
+
+** add-lemma: 9 exprID: 2230 pobID: 1595
+inv2
+(not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 3)))
+
+** add-lemma: 9 exprID: 3590 pobID: 2342
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 1))) (< inv2_0_n (+ inv2_4_n (- 3))))
+
+** add-lemma: 10 exprID: 2104 pobID: 1253
+inv2
+(not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 2)))
+
+** add-lemma: 11 exprID: 1587 pobID: 939
+inv2
+(not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1)))
+
+
+* LEVEL 14
+
+** expand-pob: query!0 level: 14 depth: 0 exprID: 1 pobID: none
+true
+
+** expand-pob: inv2 level: 13 depth: 0 exprID: 937 pobID: 1
+(and (= inv2_4_n inv2_0_n) (< (+ inv2_1_n inv2_2_n) 0))
+
+** expand-pob: inv2 level: 12 depth: 0 exprID: 11708 pobID: 937
+(and (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1))
+     (= (mod inv2_0_n 2) 0)
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** expand-pob: inv2 level: 11 depth: 0 exprID: 1253 pobID: 11708
+(= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 2))
+
+** expand-pob: inv2 level: 10 depth: 0 exprID: 1595 pobID: 1253
+(= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 3))
+
+** expand-pob: inv2 level: 9 depth: 0 exprID: 2099 pobID: 1595
+(= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 4))
+
+** expand-pob: inv2 level: 8 depth: 0 exprID: 6153 pobID: 2099
+(= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 5))
+
+** expand-pob: inv2 level: 7 depth: 0 exprID: 6222 pobID: 6153
+(= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 6))
+
+** expand-pob: inv2 level: 6 depth: 0 exprID: 7294 pobID: 6222
+(= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 7))
+
+** expand-pob: inv2 level: 5 depth: 0 exprID: 10757 pobID: 7294
+(= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 8))
+
+** expand-pob: inv2 level: 4 depth: 0 exprID: 10800 pobID: 10757
+(= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 9))
+
+** expand-pob: inv2 level: 3 depth: 0 exprID: 12478 pobID: 10800
+(= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 10))
+
+** add-lemma: 3 exprID: 12667 pobID: 12478
+inv2
+(< inv2_0_n (+ inv2_4_n (- 10)))
+
+** expand-pob: inv2 level: 4 depth: 0 exprID: 10800 pobID: 10757
+(= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 9))
+
+** add-lemma: 4 exprID: 10818 pobID: 10828
+inv2
+(< inv2_0_n (+ inv2_4_n (- 9)))
+
+** expand-pob: inv2 level: 5 depth: 0 exprID: 10757 pobID: 7294
+(= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 8))
+
+** add-lemma: 5 exprID: 7920 pobID: 7806
+inv2
+(< inv2_0_n (+ inv2_4_n (- 8)))
+
+** expand-pob: inv2 level: 6 depth: 0 exprID: 7294 pobID: 6222
+(= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 7))
+
+** add-lemma: 6 exprID: 7301 pobID: 6751
+inv2
+(< inv2_0_n (+ inv2_4_n (- 7)))
+
+** expand-pob: inv2 level: 7 depth: 0 exprID: 6222 pobID: 6153
+(= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 6))
+
+** add-lemma: 7 exprID: 6229 pobID: 6234
+inv2
+(< inv2_0_n (+ inv2_4_n (- 6)))
+
+** expand-pob: inv2 level: 8 depth: 0 exprID: 6153 pobID: 2099
+(= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 5))
+
+** add-lemma: 8 exprID: 2648 pobID: 2417
+inv2
+(< inv2_0_n (+ inv2_4_n (- 5)))
+
+** expand-pob: inv2 level: 9 depth: 0 exprID: 2099 pobID: 1595
+(= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 4))
+
+** add-lemma: 9 exprID: 2097 pobID: 2099
+inv2
+(< inv2_0_n (+ inv2_4_n (- 4)))
+
+** expand-pob: inv2 level: 10 depth: 0 exprID: 1595 pobID: 1253
+(= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 3))
+
+** add-lemma: 10 exprID: 1594 pobID: 1595
+inv2
+(< inv2_0_n (+ inv2_4_n (- 3)))
+
+** expand-pob: inv2 level: 11 depth: 0 exprID: 1253 pobID: 11708
+(= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 2))
+
+** add-lemma: 11 exprID: 1230 pobID: 1253
+inv2
+(< inv2_0_n (+ inv2_4_n (- 2)))
+
+** expand-pob: inv2 level: 12 depth: 0 exprID: 11708 pobID: 937
+(and (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1))
+     (= (mod inv2_0_n 2) 0)
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** add-lemma: 12 exprID: 12983 pobID: 11708
+inv2
+(or (not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1)))
+    (not (= (mod inv2_0_n 2) 0))
+    (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 2))
+
+** expand-pob: inv2 level: 13 depth: 0 exprID: 937 pobID: 1
+(and (= inv2_4_n inv2_0_n) (< (+ inv2_1_n inv2_2_n) 0))
+
+** expand-pob: inv2 level: 13 depth: 0 exprID: 937 pobID: 1
+(and (= inv2_4_n inv2_0_n) (< (+ inv2_1_n inv2_2_n) 0))
+
+** expand-pob: inv2 level: 12 depth: 0 exprID: 5745 pobID: 937
+(and (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1))
+     (> (mod inv2_0_n 2) 0)
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0))
+
+** add-lemma: 12 exprID: 11580 pobID: 5745
+inv2
+(or (not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1)))
+    (< (mod inv2_0_n 2) 1)
+    (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** expand-pob: inv2 SUBS level: 9 depth: 0 exprID: 13536 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 1)))
+     (>= inv2_0_n (+ inv2_4_n (- 3)))
+     (>= (mod inv2_0_n 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 1)
+     (>= (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 3)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0))
+
+** expand-pob: inv2 SUBS level: 10 depth: 1 exprID: 13536 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 1)))
+     (>= inv2_0_n (+ inv2_4_n (- 3)))
+     (>= (mod inv2_0_n 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 1)
+     (>= (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 3)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0))
+
+** add-lemma: 10 exprID: 13481 pobID: 13536
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 1)))
+    (< inv2_0_n (+ inv2_4_n (- 3)))
+    (< (mod inv2_0_n 2) 1)
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (< (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 3)
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)))
+
+** expand-pob: inv2 SUBS level: 11 depth: 2 exprID: 13536 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 1)))
+     (>= inv2_0_n (+ inv2_4_n (- 3)))
+     (>= (mod inv2_0_n 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 1)
+     (>= (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 3)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0))
+
+** expand-pob: inv2 SUBS level: 11 depth: 2 exprID: 13536 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 1)))
+     (>= inv2_0_n (+ inv2_4_n (- 3)))
+     (>= (mod inv2_0_n 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 1)
+     (>= (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 3)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0))
+
+** expand-pob: inv2 level: 10 depth: 2 exprID: 13738 pobID: 13536
+(and (<= inv2_0_n (+ inv2_4_n (- 2)))
+     (>= inv2_0_n (+ inv2_4_n (- 4)))
+     (= (mod inv2_0_n 2) 0)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)
+     (>= (mod (+ 1 inv2_0_n) 2) 1)
+     (<= (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 4))
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 0))
+
+** expand-pob: inv2 level: 9 depth: 2 exprID: 13854 pobID: 13738
+(and (<= inv2_0_n (+ inv2_4_n (- 3)))
+     (>= inv2_0_n (+ inv2_4_n (- 5)))
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (>= (mod inv2_0_n 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 1)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)
+     (>= (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 5))
+
+** expand-pob: inv2 level: 8 depth: 2 exprID: 13827 pobID: 13854
+(and (<= inv2_0_n (+ inv2_4_n (- 4)))
+     (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (>= inv2_0_n (+ inv2_4_n (- 6)))
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)
+     (>= (mod (+ 1 inv2_0_n) 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 0)
+     (<= (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 6)))
+
+** expand-pob: inv2 level: 7 depth: 2 exprID: 13893 pobID: 13827
+(and (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (>= (mod inv2_0_n 2) 1)
+     (<= inv2_0_n (+ inv2_4_n (- 5)))
+     (>= inv2_0_n (+ inv2_4_n (- 7)))
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 1)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)
+     (>= (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 7))
+
+** expand-pob: inv2 level: 6 depth: 2 exprID: 13853 pobID: 13893
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (<= inv2_0_n (+ inv2_4_n (- 6)))
+     (>= inv2_0_n (+ inv2_4_n (- 8)))
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)
+     (>= (mod (+ 1 inv2_0_n) 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 0)
+     (<= (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 8)))
+
+** expand-pob: inv2 level: 5 depth: 2 exprID: 13950 pobID: 13853
+(and (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (>= (mod inv2_0_n 2) 1)
+     (<= inv2_0_n (+ inv2_4_n (- 7)))
+     (>= inv2_0_n (+ inv2_4_n (- 9)))
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 1)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)
+     (>= (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 9))
+
+** expand-pob: inv2 level: 4 depth: 2 exprID: 13812 pobID: 13950
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (<= inv2_0_n (+ inv2_4_n (- 8)))
+     (>= inv2_0_n (+ inv2_4_n (- 10)))
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)
+     (>= (mod (+ 1 inv2_0_n) 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 0)
+     (<= (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 10)))
+
+** expand-pob: inv2 level: 3 depth: 2 exprID: 14026 pobID: 13812
+(and (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (>= (mod inv2_0_n 2) 1)
+     (<= inv2_0_n (+ inv2_4_n (- 9)))
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 1)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)
+     (>= inv2_0_n (+ inv2_4_n (- 11)))
+     (>= (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 11))
+
+** add-lemma: 3 exprID: 14119 pobID: 14026
+inv2
+(< inv2_0_n (+ inv2_4_n (- 942573481)))
+
+** expand-pob: inv2 level: 3 depth: 2 exprID: 14154 pobID: 1
+(and (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (>= (mod inv2_0_n 2) 1)
+     (<= inv2_0_n (+ inv2_4_n (- 9)))
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 1)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)
+     (>= (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 11))
+
+** expand-pob: inv2 level: 2 depth: 2 exprID: 14177 pobID: 14154
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (<= inv2_0_n (+ inv2_4_n (- 10)))
+     (>= (mod (+ 1 inv2_0_n) 2) 1)
+     (<= (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 12)))
+
+** expand-pob: inv2 level: 3 depth: 2 exprID: 14154 pobID: 1
+(and (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (>= (mod inv2_0_n 2) 1)
+     (<= inv2_0_n (+ inv2_4_n (- 9)))
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 1)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)
+     (>= (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 11))
+
+** expand-pob: inv2 level: 2 depth: 2 exprID: 14361 pobID: 14154
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (<= inv2_0_n (+ inv2_4_n (- 10)))
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)
+     (>= (mod (+ 1 inv2_0_n) 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 0)
+     (<= (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 12)))
+
+** expand-pob: inv2 level: 2 depth: 2 exprID: 14361 pobID: 14154
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (<= inv2_0_n (+ inv2_4_n (- 10)))
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)
+     (>= (mod (+ 1 inv2_0_n) 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 0)
+     (<= (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 12)))
+
+** expand-pob: inv2 level: 1 depth: 2 exprID: 14476 pobID: 14361
+(and (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (>= (mod inv2_0_n 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 1)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)
+     (<= inv2_0_n (+ inv2_4_n (- 11)))
+     (>= (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 13))
+
+** expand-pob: inv2 level: 1 depth: 2 exprID: 14476 pobID: 14361
+(and (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (>= (mod inv2_0_n 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 1)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)
+     (<= inv2_0_n (+ inv2_4_n (- 11)))
+     (>= (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 13))
+
+** expand-pob: inv2 level: 0 depth: 2 exprID: 14552 pobID: 14476
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)
+     (>= (mod (+ 1 inv2_0_n) 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 0)
+     (<= inv2_0_n (+ inv2_4_n (- 12)))
+     (<= (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 14)))
+
+** add-lemma: 0 exprID: 14384 pobID: 14552
+inv2
+(not (= (mod (+ inv2_0_n inv2_4_n) 2) 0))
+
+** expand-pob: inv2 level: 1 depth: 2 exprID: 14476 pobID: 14361
+(and (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (>= (mod inv2_0_n 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 1)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)
+     (<= inv2_0_n (+ inv2_4_n (- 11)))
+     (>= (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 13))
+
+** add-lemma: 1 exprID: 14817 pobID: 14476
+inv2
+(or (< (mod inv2_0_n 2) 1) (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)))
+
+** expand-pob: inv2 level: 2 depth: 2 exprID: 14361 pobID: 14154
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (<= inv2_0_n (+ inv2_4_n (- 10)))
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)
+     (>= (mod (+ 1 inv2_0_n) 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 0)
+     (<= (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 12)))
+
+** add-lemma: 2 exprID: 15170 pobID: 14361
+inv2
+(or (not (= (mod inv2_0_n 2) 0)) (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)))
+
+** expand-pob: inv2 level: 3 depth: 2 exprID: 14154 pobID: 1
+(and (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (>= (mod inv2_0_n 2) 1)
+     (<= inv2_0_n (+ inv2_4_n (- 9)))
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 1)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)
+     (>= (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 11))
+
+** add-lemma: 3 exprID: 14817 pobID: 14476
+inv2
+(or (< (mod inv2_0_n 2) 1) (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)))
+
+** expand-pob: inv2 level: 4 depth: 2 exprID: 13812 pobID: 13950
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (<= inv2_0_n (+ inv2_4_n (- 8)))
+     (>= inv2_0_n (+ inv2_4_n (- 10)))
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)
+     (>= (mod (+ 1 inv2_0_n) 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 0)
+     (<= (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 10)))
+
+** add-lemma: 4 exprID: 13993 pobID: 13812
+inv2
+(< inv2_0_n (+ inv2_4_n (- 11)))
+
+** expand-pob: inv2 level: 3 depth: 2 exprID: 15400 pobID: 1
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (<= inv2_0_n (+ inv2_4_n (- 8)))
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)
+     (>= (mod (+ 1 inv2_0_n) 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 0)
+     (<= (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 10)))
+
+** expand-pob: inv2 level: 2 depth: 2 exprID: 15093 pobID: 15400
+(and (<= inv2_0_n (+ inv2_4_n (- 9)))
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 1)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0))
+
+** expand-pob: inv2 level: 3 depth: 2 exprID: 15400 pobID: 1
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (<= inv2_0_n (+ inv2_4_n (- 8)))
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)
+     (>= (mod (+ 1 inv2_0_n) 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 0)
+     (<= (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 10)))
+
+** add-lemma: 4 exprID: 15170 pobID: 14361
+inv2
+(or (not (= (mod inv2_0_n 2) 0)) (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)))
+
+** expand-pob: inv2 level: 4 depth: 3 exprID: 15400 pobID: 1
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (<= inv2_0_n (+ inv2_4_n (- 8)))
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)
+     (>= (mod (+ 1 inv2_0_n) 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 0)
+     (<= (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 10)))
+
+** expand-pob: inv2 level: 5 depth: 2 exprID: 13950 pobID: 13853
+(and (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (>= (mod inv2_0_n 2) 1)
+     (<= inv2_0_n (+ inv2_4_n (- 7)))
+     (>= inv2_0_n (+ inv2_4_n (- 9)))
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 1)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)
+     (>= (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 9))
+
+** add-lemma: 5 exprID: 10818 pobID: 10828
+inv2
+(< inv2_0_n (+ inv2_4_n (- 9)))
+
+** expand-pob: inv2 level: 3 depth: 2 exprID: 14070 pobID: 1
+(and (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (>= (mod inv2_0_n 2) 1)
+     (<= inv2_0_n (+ inv2_4_n (- 7)))
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 1)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)
+     (>= (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 9))
+
+** expand-pob: inv2 level: 4 depth: 3 exprID: 14070 pobID: 1
+(and (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (>= (mod inv2_0_n 2) 1)
+     (<= inv2_0_n (+ inv2_4_n (- 7)))
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 1)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)
+     (>= (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 9))
+
+** add-lemma: 5 exprID: 15679 pobID: 14070
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0))
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)))
+
+** expand-pob: inv2 level: 5 depth: 4 exprID: 14070 pobID: 1
+(and (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (>= (mod inv2_0_n 2) 1)
+     (<= inv2_0_n (+ inv2_4_n (- 7)))
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 1)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)
+     (>= (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 9))
+
+** expand-pob: inv2 level: 6 depth: 2 exprID: 13853 pobID: 13893
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (<= inv2_0_n (+ inv2_4_n (- 6)))
+     (>= inv2_0_n (+ inv2_4_n (- 8)))
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)
+     (>= (mod (+ 1 inv2_0_n) 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 0)
+     (<= (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 8)))
+
+** add-lemma: 6 exprID: 7920 pobID: 7806
+inv2
+(< inv2_0_n (+ inv2_4_n (- 8)))
+
+** expand-pob: inv2 level: 7 depth: 2 exprID: 13893 pobID: 13827
+(and (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (>= (mod inv2_0_n 2) 1)
+     (<= inv2_0_n (+ inv2_4_n (- 5)))
+     (>= inv2_0_n (+ inv2_4_n (- 7)))
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 1)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)
+     (>= (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 7))
+
+** add-lemma: 7 exprID: 7301 pobID: 6751
+inv2
+(< inv2_0_n (+ inv2_4_n (- 7)))
+
+** expand-pob: inv2 level: 8 depth: 2 exprID: 13827 pobID: 13854
+(and (<= inv2_0_n (+ inv2_4_n (- 4)))
+     (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (>= inv2_0_n (+ inv2_4_n (- 6)))
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)
+     (>= (mod (+ 1 inv2_0_n) 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 0)
+     (<= (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 6)))
+
+** add-lemma: 8 exprID: 6229 pobID: 6234
+inv2
+(< inv2_0_n (+ inv2_4_n (- 6)))
+
+** expand-pob: inv2 level: 9 depth: 2 exprID: 13854 pobID: 13738
+(and (<= inv2_0_n (+ inv2_4_n (- 3)))
+     (>= inv2_0_n (+ inv2_4_n (- 5)))
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (>= (mod inv2_0_n 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 1)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)
+     (>= (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 5))
+
+** add-lemma: 9 exprID: 2648 pobID: 2417
+inv2
+(< inv2_0_n (+ inv2_4_n (- 5)))
+
+** expand-pob: inv2 level: 10 depth: 2 exprID: 13738 pobID: 13536
+(and (<= inv2_0_n (+ inv2_4_n (- 2)))
+     (>= inv2_0_n (+ inv2_4_n (- 4)))
+     (= (mod inv2_0_n 2) 0)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)
+     (>= (mod (+ 1 inv2_0_n) 2) 1)
+     (<= (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 4))
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 0))
+
+** add-lemma: 10 exprID: 2097 pobID: 2099
+inv2
+(< inv2_0_n (+ inv2_4_n (- 4)))
+
+** expand-pob: inv2 SUBS level: 11 depth: 2 exprID: 13536 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 1)))
+     (>= inv2_0_n (+ inv2_4_n (- 3)))
+     (>= (mod inv2_0_n 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 1)
+     (>= (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 3)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0))
+
+** add-lemma: 11 exprID: 13481 pobID: 13536
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 1)))
+    (< inv2_0_n (+ inv2_4_n (- 3)))
+    (< (mod inv2_0_n 2) 1)
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (< (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 3)
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)))
+
+** expand-pob: inv2 SUBS level: 12 depth: 3 exprID: 13536 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 1)))
+     (>= inv2_0_n (+ inv2_4_n (- 3)))
+     (>= (mod inv2_0_n 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 1)
+     (>= (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 3)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0))
+
+** expand-pob: inv2 SUBS level: 12 depth: 3 exprID: 13536 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 1)))
+     (>= inv2_0_n (+ inv2_4_n (- 3)))
+     (>= (mod inv2_0_n 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 1)
+     (>= (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 3)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0))
+
+** expand-pob: inv2 level: 11 depth: 3 exprID: 13738 pobID: 13536
+(and (<= inv2_0_n (+ inv2_4_n (- 2)))
+     (>= inv2_0_n (+ inv2_4_n (- 4)))
+     (= (mod inv2_0_n 2) 0)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)
+     (>= (mod (+ 1 inv2_0_n) 2) 1)
+     (<= (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 4))
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 0))
+
+** expand-pob: inv2 level: 10 depth: 3 exprID: 13854 pobID: 13738
+(and (<= inv2_0_n (+ inv2_4_n (- 3)))
+     (>= inv2_0_n (+ inv2_4_n (- 5)))
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (>= (mod inv2_0_n 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 1)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)
+     (>= (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 5))
+
+** expand-pob: inv2 level: 9 depth: 3 exprID: 13827 pobID: 13854
+(and (<= inv2_0_n (+ inv2_4_n (- 4)))
+     (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (>= inv2_0_n (+ inv2_4_n (- 6)))
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)
+     (>= (mod (+ 1 inv2_0_n) 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 0)
+     (<= (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 6)))
+
+** expand-pob: inv2 level: 8 depth: 3 exprID: 13893 pobID: 13827
+(and (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (>= (mod inv2_0_n 2) 1)
+     (<= inv2_0_n (+ inv2_4_n (- 5)))
+     (>= inv2_0_n (+ inv2_4_n (- 7)))
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 1)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)
+     (>= (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 7))
+
+** expand-pob: inv2 level: 7 depth: 3 exprID: 13853 pobID: 13893
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (<= inv2_0_n (+ inv2_4_n (- 6)))
+     (>= inv2_0_n (+ inv2_4_n (- 8)))
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)
+     (>= (mod (+ 1 inv2_0_n) 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 0)
+     (<= (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 8)))
+
+** expand-pob: inv2 level: 6 depth: 3 exprID: 13950 pobID: 13853
+(and (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (>= (mod inv2_0_n 2) 1)
+     (<= inv2_0_n (+ inv2_4_n (- 7)))
+     (>= inv2_0_n (+ inv2_4_n (- 9)))
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 1)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)
+     (>= (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 9))
+
+** expand-pob: inv2 level: 5 depth: 3 exprID: 13812 pobID: 13950
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (<= inv2_0_n (+ inv2_4_n (- 8)))
+     (>= inv2_0_n (+ inv2_4_n (- 10)))
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)
+     (>= (mod (+ 1 inv2_0_n) 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 0)
+     (<= (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 10)))
+
+** add-lemma: 5 exprID: 16438 pobID: 13812
+inv2
+(or (not (= (mod inv2_0_n 2) 0))
+    (> inv2_0_n (+ inv2_4_n (- 8)))
+    (< inv2_0_n (+ inv2_4_n (- 10)))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1))
+    (< (mod (+ 1 inv2_0_n) 2) 1)
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 0))
+    (> (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 10)))
+
+** expand-pob: inv2 level: 6 depth: 3 exprID: 13950 pobID: 13853
+(and (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (>= (mod inv2_0_n 2) 1)
+     (<= inv2_0_n (+ inv2_4_n (- 7)))
+     (>= inv2_0_n (+ inv2_4_n (- 9)))
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 1)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)
+     (>= (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 9))
+
+** expand-pob: inv2 level: 6 depth: 3 exprID: 13950 pobID: 13853
+(and (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (>= (mod inv2_0_n 2) 1)
+     (<= inv2_0_n (+ inv2_4_n (- 7)))
+     (>= inv2_0_n (+ inv2_4_n (- 9)))
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 1)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)
+     (>= (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 9))
+
+** add-lemma: 6 exprID: 16967 pobID: 13950
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0))
+    (< (mod inv2_0_n 2) 1)
+    (> inv2_0_n (+ inv2_4_n (- 7)))
+    (< inv2_0_n (+ inv2_4_n (- 9)))
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0))
+    (< (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 9))
+
+** expand-pob: inv2 level: 7 depth: 3 exprID: 13853 pobID: 13893
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (<= inv2_0_n (+ inv2_4_n (- 6)))
+     (>= inv2_0_n (+ inv2_4_n (- 8)))
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)
+     (>= (mod (+ 1 inv2_0_n) 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 0)
+     (<= (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 8)))
+
+** expand-pob: inv2 level: 7 depth: 3 exprID: 13853 pobID: 13893
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (<= inv2_0_n (+ inv2_4_n (- 6)))
+     (>= inv2_0_n (+ inv2_4_n (- 8)))
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)
+     (>= (mod (+ 1 inv2_0_n) 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 0)
+     (<= (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 8)))
+
+** add-lemma: 7 exprID: 16937 pobID: 13853
+inv2
+(or (not (= (mod inv2_0_n 2) 0))
+    (> inv2_0_n (+ inv2_4_n (- 6)))
+    (< inv2_0_n (+ inv2_4_n (- 8)))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1))
+    (< (mod (+ 1 inv2_0_n) 2) 1)
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 0))
+    (> (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 8)))
+
+** expand-pob: inv2 level: 8 depth: 3 exprID: 13893 pobID: 13827
+(and (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (>= (mod inv2_0_n 2) 1)
+     (<= inv2_0_n (+ inv2_4_n (- 5)))
+     (>= inv2_0_n (+ inv2_4_n (- 7)))
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 1)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)
+     (>= (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 7))
+
+** expand-pob: inv2 level: 8 depth: 3 exprID: 13893 pobID: 13827
+(and (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (>= (mod inv2_0_n 2) 1)
+     (<= inv2_0_n (+ inv2_4_n (- 5)))
+     (>= inv2_0_n (+ inv2_4_n (- 7)))
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 1)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)
+     (>= (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 7))
+
+** add-lemma: 8 exprID: 17180 pobID: 13893
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0))
+    (< (mod inv2_0_n 2) 1)
+    (> inv2_0_n (+ inv2_4_n (- 5)))
+    (< inv2_0_n (+ inv2_4_n (- 7)))
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0))
+    (< (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 7))
+
+** expand-pob: inv2 level: 9 depth: 3 exprID: 13827 pobID: 13854
+(and (<= inv2_0_n (+ inv2_4_n (- 4)))
+     (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (>= inv2_0_n (+ inv2_4_n (- 6)))
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)
+     (>= (mod (+ 1 inv2_0_n) 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 0)
+     (<= (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 6)))
+
+** expand-pob: inv2 level: 9 depth: 3 exprID: 13827 pobID: 13854
+(and (<= inv2_0_n (+ inv2_4_n (- 4)))
+     (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (>= inv2_0_n (+ inv2_4_n (- 6)))
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)
+     (>= (mod (+ 1 inv2_0_n) 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 0)
+     (<= (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 6)))
+
+** add-lemma: 9 exprID: 17114 pobID: 13827
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 4)))
+    (not (= (mod inv2_0_n 2) 0))
+    (< inv2_0_n (+ inv2_4_n (- 6)))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1))
+    (< (mod (+ 1 inv2_0_n) 2) 1)
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 0))
+    (> (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 6)))
+
+** expand-pob: inv2 SUBS level: 5 depth: 3 exprID: 17132 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 4)))
+     (= (mod inv2_0_n 2) 0)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)
+     (>= (mod (+ 1 inv2_0_n) 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 0)
+     (<= (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 6)))
+
+** expand-pob: inv2 SUBS level: 5 depth: 3 exprID: 17132 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 4)))
+     (= (mod inv2_0_n 2) 0)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)
+     (>= (mod (+ 1 inv2_0_n) 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 0)
+     (<= (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 6)))
+
+** add-lemma: 6 exprID: 15170 pobID: 14361
+inv2
+(or (not (= (mod inv2_0_n 2) 0)) (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)))
+
+** expand-pob: inv2 SUBS level: 6 depth: 4 exprID: 17132 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 4)))
+     (= (mod inv2_0_n 2) 0)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)
+     (>= (mod (+ 1 inv2_0_n) 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 0)
+     (<= (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 6)))
+
+** expand-pob: inv2 SUBS level: 7 depth: 5 exprID: 17132 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 4)))
+     (= (mod inv2_0_n 2) 0)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)
+     (>= (mod (+ 1 inv2_0_n) 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 0)
+     (<= (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 6)))
+
+** expand-pob: inv2 SUBS level: 7 depth: 5 exprID: 17132 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 4)))
+     (= (mod inv2_0_n 2) 0)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)
+     (>= (mod (+ 1 inv2_0_n) 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 0)
+     (<= (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 6)))
+
+** expand-pob: inv2 level: 6 depth: 5 exprID: 13601 pobID: 17132
+(and (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (>= (mod inv2_0_n 2) 1)
+     (<= inv2_0_n (+ inv2_4_n (- 5)))
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 1)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)
+     (>= (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 7))
+
+** add-lemma: 7 exprID: 2366 pobID: 13601
+inv2
+(or (< (mod inv2_0_n 2) 1)
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)))
+
+** expand-pob: inv2 SUBS level: 7 depth: 5 exprID: 17132 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 4)))
+     (= (mod inv2_0_n 2) 0)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)
+     (>= (mod (+ 1 inv2_0_n) 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 0)
+     (<= (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 6)))
+
+** add-lemma: 8 exprID: 17498 pobID: 17132
+inv2
+(or (not (= (mod inv2_0_n 2) 0)) (not (= (mod (+ inv2_0_n inv2_4_n) 2) 0)))
+
+** expand-pob: inv2 SUBS level: 8 depth: 6 exprID: 17132 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 4)))
+     (= (mod inv2_0_n 2) 0)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)
+     (>= (mod (+ 1 inv2_0_n) 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 0)
+     (<= (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 6)))
+
+** expand-pob: inv2 SUBS level: 9 depth: 7 exprID: 17132 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 4)))
+     (= (mod inv2_0_n 2) 0)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)
+     (>= (mod (+ 1 inv2_0_n) 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 0)
+     (<= (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 6)))
+
+** expand-pob: inv2 SUBS level: 9 depth: 7 exprID: 17132 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 4)))
+     (= (mod inv2_0_n 2) 0)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)
+     (>= (mod (+ 1 inv2_0_n) 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 0)
+     (<= (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 6)))
+
+** expand-pob: inv2 level: 8 depth: 7 exprID: 13601 pobID: 17132
+(and (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (>= (mod inv2_0_n 2) 1)
+     (<= inv2_0_n (+ inv2_4_n (- 5)))
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 1)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)
+     (>= (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 7))
+
+** expand-pob: inv2 level: 7 depth: 7 exprID: 2370 pobID: 13601
+(and (<= inv2_0_n (+ inv2_4_n (- 6)))
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 0))
+
+** expand-pob: inv2 level: 8 depth: 7 exprID: 13601 pobID: 17132
+(and (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (>= (mod inv2_0_n 2) 1)
+     (<= inv2_0_n (+ inv2_4_n (- 5)))
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 1)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)
+     (>= (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 7))
+
+** add-lemma: 9 exprID: 14817 pobID: 14476
+inv2
+(or (< (mod inv2_0_n 2) 1) (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)))
+
+** expand-pob: inv2 SUBS level: 9 depth: 7 exprID: 17132 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 4)))
+     (= (mod inv2_0_n 2) 0)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)
+     (>= (mod (+ 1 inv2_0_n) 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 0)
+     (<= (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 6)))
+
+** add-lemma: 10 exprID: 17498 pobID: 17132
+inv2
+(or (not (= (mod inv2_0_n 2) 0)) (not (= (mod (+ inv2_0_n inv2_4_n) 2) 0)))
+
+** expand-pob: inv2 level: 10 depth: 3 exprID: 13854 pobID: 13738
+(and (<= inv2_0_n (+ inv2_4_n (- 3)))
+     (>= inv2_0_n (+ inv2_4_n (- 5)))
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (>= (mod inv2_0_n 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 1)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)
+     (>= (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 5))
+
+** add-lemma: 10 exprID: 17779 pobID: 13854
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 3)))
+    (< inv2_0_n (+ inv2_4_n (- 5)))
+    (not (= (mod (+ 1 inv2_0_n) 2) 0))
+    (< (mod inv2_0_n 2) 1)
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0))
+    (< (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 5))
+
+** expand-pob: inv2 SUBS level: 6 depth: 3 exprID: 13598 pobID: 1
+(and (= (mod (+ 1 inv2_0_n) 2) 0)
+     (>= (mod inv2_0_n 2) 1)
+     (>= inv2_0_n (+ inv2_4_n (- 9)))
+     (>= (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 1)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0))
+
+** expand-pob: inv2 SUBS level: 7 depth: 4 exprID: 13598 pobID: 1
+(and (= (mod (+ 1 inv2_0_n) 2) 0)
+     (>= (mod inv2_0_n 2) 1)
+     (>= inv2_0_n (+ inv2_4_n (- 9)))
+     (>= (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 1)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0))
+
+** expand-pob: inv2 SUBS level: 8 depth: 5 exprID: 13598 pobID: 1
+(and (= (mod (+ 1 inv2_0_n) 2) 0)
+     (>= (mod inv2_0_n 2) 1)
+     (>= inv2_0_n (+ inv2_4_n (- 9)))
+     (>= (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 1)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0))
+
+** expand-pob: inv2 SUBS level: 9 depth: 6 exprID: 13598 pobID: 1
+(and (= (mod (+ 1 inv2_0_n) 2) 0)
+     (>= (mod inv2_0_n 2) 1)
+     (>= inv2_0_n (+ inv2_4_n (- 9)))
+     (>= (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 1)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0))
+
+** expand-pob: inv2 SUBS level: 10 depth: 7 exprID: 13598 pobID: 1
+(and (= (mod (+ 1 inv2_0_n) 2) 0)
+     (>= (mod inv2_0_n 2) 1)
+     (>= inv2_0_n (+ inv2_4_n (- 9)))
+     (>= (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 1)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0))
+
+** add-lemma: 11 exprID: 14817 pobID: 14476
+inv2
+(or (< (mod inv2_0_n 2) 1) (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)))
+
+** expand-pob: inv2 level: 11 depth: 3 exprID: 13738 pobID: 13536
+(and (<= inv2_0_n (+ inv2_4_n (- 2)))
+     (>= inv2_0_n (+ inv2_4_n (- 4)))
+     (= (mod inv2_0_n 2) 0)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)
+     (>= (mod (+ 1 inv2_0_n) 2) 1)
+     (<= (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 4))
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 0))
+
+** add-lemma: 11 exprID: 18052 pobID: 13738
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 2)))
+    (< inv2_0_n (+ inv2_4_n (- 4)))
+    (not (= (mod inv2_0_n 2) 0))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1))
+    (< (mod (+ 1 inv2_0_n) 2) 1)
+    (> (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 4))
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 0)))
+
+** expand-pob: inv2 SUBS level: 5 depth: 3 exprID: 18280 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 2)))
+     (= (mod inv2_0_n 2) 0)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)
+     (>= (mod (+ 1 inv2_0_n) 2) 1)
+     (<= (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 4))
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 0))
+
+** expand-pob: inv2 SUBS level: 6 depth: 4 exprID: 18280 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 2)))
+     (= (mod inv2_0_n 2) 0)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)
+     (>= (mod (+ 1 inv2_0_n) 2) 1)
+     (<= (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 4))
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 0))
+
+** expand-pob: inv2 SUBS level: 7 depth: 5 exprID: 18280 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 2)))
+     (= (mod inv2_0_n 2) 0)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)
+     (>= (mod (+ 1 inv2_0_n) 2) 1)
+     (<= (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 4))
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 0))
+
+** expand-pob: inv2 SUBS level: 8 depth: 6 exprID: 18280 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 2)))
+     (= (mod inv2_0_n 2) 0)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)
+     (>= (mod (+ 1 inv2_0_n) 2) 1)
+     (<= (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 4))
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 0))
+
+** expand-pob: inv2 SUBS level: 9 depth: 7 exprID: 18280 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 2)))
+     (= (mod inv2_0_n 2) 0)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)
+     (>= (mod (+ 1 inv2_0_n) 2) 1)
+     (<= (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 4))
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 0))
+
+** expand-pob: inv2 SUBS level: 10 depth: 8 exprID: 18280 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 2)))
+     (= (mod inv2_0_n 2) 0)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)
+     (>= (mod (+ 1 inv2_0_n) 2) 1)
+     (<= (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 4))
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 0))
+
+** expand-pob: inv2 SUBS level: 11 depth: 9 exprID: 18280 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 2)))
+     (= (mod inv2_0_n 2) 0)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)
+     (>= (mod (+ 1 inv2_0_n) 2) 1)
+     (<= (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 4))
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 0))
+
+** add-lemma: 12 exprID: 17498 pobID: 17132
+inv2
+(or (not (= (mod inv2_0_n 2) 0)) (not (= (mod (+ inv2_0_n inv2_4_n) 2) 0)))
+
+** expand-pob: inv2 SUBS level: 12 depth: 3 exprID: 13536 pobID: 1
+(and (<= inv2_0_n (+ inv2_4_n (- 1)))
+     (>= inv2_0_n (+ inv2_4_n (- 3)))
+     (>= (mod inv2_0_n 2) 1)
+     (= (mod (+ inv2_0_n inv2_4_n) 2) 1)
+     (>= (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 3)
+     (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0))
+
+** add-lemma: 12 exprID: 13481 pobID: 13536
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 1)))
+    (< inv2_0_n (+ inv2_4_n (- 3)))
+    (< (mod inv2_0_n 2) 1)
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (< (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 3)
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)))
+
+** expand-pob: inv2 level: 13 depth: 0 exprID: 937 pobID: 1
+(and (= inv2_4_n inv2_0_n) (< (+ inv2_1_n inv2_2_n) 0))
+
+** add-lemma: 13 exprID: 17943 pobID: 937
+inv2
+(or (< inv2_0_n inv2_4_n) (> (+ inv2_1_n inv2_2_n) (- 1)))
+
+** expand-pob: query!0 level: 14 depth: 0 exprID: 1 pobID: none
+true
+
+** expand-pob: inv2 level: 13 depth: 0 exprID: 377 pobID: 1
+(and (= inv2_4_n inv2_0_n) (> (+ inv2_1_n inv2_2_n) 0))
+
+** expand-pob: inv2 level: 12 depth: 0 exprID: 19533 pobID: 377
+(and (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1))
+     (> (mod inv2_0_n 2) 0)
+     (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0))
+
+** add-lemma: 12 exprID: 965 pobID: 939
+inv2
+(< inv2_0_n (+ inv2_4_n (- 1)))
+
+** expand-pob: inv2 level: 13 depth: 0 exprID: 377 pobID: 1
+(and (= inv2_4_n inv2_0_n) (> (+ inv2_1_n inv2_2_n) 0))
+
+** add-lemma: 13 exprID: 697 pobID: 377
+inv2
+(< inv2_0_n inv2_4_n)
+
+** expand-pob: query!0 level: 14 depth: 0 exprID: 1 pobID: none
+true
+
+** add-lemma: 14 exprID: 2 pobID: 1
+query!0
+false
+
+Propagating
+
+** add-lemma: 4 exprID: 12667 pobID: 12478
+inv2
+(< inv2_0_n (+ inv2_4_n (- 10)))
+
+** add-lemma: 5 exprID: 12667 pobID: 12478
+inv2
+(< inv2_0_n (+ inv2_4_n (- 10)))
+
+** add-lemma: 6 exprID: 10818 pobID: 10828
+inv2
+(< inv2_0_n (+ inv2_4_n (- 9)))
+
+** add-lemma: 7 exprID: 15679 pobID: 14070
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0))
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)))
+
+** add-lemma: 10 exprID: 16438 pobID: 13812
+inv2
+(or (not (= (mod inv2_0_n 2) 0))
+    (> inv2_0_n (+ inv2_4_n (- 8)))
+    (< inv2_0_n (+ inv2_4_n (- 10)))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1))
+    (< (mod (+ 1 inv2_0_n) 2) 1)
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 0))
+    (> (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 10)))
+
+** add-lemma: 7 exprID: 7920 pobID: 7806
+inv2
+(< inv2_0_n (+ inv2_4_n (- 8)))
+
+** add-lemma: 12 exprID: 15170 pobID: 14361
+inv2
+(or (not (= (mod inv2_0_n 2) 0)) (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)))
+
+** add-lemma: 7 exprID: 16967 pobID: 13950
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0))
+    (< (mod inv2_0_n 2) 1)
+    (> inv2_0_n (+ inv2_4_n (- 7)))
+    (< inv2_0_n (+ inv2_4_n (- 9)))
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0))
+    (< (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 9))
+
+** add-lemma: 11 exprID: 2366 pobID: 13601
+inv2
+(or (< (mod inv2_0_n 2) 1)
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)))
+
+** add-lemma: 8 exprID: 7301 pobID: 6751
+inv2
+(< inv2_0_n (+ inv2_4_n (- 7)))
+
+** add-lemma: 11 exprID: 15679 pobID: 14070
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0))
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)))
+
+** add-lemma: 12 exprID: 16937 pobID: 13853
+inv2
+(or (not (= (mod inv2_0_n 2) 0))
+    (> inv2_0_n (+ inv2_4_n (- 6)))
+    (< inv2_0_n (+ inv2_4_n (- 8)))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1))
+    (< (mod (+ 1 inv2_0_n) 2) 1)
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 0))
+    (> (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 8)))
+
+** add-lemma: 9 exprID: 16967 pobID: 13950
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0))
+    (< (mod inv2_0_n 2) 1)
+    (> inv2_0_n (+ inv2_4_n (- 7)))
+    (< inv2_0_n (+ inv2_4_n (- 9)))
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0))
+    (< (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 9))
+
+** add-lemma: 9 exprID: 6229 pobID: 6234
+inv2
+(< inv2_0_n (+ inv2_4_n (- 6)))
+
+** add-lemma: 9 exprID: 8419 pobID: 2979
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 2)))
+    (< inv2_0_n (+ inv2_4_n (- 4)))
+    (< (mod inv2_0_n 2) 1))
+
+** add-lemma: 9 exprID: 8420 pobID: 2417
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 2)))
+    (< inv2_0_n (+ inv2_4_n (- 4)))
+    (not (= (mod inv2_0_n 2) 0)))
+
+** add-lemma: 9 exprID: 11250 pobID: 5991
+inv2
+(or (not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 4)))
+    (< (mod inv2_0_n 2) 1)
+    (> (+ inv2_1_n inv2_2_n) 1))
+
+** add-lemma: 11 exprID: 17180 pobID: 13893
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0))
+    (< (mod inv2_0_n 2) 1)
+    (> inv2_0_n (+ inv2_4_n (- 5)))
+    (< inv2_0_n (+ inv2_4_n (- 7)))
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0))
+    (< (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 7))
+
+** add-lemma: 10 exprID: 2230 pobID: 1595
+inv2
+(not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 3)))
+
+** add-lemma: 10 exprID: 2648 pobID: 2417
+inv2
+(< inv2_0_n (+ inv2_4_n (- 5)))
+
+** add-lemma: 10 exprID: 3590 pobID: 2342
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 1))) (< inv2_0_n (+ inv2_4_n (- 3))))
+
+** add-lemma: 10 exprID: 8419 pobID: 2979
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 2)))
+    (< inv2_0_n (+ inv2_4_n (- 4)))
+    (< (mod inv2_0_n 2) 1))
+
+** add-lemma: 10 exprID: 8420 pobID: 2417
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 2)))
+    (< inv2_0_n (+ inv2_4_n (- 4)))
+    (not (= (mod inv2_0_n 2) 0)))
+
+** add-lemma: 10 exprID: 11250 pobID: 5991
+inv2
+(or (not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 4)))
+    (< (mod inv2_0_n 2) 1)
+    (> (+ inv2_1_n inv2_2_n) 1))
+
+** add-lemma: 10 exprID: 11276 pobID: 6077
+inv2
+(or (not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 3)))
+    (< (mod inv2_0_n 2) 1)
+    (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0))
+
+** add-lemma: 11 exprID: 16967 pobID: 13950
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0))
+    (< (mod inv2_0_n 2) 1)
+    (> inv2_0_n (+ inv2_4_n (- 7)))
+    (< inv2_0_n (+ inv2_4_n (- 9)))
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0))
+    (< (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 9))
+
+** add-lemma: 10 exprID: 17114 pobID: 13827
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 4)))
+    (not (= (mod inv2_0_n 2) 0))
+    (< inv2_0_n (+ inv2_4_n (- 6)))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1))
+    (< (mod (+ 1 inv2_0_n) 2) 1)
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 0))
+    (> (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 6)))
+
+** add-lemma: 11 exprID: 1594 pobID: 1595
+inv2
+(< inv2_0_n (+ inv2_4_n (- 3)))
+
+** add-lemma: 11 exprID: 2097 pobID: 2099
+inv2
+(< inv2_0_n (+ inv2_4_n (- 4)))
+
+** add-lemma: 11 exprID: 2104 pobID: 1253
+inv2
+(not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 2)))
+
+** add-lemma: 11 exprID: 2230 pobID: 1595
+inv2
+(not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 3)))
+
+** add-lemma: 11 exprID: 3590 pobID: 2342
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 1))) (< inv2_0_n (+ inv2_4_n (- 3))))
+
+** add-lemma: 11 exprID: 8419 pobID: 2979
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 2)))
+    (< inv2_0_n (+ inv2_4_n (- 4)))
+    (< (mod inv2_0_n 2) 1))
+
+** add-lemma: 11 exprID: 8420 pobID: 2417
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 2)))
+    (< inv2_0_n (+ inv2_4_n (- 4)))
+    (not (= (mod inv2_0_n 2) 0)))
+
+** add-lemma: 11 exprID: 11250 pobID: 5991
+inv2
+(or (not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 4)))
+    (< (mod inv2_0_n 2) 1)
+    (> (+ inv2_1_n inv2_2_n) 1))
+
+** add-lemma: 11 exprID: 11276 pobID: 6077
+inv2
+(or (not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 3)))
+    (< (mod inv2_0_n 2) 1)
+    (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0))
+
+** add-lemma: 11 exprID: 11441 pobID: 6045
+inv2
+(or (> (+ inv2_1_n inv2_2_n) 0)
+    (not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 2)))
+    (< (mod inv2_0_n 2) 1))
+
+** add-lemma: 12 exprID: 16438 pobID: 13812
+inv2
+(or (not (= (mod inv2_0_n 2) 0))
+    (> inv2_0_n (+ inv2_4_n (- 8)))
+    (< inv2_0_n (+ inv2_4_n (- 10)))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1))
+    (< (mod (+ 1 inv2_0_n) 2) 1)
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 0))
+    (> (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 10)))
+
+** add-lemma: 12 exprID: 17114 pobID: 13827
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 4)))
+    (not (= (mod inv2_0_n 2) 0))
+    (< inv2_0_n (+ inv2_4_n (- 6)))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1))
+    (< (mod (+ 1 inv2_0_n) 2) 1)
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 0))
+    (> (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 6)))
+
+** add-lemma: 11 exprID: 17779 pobID: 13854
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 3)))
+    (< inv2_0_n (+ inv2_4_n (- 5)))
+    (not (= (mod (+ 1 inv2_0_n) 2) 0))
+    (< (mod inv2_0_n 2) 1)
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0))
+    (< (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 5))
+
+** add-lemma: 12 exprID: 1230 pobID: 1253
+inv2
+(< inv2_0_n (+ inv2_4_n (- 2)))
+
+** add-lemma: 12 exprID: 1587 pobID: 939
+inv2
+(not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1)))
+
+** add-lemma: 12 exprID: 1594 pobID: 1595
+inv2
+(< inv2_0_n (+ inv2_4_n (- 3)))
+
+** add-lemma: 12 exprID: 2104 pobID: 1253
+inv2
+(not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 2)))
+
+** add-lemma: 12 exprID: 2230 pobID: 1595
+inv2
+(not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 3)))
+
+** add-lemma: 13 exprID: 2366 pobID: 13601
+inv2
+(or (< (mod inv2_0_n 2) 1)
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)))
+
+** add-lemma: 12 exprID: 3590 pobID: 2342
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 1))) (< inv2_0_n (+ inv2_4_n (- 3))))
+
+** add-lemma: 12 exprID: 11276 pobID: 6077
+inv2
+(or (not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 3)))
+    (< (mod inv2_0_n 2) 1)
+    (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0))
+
+** add-lemma: 12 exprID: 11441 pobID: 6045
+inv2
+(or (> (+ inv2_1_n inv2_2_n) 0)
+    (not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 2)))
+    (< (mod inv2_0_n 2) 1))
+
+** add-lemma: 13 exprID: 14817 pobID: 14476
+inv2
+(or (< (mod inv2_0_n 2) 1) (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)))
+
+** add-lemma: 13 exprID: 15679 pobID: 14070
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0))
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)))
+
+** add-lemma: 13 exprID: 16967 pobID: 13950
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0))
+    (< (mod inv2_0_n 2) 1)
+    (> inv2_0_n (+ inv2_4_n (- 7)))
+    (< inv2_0_n (+ inv2_4_n (- 9)))
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0))
+    (< (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 9))
+
+** add-lemma: 13 exprID: 17180 pobID: 13893
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0))
+    (< (mod inv2_0_n 2) 1)
+    (> inv2_0_n (+ inv2_4_n (- 5)))
+    (< inv2_0_n (+ inv2_4_n (- 7)))
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0))
+    (< (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 7))
+
+** add-lemma: 13 exprID: 17779 pobID: 13854
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 3)))
+    (< inv2_0_n (+ inv2_4_n (- 5)))
+    (not (= (mod (+ 1 inv2_0_n) 2) 0))
+    (< (mod inv2_0_n 2) 1)
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0))
+    (< (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 5))
+
+** add-lemma: 12 exprID: 18052 pobID: 13738
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 2)))
+    (< inv2_0_n (+ inv2_4_n (- 4)))
+    (not (= (mod inv2_0_n 2) 0))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1))
+    (< (mod (+ 1 inv2_0_n) 2) 1)
+    (> (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 4))
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 0)))
+
+** add-lemma: 13 exprID: 965 pobID: 939
+inv2
+(< inv2_0_n (+ inv2_4_n (- 1)))
+
+** add-lemma: 13 exprID: 1230 pobID: 1253
+inv2
+(< inv2_0_n (+ inv2_4_n (- 2)))
+
+** add-lemma: 13 exprID: 1587 pobID: 939
+inv2
+(not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1)))
+
+** add-lemma: 13 exprID: 2104 pobID: 1253
+inv2
+(not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 2)))
+
+** add-lemma: 13 exprID: 11276 pobID: 6077
+inv2
+(or (not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 3)))
+    (< (mod inv2_0_n 2) 1)
+    (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0))
+
+** add-lemma: 13 exprID: 11441 pobID: 6045
+inv2
+(or (> (+ inv2_1_n inv2_2_n) 0)
+    (not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 2)))
+    (< (mod inv2_0_n 2) 1))
+
+** add-lemma: 13 exprID: 11580 pobID: 5745
+inv2
+(or (not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1)))
+    (< (mod inv2_0_n 2) 1)
+    (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** add-lemma: 13 exprID: 12983 pobID: 11708
+inv2
+(or (not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1)))
+    (not (= (mod inv2_0_n 2) 0))
+    (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 2))
+
+** add-lemma: 13 exprID: 13481 pobID: 13536
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 1)))
+    (< inv2_0_n (+ inv2_4_n (- 3)))
+    (< (mod inv2_0_n 2) 1)
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (< (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 3)
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)))
+
+** add-lemma: 14 exprID: 15170 pobID: 14361
+inv2
+(or (not (= (mod inv2_0_n 2) 0)) (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)))
+
+** add-lemma: 14 exprID: 16438 pobID: 13812
+inv2
+(or (not (= (mod inv2_0_n 2) 0))
+    (> inv2_0_n (+ inv2_4_n (- 8)))
+    (< inv2_0_n (+ inv2_4_n (- 10)))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1))
+    (< (mod (+ 1 inv2_0_n) 2) 1)
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 0))
+    (> (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 10)))
+
+** add-lemma: 14 exprID: 16937 pobID: 13853
+inv2
+(or (not (= (mod inv2_0_n 2) 0))
+    (> inv2_0_n (+ inv2_4_n (- 6)))
+    (< inv2_0_n (+ inv2_4_n (- 8)))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1))
+    (< (mod (+ 1 inv2_0_n) 2) 1)
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 0))
+    (> (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 8)))
+
+** add-lemma: 14 exprID: 17114 pobID: 13827
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 4)))
+    (not (= (mod inv2_0_n 2) 0))
+    (< inv2_0_n (+ inv2_4_n (- 6)))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1))
+    (< (mod (+ 1 inv2_0_n) 2) 1)
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 0))
+    (> (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 6)))
+
+** add-lemma: 14 exprID: 17498 pobID: 17132
+inv2
+(or (not (= (mod inv2_0_n 2) 0)) (not (= (mod (+ inv2_0_n inv2_4_n) 2) 0)))
+
+** add-lemma: 14 exprID: 18052 pobID: 13738
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 2)))
+    (< inv2_0_n (+ inv2_4_n (- 4)))
+    (not (= (mod inv2_0_n 2) 0))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1))
+    (< (mod (+ 1 inv2_0_n) 2) 1)
+    (> (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 4))
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 0)))
+
+** add-lemma: 14 exprID: 697 pobID: 377
+inv2
+(< inv2_0_n inv2_4_n)
+
+** add-lemma: 14 exprID: 965 pobID: 939
+inv2
+(< inv2_0_n (+ inv2_4_n (- 1)))
+
+** add-lemma: 14 exprID: 1587 pobID: 939
+inv2
+(not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1)))
+
+** add-lemma: 15 exprID: 2366 pobID: 13601
+inv2
+(or (< (mod inv2_0_n 2) 1)
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)))
+
+** add-lemma: 15 exprID: 11276 pobID: 6077
+inv2
+(or (not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 3)))
+    (< (mod inv2_0_n 2) 1)
+    (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0))
+
+** add-lemma: 14 exprID: 11580 pobID: 5745
+inv2
+(or (not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1)))
+    (< (mod inv2_0_n 2) 1)
+    (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** add-lemma: 14 exprID: 12983 pobID: 11708
+inv2
+(or (not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1)))
+    (not (= (mod inv2_0_n 2) 0))
+    (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 2))
+
+** add-lemma: 15 exprID: 13481 pobID: 13536
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 1)))
+    (< inv2_0_n (+ inv2_4_n (- 3)))
+    (< (mod inv2_0_n 2) 1)
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (< (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 3)
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)))
+
+** add-lemma: 15 exprID: 14817 pobID: 14476
+inv2
+(or (< (mod inv2_0_n 2) 1) (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)))
+
+** add-lemma: 15 exprID: 15679 pobID: 14070
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0))
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)))
+
+** add-lemma: 15 exprID: 16967 pobID: 13950
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0))
+    (< (mod inv2_0_n 2) 1)
+    (> inv2_0_n (+ inv2_4_n (- 7)))
+    (< inv2_0_n (+ inv2_4_n (- 9)))
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0))
+    (< (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 9))
+
+** add-lemma: 15 exprID: 17180 pobID: 13893
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0))
+    (< (mod inv2_0_n 2) 1)
+    (> inv2_0_n (+ inv2_4_n (- 5)))
+    (< inv2_0_n (+ inv2_4_n (- 7)))
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0))
+    (< (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 7))
+
+** add-lemma: 15 exprID: 17779 pobID: 13854
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 3)))
+    (< inv2_0_n (+ inv2_4_n (- 5)))
+    (not (= (mod (+ 1 inv2_0_n) 2) 0))
+    (< (mod inv2_0_n 2) 1)
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0))
+    (< (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 5))
+
+** add-lemma: 14 exprID: 17943 pobID: 937
+inv2
+(or (< inv2_0_n inv2_4_n) (> (+ inv2_1_n inv2_2_n) (- 1)))
+
+** add-lemma: 15 exprID: 2 pobID: 1
+query!0
+false
+
+** add-lemma: 15 exprID: 697 pobID: 377
+inv2
+(< inv2_0_n inv2_4_n)
+
+** add-lemma: 16 exprID: 15170 pobID: 14361
+inv2
+(or (not (= (mod inv2_0_n 2) 0)) (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)))
+
+** add-lemma: 16 exprID: 16438 pobID: 13812
+inv2
+(or (not (= (mod inv2_0_n 2) 0))
+    (> inv2_0_n (+ inv2_4_n (- 8)))
+    (< inv2_0_n (+ inv2_4_n (- 10)))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1))
+    (< (mod (+ 1 inv2_0_n) 2) 1)
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 0))
+    (> (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 10)))
+
+** add-lemma: 16 exprID: 16937 pobID: 13853
+inv2
+(or (not (= (mod inv2_0_n 2) 0))
+    (> inv2_0_n (+ inv2_4_n (- 6)))
+    (< inv2_0_n (+ inv2_4_n (- 8)))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1))
+    (< (mod (+ 1 inv2_0_n) 2) 1)
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 0))
+    (> (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 8)))
+
+** add-lemma: 16 exprID: 17114 pobID: 13827
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 4)))
+    (not (= (mod inv2_0_n 2) 0))
+    (< inv2_0_n (+ inv2_4_n (- 6)))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1))
+    (< (mod (+ 1 inv2_0_n) 2) 1)
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 0))
+    (> (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 6)))
+
+** add-lemma: 16 exprID: 17498 pobID: 17132
+inv2
+(or (not (= (mod inv2_0_n 2) 0)) (not (= (mod (+ inv2_0_n inv2_4_n) 2) 0)))
+
+** add-lemma: 15 exprID: 17943 pobID: 937
+inv2
+(or (< inv2_0_n inv2_4_n) (> (+ inv2_1_n inv2_2_n) (- 1)))
+
+** add-lemma: 16 exprID: 18052 pobID: 13738
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 2)))
+    (< inv2_0_n (+ inv2_4_n (- 4)))
+    (not (= (mod inv2_0_n 2) 0))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1))
+    (< (mod (+ 1 inv2_0_n) 2) 1)
+    (> (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 4))
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 0)))
+
+** add-lemma: 16 exprID: 2 pobID: 1
+query!0
+false
+
+** add-lemma: 17 exprID: 2366 pobID: 13601
+inv2
+(or (< (mod inv2_0_n 2) 1)
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)))
+
+** add-lemma: 17 exprID: 11276 pobID: 6077
+inv2
+(or (not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 3)))
+    (< (mod inv2_0_n 2) 1)
+    (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0))
+
+** add-lemma: 17 exprID: 13481 pobID: 13536
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 1)))
+    (< inv2_0_n (+ inv2_4_n (- 3)))
+    (< (mod inv2_0_n 2) 1)
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (< (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 3)
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)))
+
+** add-lemma: 17 exprID: 14817 pobID: 14476
+inv2
+(or (< (mod inv2_0_n 2) 1) (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)))
+
+** add-lemma: 17 exprID: 15679 pobID: 14070
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0))
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)))
+
+** add-lemma: 17 exprID: 16967 pobID: 13950
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0))
+    (< (mod inv2_0_n 2) 1)
+    (> inv2_0_n (+ inv2_4_n (- 7)))
+    (< inv2_0_n (+ inv2_4_n (- 9)))
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0))
+    (< (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 9))
+
+** add-lemma: 17 exprID: 17180 pobID: 13893
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0))
+    (< (mod inv2_0_n 2) 1)
+    (> inv2_0_n (+ inv2_4_n (- 5)))
+    (< inv2_0_n (+ inv2_4_n (- 7)))
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0))
+    (< (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 7))
+
+** add-lemma: 17 exprID: 17779 pobID: 13854
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 3)))
+    (< inv2_0_n (+ inv2_4_n (- 5)))
+    (not (= (mod (+ 1 inv2_0_n) 2) 0))
+    (< (mod inv2_0_n 2) 1)
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0))
+    (< (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 5))
+
+** add-lemma: 18 exprID: 15170 pobID: 14361
+inv2
+(or (not (= (mod inv2_0_n 2) 0)) (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)))
+
+** add-lemma: 18 exprID: 16438 pobID: 13812
+inv2
+(or (not (= (mod inv2_0_n 2) 0))
+    (> inv2_0_n (+ inv2_4_n (- 8)))
+    (< inv2_0_n (+ inv2_4_n (- 10)))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1))
+    (< (mod (+ 1 inv2_0_n) 2) 1)
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 0))
+    (> (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 10)))
+
+** add-lemma: 18 exprID: 16937 pobID: 13853
+inv2
+(or (not (= (mod inv2_0_n 2) 0))
+    (> inv2_0_n (+ inv2_4_n (- 6)))
+    (< inv2_0_n (+ inv2_4_n (- 8)))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1))
+    (< (mod (+ 1 inv2_0_n) 2) 1)
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 0))
+    (> (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 8)))
+
+** add-lemma: 18 exprID: 17114 pobID: 13827
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 4)))
+    (not (= (mod inv2_0_n 2) 0))
+    (< inv2_0_n (+ inv2_4_n (- 6)))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1))
+    (< (mod (+ 1 inv2_0_n) 2) 1)
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 0))
+    (> (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 6)))
+
+** add-lemma: 18 exprID: 17498 pobID: 17132
+inv2
+(or (not (= (mod inv2_0_n 2) 0)) (not (= (mod (+ inv2_0_n inv2_4_n) 2) 0)))
+
+** add-lemma: 18 exprID: 18052 pobID: 13738
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 2)))
+    (< inv2_0_n (+ inv2_4_n (- 4)))
+    (not (= (mod inv2_0_n 2) 0))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1))
+    (< (mod (+ 1 inv2_0_n) 2) 1)
+    (> (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 4))
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 0)))
+
+** add-lemma: 19 exprID: 2366 pobID: 13601
+inv2
+(or (< (mod inv2_0_n 2) 1)
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)))
+
+** add-lemma: 19 exprID: 11276 pobID: 6077
+inv2
+(or (not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 3)))
+    (< (mod inv2_0_n 2) 1)
+    (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0))
+
+** add-lemma: 19 exprID: 13481 pobID: 13536
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 1)))
+    (< inv2_0_n (+ inv2_4_n (- 3)))
+    (< (mod inv2_0_n 2) 1)
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (< (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 3)
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)))
+
+** add-lemma: 19 exprID: 14817 pobID: 14476
+inv2
+(or (< (mod inv2_0_n 2) 1) (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)))
+
+** add-lemma: 19 exprID: 15679 pobID: 14070
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0))
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)))
+
+** add-lemma: 19 exprID: 16967 pobID: 13950
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0))
+    (< (mod inv2_0_n 2) 1)
+    (> inv2_0_n (+ inv2_4_n (- 7)))
+    (< inv2_0_n (+ inv2_4_n (- 9)))
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0))
+    (< (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 9))
+
+** add-lemma: 19 exprID: 17180 pobID: 13893
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0))
+    (< (mod inv2_0_n 2) 1)
+    (> inv2_0_n (+ inv2_4_n (- 5)))
+    (< inv2_0_n (+ inv2_4_n (- 7)))
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0))
+    (< (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 7))
+
+** add-lemma: 19 exprID: 17779 pobID: 13854
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 3)))
+    (< inv2_0_n (+ inv2_4_n (- 5)))
+    (not (= (mod (+ 1 inv2_0_n) 2) 0))
+    (< (mod inv2_0_n 2) 1)
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0))
+    (< (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 5))
+
+** add-lemma: oo exprID: 15170 pobID: 14361
+inv2
+(or (not (= (mod inv2_0_n 2) 0)) (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1)))
+
+** add-lemma: oo exprID: 16438 pobID: 13812
+inv2
+(or (not (= (mod inv2_0_n 2) 0))
+    (> inv2_0_n (+ inv2_4_n (- 8)))
+    (< inv2_0_n (+ inv2_4_n (- 10)))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1))
+    (< (mod (+ 1 inv2_0_n) 2) 1)
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 0))
+    (> (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 10)))
+
+** add-lemma: oo exprID: 16937 pobID: 13853
+inv2
+(or (not (= (mod inv2_0_n 2) 0))
+    (> inv2_0_n (+ inv2_4_n (- 6)))
+    (< inv2_0_n (+ inv2_4_n (- 8)))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1))
+    (< (mod (+ 1 inv2_0_n) 2) 1)
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 0))
+    (> (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 8)))
+
+** add-lemma: oo exprID: 17114 pobID: 13827
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 4)))
+    (not (= (mod inv2_0_n 2) 0))
+    (< inv2_0_n (+ inv2_4_n (- 6)))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1))
+    (< (mod (+ 1 inv2_0_n) 2) 1)
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 0))
+    (> (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 6)))
+
+** add-lemma: oo exprID: 17498 pobID: 17132
+inv2
+(or (not (= (mod inv2_0_n 2) 0)) (not (= (mod (+ inv2_0_n inv2_4_n) 2) 0)))
+
+** add-lemma: oo exprID: 18052 pobID: 13738
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 2)))
+    (< inv2_0_n (+ inv2_4_n (- 4)))
+    (not (= (mod inv2_0_n 2) 0))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 1))
+    (< (mod (+ 1 inv2_0_n) 2) 1)
+    (> (+ inv2_0_n (* 2 inv2_1_n) (* 2 inv2_2_n) (* (- 1) inv2_4_n)) (- 4))
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 0)))
+
+** add-lemma: oo exprID: 2366 pobID: 13601
+inv2
+(or (< (mod inv2_0_n 2) 1)
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)))
+
+** add-lemma: oo exprID: 11276 pobID: 6077
+inv2
+(or (not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 3)))
+    (< (mod inv2_0_n 2) 1)
+    (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0))
+
+** add-lemma: oo exprID: 13481 pobID: 13536
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 1)))
+    (< inv2_0_n (+ inv2_4_n (- 3)))
+    (< (mod inv2_0_n 2) 1)
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (< (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 3)
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)))
+
+** add-lemma: oo exprID: 14817 pobID: 14476
+inv2
+(or (< (mod inv2_0_n 2) 1) (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)))
+
+** add-lemma: oo exprID: 15679 pobID: 14070
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0))
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0)))
+
+** add-lemma: oo exprID: 16967 pobID: 13950
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0))
+    (< (mod inv2_0_n 2) 1)
+    (> inv2_0_n (+ inv2_4_n (- 7)))
+    (< inv2_0_n (+ inv2_4_n (- 9)))
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0))
+    (< (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 9))
+
+** add-lemma: oo exprID: 17180 pobID: 13893
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0))
+    (< (mod inv2_0_n 2) 1)
+    (> inv2_0_n (+ inv2_4_n (- 5)))
+    (< inv2_0_n (+ inv2_4_n (- 7)))
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0))
+    (< (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 7))
+
+** add-lemma: oo exprID: 17779 pobID: 13854
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 3)))
+    (< inv2_0_n (+ inv2_4_n (- 5)))
+    (not (= (mod (+ 1 inv2_0_n) 2) 0))
+    (< (mod inv2_0_n 2) 1)
+    (not (= (mod (+ inv2_0_n inv2_4_n) 2) 1))
+    (not (= (mod (+ 1 inv2_0_n inv2_4_n) 2) 0))
+    (< (+ inv2_0_n (* 2 inv2_1_n) (* (- 2) inv2_2_n) inv2_4_n) 5))
+
+
+* LEVEL 15
+
+** expand-pob: query!0 level: 15 depth: 0 exprID: 1 pobID: none
+true
+
+Propagating
+
+
+* LEVEL 16
+
+** expand-pob: query!0 level: 16 depth: 0 exprID: 1 pobID: none
+true
+
+Propagating
+
+
+* LEVEL 17
+
+** expand-pob: query!0 level: 17 depth: 0 exprID: 1 pobID: none
+true
+
+** expand-pob: query!0 level: 17 depth: 0 exprID: 1 pobID: none
+true
+
+** expand-pob: inv2 level: 16 depth: 0 exprID: 377 pobID: 1
+(and (= inv2_4_n inv2_0_n) (> (+ inv2_1_n inv2_2_n) 0))
+
+** expand-pob: inv2 level: 15 depth: 0 exprID: 28909 pobID: 377
+(and (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1))
+     (= (mod inv2_0_n 2) 0)
+     (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** expand-pob: inv2 level: 15 depth: 0 exprID: 28909 pobID: 377
+(and (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1))
+     (= (mod inv2_0_n 2) 0)
+     (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** expand-pob: inv2 level: 14 depth: 0 exprID: 28869 pobID: 28909
+(and (> (+ inv2_1_n inv2_2_n) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 2))
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0))
+
+** expand-pob: inv2 level: 14 depth: 0 exprID: 28869 pobID: 28909
+(and (> (+ inv2_1_n inv2_2_n) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 2))
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0))
+
+** expand-pob: inv2 level: 13 depth: 0 exprID: 28884 pobID: 28869
+(and (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 3))
+     (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** expand-pob: inv2 level: 13 depth: 0 exprID: 28884 pobID: 28869
+(and (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 3))
+     (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** expand-pob: inv2 level: 12 depth: 0 exprID: 28915 pobID: 28884
+(and (> (+ inv2_1_n inv2_2_n) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 4))
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0))
+
+** expand-pob: inv2 level: 12 depth: 0 exprID: 28915 pobID: 28884
+(and (> (+ inv2_1_n inv2_2_n) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 4))
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0))
+
+** expand-pob: inv2 level: 11 depth: 0 exprID: 28896 pobID: 28915
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 5))
+     (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** expand-pob: inv2 level: 11 depth: 0 exprID: 28896 pobID: 28915
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 5))
+     (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** expand-pob: inv2 level: 10 depth: 0 exprID: 28805 pobID: 28896
+(and (> (+ inv2_1_n inv2_2_n) 0)
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 6)))
+
+** expand-pob: inv2 level: 9 depth: 0 exprID: 28873 pobID: 28805
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 7))
+     (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** expand-pob: inv2 level: 9 depth: 0 exprID: 28873 pobID: 28805
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 7))
+     (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** expand-pob: inv2 level: 8 depth: 0 exprID: 26246 pobID: 28873
+(and (> (+ inv2_1_n inv2_2_n) 0)
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 8)))
+
+** expand-pob: inv2 level: 7 depth: 0 exprID: 27837 pobID: 26246
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 9))
+     (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** expand-pob: inv2 level: 7 depth: 0 exprID: 27837 pobID: 26246
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 9))
+     (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** expand-pob: inv2 level: 6 depth: 0 exprID: 28949 pobID: 27837
+(and (> (+ inv2_1_n inv2_2_n) 0)
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 10)))
+
+** expand-pob: inv2 level: 5 depth: 0 exprID: 28944 pobID: 28949
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 11)))
+
+** expand-pob: inv2 level: 5 depth: 0 exprID: 28944 pobID: 28949
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 11)))
+
+** expand-pob: inv2 level: 4 depth: 0 exprID: 28991 pobID: 28944
+(and (> (+ inv2_1_n inv2_2_n) 0)
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 12)))
+
+** add-lemma: 4 exprID: 28990 pobID: 28991
+inv2
+(< inv2_0_n (+ inv2_4_n (- 12)))
+
+** expand-pob: inv2 level: 3 depth: 0 exprID: 29175 pobID: 1
+(and (> (+ inv2_1_n inv2_2_n) 0)
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0))
+
+** expand-pob: inv2 level: 2 depth: 0 exprID: 29172 pobID: 29175
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** expand-pob: inv2 level: 1 depth: 0 exprID: 1 pobID: 29172
+true
+
+** expand-pob: inv2 level: 2 depth: 0 exprID: 29172 pobID: 29175
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** expand-pob: inv2 level: 1 depth: 0 exprID: 29175 pobID: 29172
+(and (> (+ inv2_1_n inv2_2_n) 0)
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0))
+
+** expand-pob: inv2 level: 0 depth: 0 exprID: 29172 pobID: 29175
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** add-lemma: 0 exprID: 6076 pobID: 29172
+inv2
+(> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0)
+
+** expand-pob: inv2 level: 1 depth: 0 exprID: 29175 pobID: 29172
+(and (> (+ inv2_1_n inv2_2_n) 0)
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0))
+
+** add-lemma: 1 exprID: 6048 pobID: 29175
+inv2
+(< (+ inv2_1_n inv2_2_n) 1)
+
+** expand-pob: inv2 level: 2 depth: 0 exprID: 29172 pobID: 29175
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** add-lemma: 2 exprID: 29653 pobID: 29172
+inv2
+(or (not (= (mod inv2_0_n 2) 0)) (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0))
+
+** expand-pob: inv2 level: 3 depth: 0 exprID: 29175 pobID: 1
+(and (> (+ inv2_1_n inv2_2_n) 0)
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0))
+
+** add-lemma: 3 exprID: 29750 pobID: 29175
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0)) (< (+ inv2_1_n inv2_2_n) 1))
+
+** expand-pob: inv2 level: 4 depth: 1 exprID: 29175 pobID: 1
+(and (> (+ inv2_1_n inv2_2_n) 0)
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0))
+
+** expand-pob: inv2 level: 4 depth: 1 exprID: 29175 pobID: 1
+(and (> (+ inv2_1_n inv2_2_n) 0)
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0))
+
+** expand-pob: inv2 level: 3 depth: 1 exprID: 29172 pobID: 29175
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** add-lemma: 4 exprID: 29653 pobID: 29172
+inv2
+(or (not (= (mod inv2_0_n 2) 0)) (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0))
+
+** expand-pob: inv2 level: 4 depth: 1 exprID: 29175 pobID: 1
+(and (> (+ inv2_1_n inv2_2_n) 0)
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0))
+
+** add-lemma: 5 exprID: 29750 pobID: 29175
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0)) (< (+ inv2_1_n inv2_2_n) 1))
+
+** expand-pob: inv2 level: 5 depth: 0 exprID: 28944 pobID: 28949
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 11)))
+
+** add-lemma: 6 exprID: 29653 pobID: 29172
+inv2
+(or (not (= (mod inv2_0_n 2) 0)) (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0))
+
+** expand-pob: inv2 level: 6 depth: 0 exprID: 28949 pobID: 27837
+(and (> (+ inv2_1_n inv2_2_n) 0)
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 10)))
+
+** add-lemma: 7 exprID: 29750 pobID: 29175
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0)) (< (+ inv2_1_n inv2_2_n) 1))
+
+** expand-pob: inv2 level: 7 depth: 0 exprID: 27837 pobID: 26246
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 9))
+     (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** add-lemma: 8 exprID: 29653 pobID: 29172
+inv2
+(or (not (= (mod inv2_0_n 2) 0)) (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0))
+
+** expand-pob: inv2 level: 8 depth: 0 exprID: 26246 pobID: 28873
+(and (> (+ inv2_1_n inv2_2_n) 0)
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 8)))
+
+** add-lemma: 8 exprID: 30422 pobID: 26246
+inv2
+(or (< (+ inv2_1_n inv2_2_n) 1) (< inv2_0_n (+ inv2_4_n (- 8))))
+
+** expand-pob: inv2 level: 9 depth: 0 exprID: 28873 pobID: 28805
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 7))
+     (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** add-lemma: 9 exprID: 30348 pobID: 28873
+inv2
+(or (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0)
+    (< inv2_0_n (+ inv2_4_n (- 7))))
+
+** expand-pob: inv2 level: 10 depth: 0 exprID: 28805 pobID: 28896
+(and (> (+ inv2_1_n inv2_2_n) 0)
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 6)))
+
+** add-lemma: 10 exprID: 30750 pobID: 28805
+inv2
+(or (< (+ inv2_1_n inv2_2_n) 1) (< inv2_0_n (+ inv2_4_n (- 6))))
+
+** expand-pob: inv2 level: 11 depth: 0 exprID: 28896 pobID: 28915
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 5))
+     (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** add-lemma: 11 exprID: 31061 pobID: 28896
+inv2
+(or (< inv2_0_n (+ inv2_4_n (- 5)))
+    (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0))
+
+** expand-pob: inv2 level: 12 depth: 0 exprID: 28915 pobID: 28884
+(and (> (+ inv2_1_n inv2_2_n) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 4))
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0))
+
+** add-lemma: 12 exprID: 31209 pobID: 28915
+inv2
+(or (< inv2_0_n (+ inv2_4_n (- 4))) (< (+ inv2_1_n inv2_2_n) 1))
+
+** expand-pob: inv2 level: 8 depth: 0 exprID: 29175 pobID: 1
+(and (> (+ inv2_1_n inv2_2_n) 0)
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0))
+
+** add-lemma: 9 exprID: 29750 pobID: 29175
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0)) (< (+ inv2_1_n inv2_2_n) 1))
+
+** expand-pob: inv2 level: 9 depth: 1 exprID: 29175 pobID: 1
+(and (> (+ inv2_1_n inv2_2_n) 0)
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0))
+
+** expand-pob: inv2 level: 10 depth: 2 exprID: 29175 pobID: 1
+(and (> (+ inv2_1_n inv2_2_n) 0)
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0))
+
+** expand-pob: inv2 level: 10 depth: 2 exprID: 29175 pobID: 1
+(and (> (+ inv2_1_n inv2_2_n) 0)
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0))
+
+** expand-pob: inv2 level: 9 depth: 2 exprID: 29172 pobID: 29175
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** add-lemma: 10 exprID: 31567 pobID: 29172
+inv2
+(or (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0) (< (mod (+ 1 inv2_0_n) 2) 1))
+
+** expand-pob: inv2 level: 10 depth: 2 exprID: 29175 pobID: 1
+(and (> (+ inv2_1_n inv2_2_n) 0)
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0))
+
+** add-lemma: 11 exprID: 31539 pobID: 29175
+inv2
+(or (< (mod inv2_0_n 2) 1) (< (+ inv2_1_n inv2_2_n) 1))
+
+** expand-pob: inv2 level: 11 depth: 3 exprID: 29175 pobID: 1
+(and (> (+ inv2_1_n inv2_2_n) 0)
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0))
+
+** expand-pob: inv2 level: 12 depth: 4 exprID: 29175 pobID: 1
+(and (> (+ inv2_1_n inv2_2_n) 0)
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0))
+
+** expand-pob: inv2 level: 11 depth: 4 exprID: 29172 pobID: 29175
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** add-lemma: 12 exprID: 31567 pobID: 29172
+inv2
+(or (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0) (< (mod (+ 1 inv2_0_n) 2) 1))
+
+** expand-pob: inv2 level: 12 depth: 4 exprID: 29175 pobID: 1
+(and (> (+ inv2_1_n inv2_2_n) 0)
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0))
+
+** add-lemma: 13 exprID: 31539 pobID: 29175
+inv2
+(or (< (mod inv2_0_n 2) 1) (< (+ inv2_1_n inv2_2_n) 1))
+
+** expand-pob: inv2 level: 13 depth: 0 exprID: 28884 pobID: 28869
+(and (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 3))
+     (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** add-lemma: 14 exprID: 31567 pobID: 29172
+inv2
+(or (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0) (< (mod (+ 1 inv2_0_n) 2) 1))
+
+** expand-pob: inv2 level: 14 depth: 0 exprID: 28869 pobID: 28909
+(and (> (+ inv2_1_n inv2_2_n) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 2))
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0))
+
+** add-lemma: 15 exprID: 31539 pobID: 29175
+inv2
+(or (< (mod inv2_0_n 2) 1) (< (+ inv2_1_n inv2_2_n) 1))
+
+** expand-pob: inv2 level: 15 depth: 0 exprID: 28909 pobID: 377
+(and (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1))
+     (= (mod inv2_0_n 2) 0)
+     (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** add-lemma: 16 exprID: 29653 pobID: 29172
+inv2
+(or (not (= (mod inv2_0_n 2) 0)) (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0))
+
+** expand-pob: inv2 level: 16 depth: 0 exprID: 377 pobID: 1
+(and (= inv2_4_n inv2_0_n) (> (+ inv2_1_n inv2_2_n) 0))
+
+** add-lemma: 16 exprID: 32335 pobID: 377
+inv2
+(or (< inv2_0_n inv2_4_n) (< (+ inv2_1_n inv2_2_n) 1))
+
+** expand-pob: query!0 level: 17 depth: 0 exprID: 1 pobID: none
+true
+
+** expand-pob: inv2 level: 16 depth: 0 exprID: 937 pobID: 1
+(and (= inv2_4_n inv2_0_n) (< (+ inv2_1_n inv2_2_n) 0))
+
+** expand-pob: inv2 level: 16 depth: 0 exprID: 937 pobID: 1
+(and (= inv2_4_n inv2_0_n) (< (+ inv2_1_n inv2_2_n) 0))
+
+** expand-pob: inv2 level: 15 depth: 0 exprID: 11708 pobID: 937
+(and (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1))
+     (= (mod inv2_0_n 2) 0)
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** expand-pob: inv2 level: 14 depth: 0 exprID: 32971 pobID: 11708
+(and (< (+ inv2_1_n inv2_2_n) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 2))
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0))
+
+** expand-pob: inv2 level: 14 depth: 0 exprID: 32971 pobID: 11708
+(and (< (+ inv2_1_n inv2_2_n) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 2))
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0))
+
+** expand-pob: inv2 level: 13 depth: 0 exprID: 32999 pobID: 32971
+(and (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 3))
+     (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** expand-pob: inv2 level: 12 depth: 0 exprID: 32989 pobID: 32999
+(and (< (+ inv2_1_n inv2_2_n) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 4))
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0))
+
+** expand-pob: inv2 level: 12 depth: 0 exprID: 32989 pobID: 32999
+(and (< (+ inv2_1_n inv2_2_n) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 4))
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0))
+
+** expand-pob: inv2 level: 11 depth: 0 exprID: 32967 pobID: 32989
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 5))
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** expand-pob: inv2 level: 10 depth: 0 exprID: 33005 pobID: 32967
+(and (< (+ inv2_1_n inv2_2_n) 0)
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 6)))
+
+** expand-pob: inv2 level: 10 depth: 0 exprID: 33005 pobID: 32967
+(and (< (+ inv2_1_n inv2_2_n) 0)
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 6)))
+
+** expand-pob: inv2 level: 9 depth: 0 exprID: 33019 pobID: 33005
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 7))
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** expand-pob: inv2 level: 8 depth: 0 exprID: 31918 pobID: 33019
+(and (< (+ inv2_1_n inv2_2_n) 0)
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 8)))
+
+** expand-pob: inv2 level: 8 depth: 0 exprID: 31918 pobID: 33019
+(and (< (+ inv2_1_n inv2_2_n) 0)
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 8)))
+
+** expand-pob: inv2 level: 7 depth: 0 exprID: 33034 pobID: 31918
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 9))
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** expand-pob: inv2 level: 6 depth: 0 exprID: 33008 pobID: 33034
+(and (< (+ inv2_1_n inv2_2_n) 0)
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 10)))
+
+** expand-pob: inv2 level: 6 depth: 0 exprID: 33008 pobID: 33034
+(and (< (+ inv2_1_n inv2_2_n) 0)
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 10)))
+
+** expand-pob: inv2 level: 5 depth: 0 exprID: 33000 pobID: 33008
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 11)))
+
+** add-lemma: 5 exprID: 13993 pobID: 13812
+inv2
+(< inv2_0_n (+ inv2_4_n (- 11)))
+
+** expand-pob: inv2 level: 3 depth: 0 exprID: 32958 pobID: 1
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** expand-pob: inv2 level: 3 depth: 0 exprID: 32958 pobID: 1
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** expand-pob: inv2 level: 2 depth: 0 exprID: 33025 pobID: 32958
+(and (< (+ inv2_1_n inv2_2_n) 0)
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0))
+
+** expand-pob: inv2 level: 2 depth: 0 exprID: 33025 pobID: 32958
+(and (< (+ inv2_1_n inv2_2_n) 0)
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0))
+
+** expand-pob: inv2 level: 1 depth: 0 exprID: 32958 pobID: 33025
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** add-lemma: 1 exprID: 33365 pobID: 32958
+inv2
+(or (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 2) (< (mod (+ 1 inv2_0_n) 2) 1))
+
+** expand-pob: inv2 level: 2 depth: 0 exprID: 33025 pobID: 32958
+(and (< (+ inv2_1_n inv2_2_n) 0)
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0))
+
+** add-lemma: 2 exprID: 33612 pobID: 33025
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0)) (> (+ inv2_1_n inv2_2_n) (- 1)))
+
+** expand-pob: inv2 level: 3 depth: 0 exprID: 32958 pobID: 1
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** add-lemma: 3 exprID: 33365 pobID: 32958
+inv2
+(or (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 2) (< (mod (+ 1 inv2_0_n) 2) 1))
+
+** expand-pob: inv2 level: 4 depth: 1 exprID: 32958 pobID: 1
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** expand-pob: inv2 level: 3 depth: 1 exprID: 1 pobID: 32958
+true
+
+** expand-pob: inv2 level: 4 depth: 1 exprID: 32958 pobID: 1
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** expand-pob: inv2 level: 3 depth: 1 exprID: 33025 pobID: 32958
+(and (< (+ inv2_1_n inv2_2_n) 0)
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0))
+
+** add-lemma: 4 exprID: 33612 pobID: 33025
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0)) (> (+ inv2_1_n inv2_2_n) (- 1)))
+
+** expand-pob: inv2 level: 4 depth: 1 exprID: 32958 pobID: 1
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** add-lemma: 5 exprID: 33365 pobID: 32958
+inv2
+(or (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 2) (< (mod (+ 1 inv2_0_n) 2) 1))
+
+** expand-pob: inv2 level: 5 depth: 2 exprID: 32958 pobID: 1
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** expand-pob: inv2 level: 6 depth: 0 exprID: 33008 pobID: 33034
+(and (< (+ inv2_1_n inv2_2_n) 0)
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 10)))
+
+** add-lemma: 6 exprID: 33612 pobID: 33025
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0)) (> (+ inv2_1_n inv2_2_n) (- 1)))
+
+** expand-pob: inv2 level: 7 depth: 0 exprID: 33034 pobID: 31918
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 9))
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** add-lemma: 7 exprID: 33365 pobID: 32958
+inv2
+(or (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 2) (< (mod (+ 1 inv2_0_n) 2) 1))
+
+** expand-pob: inv2 level: 8 depth: 0 exprID: 31918 pobID: 33019
+(and (< (+ inv2_1_n inv2_2_n) 0)
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 8)))
+
+** add-lemma: 8 exprID: 34128 pobID: 31918
+inv2
+(or (< (mod inv2_0_n 2) 1) (> (+ inv2_1_n inv2_2_n) (- 1)))
+
+** expand-pob: inv2 level: 9 depth: 0 exprID: 33019 pobID: 33005
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 7))
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** add-lemma: 9 exprID: 34808 pobID: 33019
+inv2
+(or (< inv2_0_n (+ inv2_4_n (- 7)))
+    (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 2))
+
+** expand-pob: inv2 level: 10 depth: 0 exprID: 33005 pobID: 32967
+(and (< (+ inv2_1_n inv2_2_n) 0)
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 6)))
+
+** add-lemma: 10 exprID: 34869 pobID: 33005
+inv2
+(or (< inv2_0_n (+ inv2_4_n (- 6))) (> (+ inv2_1_n inv2_2_n) (- 1)))
+
+** expand-pob: inv2 level: 11 depth: 0 exprID: 32967 pobID: 32989
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 5))
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** add-lemma: 11 exprID: 34898 pobID: 32967
+inv2
+(or (< inv2_0_n (+ inv2_4_n (- 5)))
+    (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 2))
+
+** expand-pob: inv2 level: 12 depth: 0 exprID: 32989 pobID: 32999
+(and (< (+ inv2_1_n inv2_2_n) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 4))
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0))
+
+** add-lemma: 12 exprID: 35534 pobID: 32989
+inv2
+(or (< inv2_0_n (+ inv2_4_n (- 4))) (> (+ inv2_1_n inv2_2_n) (- 1)))
+
+** expand-pob: inv2 level: 13 depth: 0 exprID: 32999 pobID: 32971
+(and (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 3))
+     (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** add-lemma: 13 exprID: 35743 pobID: 32999
+inv2
+(or (< inv2_0_n (+ inv2_4_n (- 3)))
+    (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 2))
+
+** expand-pob: inv2 level: 9 depth: 0 exprID: 32958 pobID: 1
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** add-lemma: 9 exprID: 33365 pobID: 32958
+inv2
+(or (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 2) (< (mod (+ 1 inv2_0_n) 2) 1))
+
+** expand-pob: inv2 level: 10 depth: 1 exprID: 32958 pobID: 1
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** expand-pob: inv2 level: 10 depth: 1 exprID: 32958 pobID: 1
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** expand-pob: inv2 level: 9 depth: 1 exprID: 33025 pobID: 32958
+(and (< (+ inv2_1_n inv2_2_n) 0)
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0))
+
+** add-lemma: 10 exprID: 33612 pobID: 33025
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0)) (> (+ inv2_1_n inv2_2_n) (- 1)))
+
+** expand-pob: inv2 level: 10 depth: 1 exprID: 32958 pobID: 1
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** add-lemma: 11 exprID: 33365 pobID: 32958
+inv2
+(or (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 2) (< (mod (+ 1 inv2_0_n) 2) 1))
+
+** expand-pob: inv2 level: 11 depth: 2 exprID: 32958 pobID: 1
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** expand-pob: inv2 level: 12 depth: 3 exprID: 32958 pobID: 1
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** expand-pob: inv2 level: 11 depth: 3 exprID: 33025 pobID: 32958
+(and (< (+ inv2_1_n inv2_2_n) 0)
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0))
+
+** add-lemma: 12 exprID: 33612 pobID: 33025
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0)) (> (+ inv2_1_n inv2_2_n) (- 1)))
+
+** expand-pob: inv2 level: 12 depth: 3 exprID: 32958 pobID: 1
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** add-lemma: 13 exprID: 33365 pobID: 32958
+inv2
+(or (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 2) (< (mod (+ 1 inv2_0_n) 2) 1))
+
+** expand-pob: inv2 level: 13 depth: 4 exprID: 32958 pobID: 1
+(and (= (mod inv2_0_n 2) 0)
+     (> (mod (+ 1 inv2_0_n) 2) 0)
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** expand-pob: inv2 level: 14 depth: 0 exprID: 32971 pobID: 11708
+(and (< (+ inv2_1_n inv2_2_n) 0)
+     (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 2))
+     (= (mod (+ 1 inv2_0_n) 2) 0)
+     (> (mod inv2_0_n 2) 0))
+
+** add-lemma: 14 exprID: 33612 pobID: 33025
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0)) (> (+ inv2_1_n inv2_2_n) (- 1)))
+
+** expand-pob: inv2 level: 15 depth: 0 exprID: 11708 pobID: 937
+(and (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1))
+     (= (mod inv2_0_n 2) 0)
+     (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** add-lemma: 15 exprID: 12983 pobID: 11708
+inv2
+(or (not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1)))
+    (not (= (mod inv2_0_n 2) 0))
+    (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 2))
+
+** expand-pob: inv2 level: 16 depth: 0 exprID: 937 pobID: 1
+(and (= inv2_4_n inv2_0_n) (< (+ inv2_1_n inv2_2_n) 0))
+
+** add-lemma: 16 exprID: 17943 pobID: 937
+inv2
+(or (< inv2_0_n inv2_4_n) (> (+ inv2_1_n inv2_2_n) (- 1)))
+
+** expand-pob: query!0 level: 17 depth: 0 exprID: 1 pobID: none
+true
+
+** add-lemma: 17 exprID: 2 pobID: 1
+query!0
+false
+
+Propagating
+
+** add-lemma: 1 exprID: 6076 pobID: 29172
+inv2
+(> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0)
+
+** add-lemma: 2 exprID: 6048 pobID: 29175
+inv2
+(< (+ inv2_1_n inv2_2_n) 1)
+
+** add-lemma: 2 exprID: 6076 pobID: 29172
+inv2
+(> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0)
+
+** add-lemma: 3 exprID: 6048 pobID: 29175
+inv2
+(< (+ inv2_1_n inv2_2_n) 1)
+
+** add-lemma: 3 exprID: 6076 pobID: 29172
+inv2
+(> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0)
+
+** add-lemma: 4 exprID: 6048 pobID: 29175
+inv2
+(< (+ inv2_1_n inv2_2_n) 1)
+
+** add-lemma: 4 exprID: 6076 pobID: 29172
+inv2
+(> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0)
+
+** add-lemma: 5 exprID: 6048 pobID: 29175
+inv2
+(< (+ inv2_1_n inv2_2_n) 1)
+
+** add-lemma: 5 exprID: 6076 pobID: 29172
+inv2
+(> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0)
+
+** add-lemma: 6 exprID: 6048 pobID: 29175
+inv2
+(< (+ inv2_1_n inv2_2_n) 1)
+
+** add-lemma: 6 exprID: 6076 pobID: 29172
+inv2
+(> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0)
+
+** add-lemma: 6 exprID: 12667 pobID: 12478
+inv2
+(< inv2_0_n (+ inv2_4_n (- 10)))
+
+** add-lemma: 7 exprID: 6048 pobID: 29175
+inv2
+(< (+ inv2_1_n inv2_2_n) 1)
+
+** add-lemma: 7 exprID: 6076 pobID: 29172
+inv2
+(> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0)
+
+** add-lemma: 7 exprID: 10818 pobID: 10828
+inv2
+(< inv2_0_n (+ inv2_4_n (- 9)))
+
+** add-lemma: 8 exprID: 6048 pobID: 29175
+inv2
+(< (+ inv2_1_n inv2_2_n) 1)
+
+** add-lemma: 8 exprID: 6076 pobID: 29172
+inv2
+(> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0)
+
+** add-lemma: 8 exprID: 7920 pobID: 7806
+inv2
+(< inv2_0_n (+ inv2_4_n (- 8)))
+
+** add-lemma: 9 exprID: 6048 pobID: 29175
+inv2
+(< (+ inv2_1_n inv2_2_n) 1)
+
+** add-lemma: 9 exprID: 6076 pobID: 29172
+inv2
+(> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0)
+
+** add-lemma: 9 exprID: 7301 pobID: 6751
+inv2
+(< inv2_0_n (+ inv2_4_n (- 7)))
+
+** add-lemma: 9 exprID: 30422 pobID: 26246
+inv2
+(or (< (+ inv2_1_n inv2_2_n) 1) (< inv2_0_n (+ inv2_4_n (- 8))))
+
+** add-lemma: 10 exprID: 34128 pobID: 31918
+inv2
+(or (< (mod inv2_0_n 2) 1) (> (+ inv2_1_n inv2_2_n) (- 1)))
+
+** add-lemma: 10 exprID: 6048 pobID: 29175
+inv2
+(< (+ inv2_1_n inv2_2_n) 1)
+
+** add-lemma: 10 exprID: 6076 pobID: 29172
+inv2
+(> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0)
+
+** add-lemma: 10 exprID: 6229 pobID: 6234
+inv2
+(< inv2_0_n (+ inv2_4_n (- 6)))
+
+** add-lemma: 10 exprID: 29750 pobID: 29175
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0)) (< (+ inv2_1_n inv2_2_n) 1))
+
+** add-lemma: 10 exprID: 30348 pobID: 28873
+inv2
+(or (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0)
+    (< inv2_0_n (+ inv2_4_n (- 7))))
+
+** add-lemma: 10 exprID: 30422 pobID: 26246
+inv2
+(or (< (+ inv2_1_n inv2_2_n) 1) (< inv2_0_n (+ inv2_4_n (- 8))))
+
+** add-lemma: 10 exprID: 34808 pobID: 33019
+inv2
+(or (< inv2_0_n (+ inv2_4_n (- 7)))
+    (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 2))
+
+** add-lemma: 11 exprID: 2648 pobID: 2417
+inv2
+(< inv2_0_n (+ inv2_4_n (- 5)))
+
+** add-lemma: 11 exprID: 6048 pobID: 29175
+inv2
+(< (+ inv2_1_n inv2_2_n) 1)
+
+** add-lemma: 11 exprID: 6076 pobID: 29172
+inv2
+(> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0)
+
+** add-lemma: 11 exprID: 29750 pobID: 29175
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0)) (< (+ inv2_1_n inv2_2_n) 1))
+
+** add-lemma: 11 exprID: 30348 pobID: 28873
+inv2
+(or (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0)
+    (< inv2_0_n (+ inv2_4_n (- 7))))
+
+** add-lemma: 11 exprID: 30422 pobID: 26246
+inv2
+(or (< (+ inv2_1_n inv2_2_n) 1) (< inv2_0_n (+ inv2_4_n (- 8))))
+
+** add-lemma: 11 exprID: 30750 pobID: 28805
+inv2
+(or (< (+ inv2_1_n inv2_2_n) 1) (< inv2_0_n (+ inv2_4_n (- 6))))
+
+** add-lemma: 12 exprID: 34128 pobID: 31918
+inv2
+(or (< (mod inv2_0_n 2) 1) (> (+ inv2_1_n inv2_2_n) (- 1)))
+
+** add-lemma: 11 exprID: 34869 pobID: 33005
+inv2
+(or (< inv2_0_n (+ inv2_4_n (- 6))) (> (+ inv2_1_n inv2_2_n) (- 1)))
+
+** add-lemma: 12 exprID: 2097 pobID: 2099
+inv2
+(< inv2_0_n (+ inv2_4_n (- 4)))
+
+** add-lemma: 12 exprID: 6048 pobID: 29175
+inv2
+(< (+ inv2_1_n inv2_2_n) 1)
+
+** add-lemma: 12 exprID: 6076 pobID: 29172
+inv2
+(> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0)
+
+** add-lemma: 12 exprID: 8419 pobID: 2979
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 2)))
+    (< inv2_0_n (+ inv2_4_n (- 4)))
+    (< (mod inv2_0_n 2) 1))
+
+** add-lemma: 12 exprID: 8420 pobID: 2417
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 2)))
+    (< inv2_0_n (+ inv2_4_n (- 4)))
+    (not (= (mod inv2_0_n 2) 0)))
+
+** add-lemma: 12 exprID: 11250 pobID: 5991
+inv2
+(or (not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 4)))
+    (< (mod inv2_0_n 2) 1)
+    (> (+ inv2_1_n inv2_2_n) 1))
+
+** add-lemma: 12 exprID: 29750 pobID: 29175
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0)) (< (+ inv2_1_n inv2_2_n) 1))
+
+** add-lemma: 12 exprID: 30348 pobID: 28873
+inv2
+(or (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0)
+    (< inv2_0_n (+ inv2_4_n (- 7))))
+
+** add-lemma: 12 exprID: 30422 pobID: 26246
+inv2
+(or (< (+ inv2_1_n inv2_2_n) 1) (< inv2_0_n (+ inv2_4_n (- 8))))
+
+** add-lemma: 12 exprID: 30750 pobID: 28805
+inv2
+(or (< (+ inv2_1_n inv2_2_n) 1) (< inv2_0_n (+ inv2_4_n (- 6))))
+
+** add-lemma: 12 exprID: 31061 pobID: 28896
+inv2
+(or (< inv2_0_n (+ inv2_4_n (- 5)))
+    (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0))
+
+** add-lemma: 12 exprID: 34898 pobID: 32967
+inv2
+(or (< inv2_0_n (+ inv2_4_n (- 5)))
+    (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 2))
+
+** add-lemma: 13 exprID: 1594 pobID: 1595
+inv2
+(< inv2_0_n (+ inv2_4_n (- 3)))
+
+** add-lemma: 13 exprID: 2230 pobID: 1595
+inv2
+(not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 3)))
+
+** add-lemma: 13 exprID: 3590 pobID: 2342
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 1))) (< inv2_0_n (+ inv2_4_n (- 3))))
+
+** add-lemma: 13 exprID: 6048 pobID: 29175
+inv2
+(< (+ inv2_1_n inv2_2_n) 1)
+
+** add-lemma: 13 exprID: 6076 pobID: 29172
+inv2
+(> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0)
+
+** add-lemma: 13 exprID: 8420 pobID: 2417
+inv2
+(or (> inv2_0_n (+ inv2_4_n (- 2)))
+    (< inv2_0_n (+ inv2_4_n (- 4)))
+    (not (= (mod inv2_0_n 2) 0)))
+
+** add-lemma: 13 exprID: 29750 pobID: 29175
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0)) (< (+ inv2_1_n inv2_2_n) 1))
+
+** add-lemma: 13 exprID: 30348 pobID: 28873
+inv2
+(or (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0)
+    (< inv2_0_n (+ inv2_4_n (- 7))))
+
+** add-lemma: 13 exprID: 30422 pobID: 26246
+inv2
+(or (< (+ inv2_1_n inv2_2_n) 1) (< inv2_0_n (+ inv2_4_n (- 8))))
+
+** add-lemma: 13 exprID: 30750 pobID: 28805
+inv2
+(or (< (+ inv2_1_n inv2_2_n) 1) (< inv2_0_n (+ inv2_4_n (- 6))))
+
+** add-lemma: 13 exprID: 31061 pobID: 28896
+inv2
+(or (< inv2_0_n (+ inv2_4_n (- 5)))
+    (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0))
+
+** add-lemma: 13 exprID: 31209 pobID: 28915
+inv2
+(or (< inv2_0_n (+ inv2_4_n (- 4))) (< (+ inv2_1_n inv2_2_n) 1))
+
+** add-lemma: 14 exprID: 34128 pobID: 31918
+inv2
+(or (< (mod inv2_0_n 2) 1) (> (+ inv2_1_n inv2_2_n) (- 1)))
+
+** add-lemma: 13 exprID: 35534 pobID: 32989
+inv2
+(or (< inv2_0_n (+ inv2_4_n (- 4))) (> (+ inv2_1_n inv2_2_n) (- 1)))
+
+** add-lemma: 14 exprID: 1230 pobID: 1253
+inv2
+(< inv2_0_n (+ inv2_4_n (- 2)))
+
+** add-lemma: 14 exprID: 2104 pobID: 1253
+inv2
+(not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 2)))
+
+** add-lemma: 14 exprID: 6048 pobID: 29175
+inv2
+(< (+ inv2_1_n inv2_2_n) 1)
+
+** add-lemma: 14 exprID: 6076 pobID: 29172
+inv2
+(> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0)
+
+** add-lemma: 14 exprID: 11441 pobID: 6045
+inv2
+(or (> (+ inv2_1_n inv2_2_n) 0)
+    (not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 2)))
+    (< (mod inv2_0_n 2) 1))
+
+** add-lemma: 14 exprID: 29750 pobID: 29175
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0)) (< (+ inv2_1_n inv2_2_n) 1))
+
+** add-lemma: 14 exprID: 30348 pobID: 28873
+inv2
+(or (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0)
+    (< inv2_0_n (+ inv2_4_n (- 7))))
+
+** add-lemma: 14 exprID: 30422 pobID: 26246
+inv2
+(or (< (+ inv2_1_n inv2_2_n) 1) (< inv2_0_n (+ inv2_4_n (- 8))))
+
+** add-lemma: 14 exprID: 30750 pobID: 28805
+inv2
+(or (< (+ inv2_1_n inv2_2_n) 1) (< inv2_0_n (+ inv2_4_n (- 6))))
+
+** add-lemma: 14 exprID: 31061 pobID: 28896
+inv2
+(or (< inv2_0_n (+ inv2_4_n (- 5)))
+    (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0))
+
+** add-lemma: 14 exprID: 31209 pobID: 28915
+inv2
+(or (< inv2_0_n (+ inv2_4_n (- 4))) (< (+ inv2_1_n inv2_2_n) 1))
+
+** add-lemma: 15 exprID: 33365 pobID: 32958
+inv2
+(or (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 2) (< (mod (+ 1 inv2_0_n) 2) 1))
+
+** add-lemma: 14 exprID: 35743 pobID: 32999
+inv2
+(or (< inv2_0_n (+ inv2_4_n (- 3)))
+    (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 2))
+
+** add-lemma: 15 exprID: 965 pobID: 939
+inv2
+(< inv2_0_n (+ inv2_4_n (- 1)))
+
+** add-lemma: 15 exprID: 1587 pobID: 939
+inv2
+(not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1)))
+
+** add-lemma: 15 exprID: 6048 pobID: 29175
+inv2
+(< (+ inv2_1_n inv2_2_n) 1)
+
+** add-lemma: 15 exprID: 6076 pobID: 29172
+inv2
+(> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0)
+
+** add-lemma: 15 exprID: 11580 pobID: 5745
+inv2
+(or (not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1)))
+    (< (mod inv2_0_n 2) 1)
+    (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 1))
+
+** add-lemma: 15 exprID: 29750 pobID: 29175
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0)) (< (+ inv2_1_n inv2_2_n) 1))
+
+** add-lemma: 15 exprID: 30348 pobID: 28873
+inv2
+(or (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0)
+    (< inv2_0_n (+ inv2_4_n (- 7))))
+
+** add-lemma: 15 exprID: 30422 pobID: 26246
+inv2
+(or (< (+ inv2_1_n inv2_2_n) 1) (< inv2_0_n (+ inv2_4_n (- 8))))
+
+** add-lemma: 15 exprID: 30750 pobID: 28805
+inv2
+(or (< (+ inv2_1_n inv2_2_n) 1) (< inv2_0_n (+ inv2_4_n (- 6))))
+
+** add-lemma: 15 exprID: 31061 pobID: 28896
+inv2
+(or (< inv2_0_n (+ inv2_4_n (- 5)))
+    (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0))
+
+** add-lemma: 15 exprID: 31209 pobID: 28915
+inv2
+(or (< inv2_0_n (+ inv2_4_n (- 4))) (< (+ inv2_1_n inv2_2_n) 1))
+
+** add-lemma: 15 exprID: 31567 pobID: 29172
+inv2
+(or (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0) (< (mod (+ 1 inv2_0_n) 2) 1))
+
+** add-lemma: 16 exprID: 33612 pobID: 33025
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0)) (> (+ inv2_1_n inv2_2_n) (- 1)))
+
+** add-lemma: 16 exprID: 34128 pobID: 31918
+inv2
+(or (< (mod inv2_0_n 2) 1) (> (+ inv2_1_n inv2_2_n) (- 1)))
+
+** add-lemma: 16 exprID: 697 pobID: 377
+inv2
+(< inv2_0_n inv2_4_n)
+
+** add-lemma: 16 exprID: 6048 pobID: 29175
+inv2
+(< (+ inv2_1_n inv2_2_n) 1)
+
+** add-lemma: 16 exprID: 6076 pobID: 29172
+inv2
+(> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0)
+
+** add-lemma: 16 exprID: 12983 pobID: 11708
+inv2
+(or (not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1)))
+    (not (= (mod inv2_0_n 2) 0))
+    (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 2))
+
+** add-lemma: 16 exprID: 29750 pobID: 29175
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0)) (< (+ inv2_1_n inv2_2_n) 1))
+
+** add-lemma: 16 exprID: 30348 pobID: 28873
+inv2
+(or (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0)
+    (< inv2_0_n (+ inv2_4_n (- 7))))
+
+** add-lemma: 16 exprID: 30422 pobID: 26246
+inv2
+(or (< (+ inv2_1_n inv2_2_n) 1) (< inv2_0_n (+ inv2_4_n (- 8))))
+
+** add-lemma: 16 exprID: 30750 pobID: 28805
+inv2
+(or (< (+ inv2_1_n inv2_2_n) 1) (< inv2_0_n (+ inv2_4_n (- 6))))
+
+** add-lemma: 16 exprID: 31061 pobID: 28896
+inv2
+(or (< inv2_0_n (+ inv2_4_n (- 5)))
+    (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0))
+
+** add-lemma: 16 exprID: 31209 pobID: 28915
+inv2
+(or (< inv2_0_n (+ inv2_4_n (- 4))) (< (+ inv2_1_n inv2_2_n) 1))
+
+** add-lemma: 16 exprID: 31539 pobID: 29175
+inv2
+(or (< (mod inv2_0_n 2) 1) (< (+ inv2_1_n inv2_2_n) 1))
+
+** add-lemma: 16 exprID: 31567 pobID: 29172
+inv2
+(or (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0) (< (mod (+ 1 inv2_0_n) 2) 1))
+
+** add-lemma: 17 exprID: 33365 pobID: 32958
+inv2
+(or (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 2) (< (mod (+ 1 inv2_0_n) 2) 1))
+
+** add-lemma: 17 exprID: 6048 pobID: 29175
+inv2
+(< (+ inv2_1_n inv2_2_n) 1)
+
+** add-lemma: 17 exprID: 6076 pobID: 29172
+inv2
+(> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0)
+
+** add-lemma: 17 exprID: 12983 pobID: 11708
+inv2
+(or (not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1)))
+    (not (= (mod inv2_0_n 2) 0))
+    (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 2))
+
+** add-lemma: 17 exprID: 17943 pobID: 937
+inv2
+(or (< inv2_0_n inv2_4_n) (> (+ inv2_1_n inv2_2_n) (- 1)))
+
+** add-lemma: 17 exprID: 29653 pobID: 29172
+inv2
+(or (not (= (mod inv2_0_n 2) 0)) (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0))
+
+** add-lemma: 17 exprID: 29750 pobID: 29175
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0)) (< (+ inv2_1_n inv2_2_n) 1))
+
+** add-lemma: 17 exprID: 30348 pobID: 28873
+inv2
+(or (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0)
+    (< inv2_0_n (+ inv2_4_n (- 7))))
+
+** add-lemma: 17 exprID: 30422 pobID: 26246
+inv2
+(or (< (+ inv2_1_n inv2_2_n) 1) (< inv2_0_n (+ inv2_4_n (- 8))))
+
+** add-lemma: 17 exprID: 30750 pobID: 28805
+inv2
+(or (< (+ inv2_1_n inv2_2_n) 1) (< inv2_0_n (+ inv2_4_n (- 6))))
+
+** add-lemma: 17 exprID: 31061 pobID: 28896
+inv2
+(or (< inv2_0_n (+ inv2_4_n (- 5)))
+    (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0))
+
+** add-lemma: 17 exprID: 31209 pobID: 28915
+inv2
+(or (< inv2_0_n (+ inv2_4_n (- 4))) (< (+ inv2_1_n inv2_2_n) 1))
+
+** add-lemma: 17 exprID: 31539 pobID: 29175
+inv2
+(or (< (mod inv2_0_n 2) 1) (< (+ inv2_1_n inv2_2_n) 1))
+
+** add-lemma: 17 exprID: 31567 pobID: 29172
+inv2
+(or (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0) (< (mod (+ 1 inv2_0_n) 2) 1))
+
+** add-lemma: 17 exprID: 32335 pobID: 377
+inv2
+(or (< inv2_0_n inv2_4_n) (< (+ inv2_1_n inv2_2_n) 1))
+
+** add-lemma: 18 exprID: 33612 pobID: 33025
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0)) (> (+ inv2_1_n inv2_2_n) (- 1)))
+
+** add-lemma: 18 exprID: 34128 pobID: 31918
+inv2
+(or (< (mod inv2_0_n 2) 1) (> (+ inv2_1_n inv2_2_n) (- 1)))
+
+** add-lemma: 18 exprID: 2 pobID: 1
+query!0
+false
+
+** add-lemma: 18 exprID: 6048 pobID: 29175
+inv2
+(< (+ inv2_1_n inv2_2_n) 1)
+
+** add-lemma: 18 exprID: 6076 pobID: 29172
+inv2
+(> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0)
+
+** add-lemma: 19 exprID: 12983 pobID: 11708
+inv2
+(or (not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1)))
+    (not (= (mod inv2_0_n 2) 0))
+    (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 2))
+
+** add-lemma: 18 exprID: 29653 pobID: 29172
+inv2
+(or (not (= (mod inv2_0_n 2) 0)) (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0))
+
+** add-lemma: 18 exprID: 29750 pobID: 29175
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0)) (< (+ inv2_1_n inv2_2_n) 1))
+
+** add-lemma: 18 exprID: 30348 pobID: 28873
+inv2
+(or (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0)
+    (< inv2_0_n (+ inv2_4_n (- 7))))
+
+** add-lemma: 18 exprID: 30422 pobID: 26246
+inv2
+(or (< (+ inv2_1_n inv2_2_n) 1) (< inv2_0_n (+ inv2_4_n (- 8))))
+
+** add-lemma: 18 exprID: 30750 pobID: 28805
+inv2
+(or (< (+ inv2_1_n inv2_2_n) 1) (< inv2_0_n (+ inv2_4_n (- 6))))
+
+** add-lemma: 18 exprID: 31061 pobID: 28896
+inv2
+(or (< inv2_0_n (+ inv2_4_n (- 5)))
+    (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0))
+
+** add-lemma: 18 exprID: 31209 pobID: 28915
+inv2
+(or (< inv2_0_n (+ inv2_4_n (- 4))) (< (+ inv2_1_n inv2_2_n) 1))
+
+** add-lemma: 18 exprID: 31539 pobID: 29175
+inv2
+(or (< (mod inv2_0_n 2) 1) (< (+ inv2_1_n inv2_2_n) 1))
+
+** add-lemma: 18 exprID: 31567 pobID: 29172
+inv2
+(or (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0) (< (mod (+ 1 inv2_0_n) 2) 1))
+
+** add-lemma: 18 exprID: 32335 pobID: 377
+inv2
+(or (< inv2_0_n inv2_4_n) (< (+ inv2_1_n inv2_2_n) 1))
+
+** add-lemma: 19 exprID: 33365 pobID: 32958
+inv2
+(or (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 2) (< (mod (+ 1 inv2_0_n) 2) 1))
+
+** add-lemma: 19 exprID: 6048 pobID: 29175
+inv2
+(< (+ inv2_1_n inv2_2_n) 1)
+
+** add-lemma: 19 exprID: 6076 pobID: 29172
+inv2
+(> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0)
+
+** add-lemma: 19 exprID: 29653 pobID: 29172
+inv2
+(or (not (= (mod inv2_0_n 2) 0)) (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0))
+
+** add-lemma: 19 exprID: 29750 pobID: 29175
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0)) (< (+ inv2_1_n inv2_2_n) 1))
+
+** add-lemma: 19 exprID: 30348 pobID: 28873
+inv2
+(or (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0)
+    (< inv2_0_n (+ inv2_4_n (- 7))))
+
+** add-lemma: 19 exprID: 30422 pobID: 26246
+inv2
+(or (< (+ inv2_1_n inv2_2_n) 1) (< inv2_0_n (+ inv2_4_n (- 8))))
+
+** add-lemma: 19 exprID: 30750 pobID: 28805
+inv2
+(or (< (+ inv2_1_n inv2_2_n) 1) (< inv2_0_n (+ inv2_4_n (- 6))))
+
+** add-lemma: 19 exprID: 31061 pobID: 28896
+inv2
+(or (< inv2_0_n (+ inv2_4_n (- 5)))
+    (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0))
+
+** add-lemma: 19 exprID: 31209 pobID: 28915
+inv2
+(or (< inv2_0_n (+ inv2_4_n (- 4))) (< (+ inv2_1_n inv2_2_n) 1))
+
+** add-lemma: 19 exprID: 31539 pobID: 29175
+inv2
+(or (< (mod inv2_0_n 2) 1) (< (+ inv2_1_n inv2_2_n) 1))
+
+** add-lemma: 19 exprID: 31567 pobID: 29172
+inv2
+(or (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0) (< (mod (+ 1 inv2_0_n) 2) 1))
+
+** add-lemma: 19 exprID: 32335 pobID: 377
+inv2
+(or (< inv2_0_n inv2_4_n) (< (+ inv2_1_n inv2_2_n) 1))
+
+** add-lemma: 20 exprID: 33612 pobID: 33025
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0)) (> (+ inv2_1_n inv2_2_n) (- 1)))
+
+** add-lemma: 20 exprID: 34128 pobID: 31918
+inv2
+(or (< (mod inv2_0_n 2) 1) (> (+ inv2_1_n inv2_2_n) (- 1)))
+
+** add-lemma: 20 exprID: 6048 pobID: 29175
+inv2
+(< (+ inv2_1_n inv2_2_n) 1)
+
+** add-lemma: 20 exprID: 6076 pobID: 29172
+inv2
+(> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0)
+
+** add-lemma: 21 exprID: 12983 pobID: 11708
+inv2
+(or (not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1)))
+    (not (= (mod inv2_0_n 2) 0))
+    (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 2))
+
+** add-lemma: 20 exprID: 29653 pobID: 29172
+inv2
+(or (not (= (mod inv2_0_n 2) 0)) (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0))
+
+** add-lemma: 20 exprID: 29750 pobID: 29175
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0)) (< (+ inv2_1_n inv2_2_n) 1))
+
+** add-lemma: 20 exprID: 30348 pobID: 28873
+inv2
+(or (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0)
+    (< inv2_0_n (+ inv2_4_n (- 7))))
+
+** add-lemma: 20 exprID: 30422 pobID: 26246
+inv2
+(or (< (+ inv2_1_n inv2_2_n) 1) (< inv2_0_n (+ inv2_4_n (- 8))))
+
+** add-lemma: 20 exprID: 30750 pobID: 28805
+inv2
+(or (< (+ inv2_1_n inv2_2_n) 1) (< inv2_0_n (+ inv2_4_n (- 6))))
+
+** add-lemma: 20 exprID: 31061 pobID: 28896
+inv2
+(or (< inv2_0_n (+ inv2_4_n (- 5)))
+    (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0))
+
+** add-lemma: 20 exprID: 31209 pobID: 28915
+inv2
+(or (< inv2_0_n (+ inv2_4_n (- 4))) (< (+ inv2_1_n inv2_2_n) 1))
+
+** add-lemma: 20 exprID: 31539 pobID: 29175
+inv2
+(or (< (mod inv2_0_n 2) 1) (< (+ inv2_1_n inv2_2_n) 1))
+
+** add-lemma: 20 exprID: 31567 pobID: 29172
+inv2
+(or (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0) (< (mod (+ 1 inv2_0_n) 2) 1))
+
+** add-lemma: 20 exprID: 32335 pobID: 377
+inv2
+(or (< inv2_0_n inv2_4_n) (< (+ inv2_1_n inv2_2_n) 1))
+
+** add-lemma: 21 exprID: 33365 pobID: 32958
+inv2
+(or (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 2) (< (mod (+ 1 inv2_0_n) 2) 1))
+
+** add-lemma: oo exprID: 6048 pobID: 29175
+inv2
+(< (+ inv2_1_n inv2_2_n) 1)
+
+** add-lemma: oo exprID: 6076 pobID: 29172
+inv2
+(> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0)
+
+** add-lemma: oo exprID: 29653 pobID: 29172
+inv2
+(or (not (= (mod inv2_0_n 2) 0)) (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0))
+
+** add-lemma: oo exprID: 29750 pobID: 29175
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0)) (< (+ inv2_1_n inv2_2_n) 1))
+
+** add-lemma: oo exprID: 30348 pobID: 28873
+inv2
+(or (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0)
+    (< inv2_0_n (+ inv2_4_n (- 7))))
+
+** add-lemma: oo exprID: 30422 pobID: 26246
+inv2
+(or (< (+ inv2_1_n inv2_2_n) 1) (< inv2_0_n (+ inv2_4_n (- 8))))
+
+** add-lemma: oo exprID: 30750 pobID: 28805
+inv2
+(or (< (+ inv2_1_n inv2_2_n) 1) (< inv2_0_n (+ inv2_4_n (- 6))))
+
+** add-lemma: oo exprID: 31061 pobID: 28896
+inv2
+(or (< inv2_0_n (+ inv2_4_n (- 5)))
+    (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0))
+
+** add-lemma: oo exprID: 31209 pobID: 28915
+inv2
+(or (< inv2_0_n (+ inv2_4_n (- 4))) (< (+ inv2_1_n inv2_2_n) 1))
+
+** add-lemma: oo exprID: 31539 pobID: 29175
+inv2
+(or (< (mod inv2_0_n 2) 1) (< (+ inv2_1_n inv2_2_n) 1))
+
+** add-lemma: oo exprID: 31567 pobID: 29172
+inv2
+(or (> (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 0) (< (mod (+ 1 inv2_0_n) 2) 1))
+
+** add-lemma: oo exprID: 32335 pobID: 377
+inv2
+(or (< inv2_0_n inv2_4_n) (< (+ inv2_1_n inv2_2_n) 1))
+
+** add-lemma: oo exprID: 33612 pobID: 33025
+inv2
+(or (not (= (mod (+ 1 inv2_0_n) 2) 0)) (> (+ inv2_1_n inv2_2_n) (- 1)))
+
+** add-lemma: oo exprID: 34128 pobID: 31918
+inv2
+(or (< (mod inv2_0_n 2) 1) (> (+ inv2_1_n inv2_2_n) (- 1)))
+
+** add-lemma: oo exprID: 12983 pobID: 11708
+inv2
+(or (not (= (+ inv2_0_n (* (- 1) inv2_4_n)) (- 1)))
+    (not (= (mod inv2_0_n 2) 0))
+    (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 2))
+
+** add-lemma: oo exprID: 33365 pobID: 32958
+inv2
+(or (< (+ inv2_0_n inv2_1_n (* (- 1) inv2_2_n)) 2) (< (mod (+ 1 inv2_0_n) 2) 1))
+
+
+* LEVEL 18
+
+** expand-pob: query!0 level: 18 depth: 0 exprID: 1 pobID: none
+true
+
+Propagating
+
+
+* LEVEL 19
+
+** expand-pob: query!0 level: 19 depth: 0 exprID: 1 pobID: none
+true
+
+** expand-pob: query!0 level: 19 depth: 0 exprID: 1 pobID: none
+true
+
+** add-lemma: 19 exprID: 2 pobID: 1
+query!0
+false
+
+Propagating
+
+
+* LEVEL 20
+
+** expand-pob: query!0 level: 20 depth: 0 exprID: 1 pobID: none
+true
+
+** expand-pob: query!0 level: 20 depth: 0 exprID: 1 pobID: none
+true
+
+** add-lemma: 20 exprID: 2 pobID: 1
+query!0
+false
+
+Propagating
+
+
+* LEVEL 21
+
+** expand-pob: query!0 level: 21 depth: 0 exprID: 1 pobID: none
+true
+
+** expand-pob: query!0 level: 21 depth: 0 exprID: 1 pobID: none
+true
+
+** add-lemma: 21 exprID: 2 pobID: 1
+query!0
+false
+
+Propagating
+
+
+* LEVEL 22
+
+** expand-pob: query!0 level: 22 depth: 0 exprID: 1 pobID: none
+true
+
+** expand-pob: query!0 level: 22 depth: 0 exprID: 1 pobID: none
+true
+
+** add-lemma: 22 exprID: 2 pobID: 1
+query!0
+false
+
+Propagating
+
+
+* LEVEL 23
+
+** expand-pob: query!0 level: 23 depth: 0 exprID: 1 pobID: none
+true
+
+** expand-pob: query!0 level: 23 depth: 0 exprID: 1 pobID: none
+true
+
+** add-lemma: oo exprID: 2 pobID: 1
+query!0
+false
+
+Propagating
+
