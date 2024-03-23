@@ -1,0 +1,54 @@
+#+title: Investigation
+#+description: Document to store my investigation results about why techniques works weird or don't work at all
+
+* All thecniques works, except last one
+** s_split_39.smt2
++ Original benchmark
+  #+begin_src smt2
+(declare-rel inv (Int Int))
+(declare-var x0 Int)
+(declare-var x1 Int)
+(declare-var z0 Int)
+(declare-var z1 Int)
+
+(declare-rel fail ())
+
+(rule (=> (and (= x0 0) (= z0 0))
+    (inv x0 z0)))
+
+(rule (=> (and
+        (inv x0 z0)
+        (= x1 (ite (< (* x0 5) z0) (+ x0 1) (div x0 10)))
+        (= z1 (ite (< (* x0 5) z0) z0 (+ 1 z0))))
+    (inv x1 z1)))
+
+(rule (=> (and (inv x0 z0) (> z0 50)
+    (not (> z0 x0))) fail))
+
+(query fail)
+  #+end_src
+
+*** Intuition
+This benchmark is interesting because on original stage it run out of time, parametrization or range help spacer to solve it in less than a second. Inside original benchmark the main reason that I found is that on each step due to implicitly passed numbers it tries to calculate =div=, but since spacer don't have previous calculation cache it calculates division for each operation. One of the lemmas that I found I'll show here
+#+begin_src
+ Lemmas summarization
+ExprID: 6955, From: 8 to 8
+
+(< inv_1_n 9)
+
+ExprID: 7671, From: 9 to 45
+
+(or (< (* 5 inv_0_n) inv_1_n)
+    (> (+ inv_1_n (* (- 5) (div inv_0_n 10))) (- 1))
+    (> (+ inv_1_n (* (- 5) (div (div inv_0_n 10) 10))) (- 2))
+    (> (+ inv_1_n (* (- 5) (div (div (div inv_0_n 10) 10) 10))) (- 3))
+    (> (+ inv_1_n (* (- 5) (div (div (div (div inv_0_n 10) 10) 10) 10))) (- 4))
+    (> (+ inv_1_n
+          (* (- 5) (div (div (div (div (div inv_0_n 10) 10) 10) 10) 10)))
+       (- 5))
+    (> inv_1_n
+       (+ (div (div (div (div (div (div inv_0_n 10) 10) 10) 10) 10) 10) (- 6)))
+    (< inv_1_n 45))
+
+#+end_src
+For each step further it will make another calculation, which leads to enormous resource and time consumption. In visualizer it looks like unary tree.
