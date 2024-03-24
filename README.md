@@ -14,7 +14,7 @@ Contains subfolders for different experiments conducted with the tool.
 - snufkin_2: Follow-up experiment to snufkin, conducted with 4 jobs for more stable results.
 
 ### All-challenges Folder:
- Contains all original 58 plain benchmarks for reference.
+ Contains all original 58 plain benchmarks for reference. Examples came from [this repo](https://github.com/freqhorn/freqhorn/tree/master/bench_horn) and [this paper](https://dl.acm.org/doi/pdf/10.1145/3540250.3549166)
 
 ### Results Folder: 
 Contains notes related to experiment insights or other thoughts.
@@ -40,5 +40,6 @@ Check more data [in collab](https://colab.research.google.com/drive/13nctY1yO0_Q
 
 This folder serves as a utility folder for the main tool called [magicXform](https://github.com/Erveftick/magicXform). For a deeper understanding of the tool and its functionalities, please refer to the original tool's README file.
 
+Learn more about Spacer (the main tool for solving) with [this video](https://youtu.be/c-tjO2KjFh0)
 
 Feel free to explore the contents of this repository for your work or research purposes. If you have any questions or need further clarification, don't hesitate to reach out!
