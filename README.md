@@ -7,7 +7,7 @@ This repository contains results, insights, experiments, and challenges related 
 The project is organized into several folders:
 
 ### Experiment Folder: 
-Contains subfolders for different experiments conducted with the tool.
+Contains subfolders for different experiments conducted with the tool. I used [brunch](https://github.com/agurfinkel/brunch/tree/master/exp-template) tool to run experiments.
 - exp-benchmarks: Contains versions 0 to 5 of benchmarks transformed using magicXform. These are utilized to assess whether the spacer could resolve certain issues. Also includes utils files for running spacer on versions.
 - macos: Holds results from experiments conducted on a MacBook Air 2023 with 16GB RAM (considered unstable).
 - snufkin: Experiment conducted on a Ubuntu machine at the University of Waterloo using the parallel tool with 8-16 jobs. Data from this experiment was found to be unreliable due to overlapping experiments.
